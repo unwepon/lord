@@ -1,0 +1,402 @@
+폴더 PATH의 목록입니다.
+볼륨 일련 번호는 EE2D-C31D입니다.
+C:.
+│  .gitattributes
+│  .gitignore
+│  icon.svg
+│  icon.svg.import
+│  project.godot
+│  structure.txt
+│  
+├─.godot
+│  │  .gdignore
+│  │  global_script_class_cache.cfg
+│  │  scene_groups_cache.cfg
+│  │  uid_cache.bin
+│  │  
+│  ├─editor
+│  │      BaseItem.gd-folding-b63a74b4354723fb51a05c8d9e6fe31b.cfg
+│  │      CharacterCalculator.gd-folding-5a5e8d432b0d1166056d56524e6354ff.cfg
+│  │      CharacterResource.gd-folding-1324c825a689eec960713ce9b17dff61.cfg
+│  │      CharacterResource.gd-folding-4bf5658eb6851ab172384bf9959d66d0.cfg
+│  │      CombatManager.gd-folding-45ef9fe978f93f070bdfc3067e98fe0b.cfg
+│  │      create_recent.Node
+│  │      create_recent.Object
+│  │      DataManager.gd-folding-57dee1ce4bbcbc6e7d204731c4ee8d79.cfg
+│  │      DataManager.gd-folding-db2eb4ab7858be60bf1d2a9bbf72f861.cfg
+│  │      editor_layout.cfg
+│  │      favorites
+│  │      favorites.Node
+│  │      favorites.Object
+│  │      favorite_properties
+│  │      filesystem_cache10
+│  │      Inventory.gd-folding-95f3a37ab775ded3909d065bbe2fafca.cfg
+│  │      ItemContainer.gd-folding-ba5570b9dd39361c59156c8aaa2966f1.cfg
+│  │      Items.gd-folding-efb49300e0eb343670f2b33468114c5f.cfg
+│  │      main.gd-folding-c156b975afc61861e88fca70b1864b14.cfg
+│  │      main.gd-folding-daa4015e0f545c0a8834ef10f8cd9b2e.cfg
+│  │      Main.tscn-editstate-4a24720ee5e787dbe30abc634fa3679d.cfg
+│  │      Main.tscn-editstate-bcb0d2eb5949c52b6a65bfe9de3e985b.cfg
+│  │      Main.tscn-folding-4a24720ee5e787dbe30abc634fa3679d.cfg
+│  │      Main.tscn-folding-bcb0d2eb5949c52b6a65bfe9de3e985b.cfg
+│  │      project_metadata.cfg
+│  │      recent_dirs
+│  │      Rulebook.gd-folding-4c83aa2a0e10083029287ece5c077559.cfg
+│  │      Rulebook.gd-folding-6d731259cf2bf5d35b58a58c95f47ef9.cfg
+│  │      RulesEngine.gd-folding-c4a62b2643303c0765650cc35bcf0cbf.cfg
+│  │      script_editor_cache.cfg
+│  │      
+│  ├─imported
+│  │      icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex
+│  │      icon.svg-218a8f2b3041327d8a5756f3a245f83b.md5
+│  │      
+│  └─shader_cache
+│      ├─BlitShaderRD
+│      │  └─8c4f6651a67ca2f252a4af44c966854fdc9f2a6ae833edb9e5fad8c2ab38ef8b
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─BlurRasterShaderRD
+│      │  └─e6ecfb8f9f148ccdbbb9fcfdc9c65b09fdc1b67ad0b2eaebf819cf2903a3ce25
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─BokehDofRasterShaderRD
+│      │  └─6c97817d3a35046310ac04cd3204acc12ff11ccffdfe21637caa2e2f61b22fdb
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─CanvasOcclusionShaderRD
+│      │  └─9e1f644d39bdfd66bfe6fc2b33d201e0eaa2ad91223a32f9328f6b1762241948
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─CanvasSdfShaderRD
+│      │  └─6eab3fd7acf38f301ae32e544a1013ca8d09d0f4eea6748d2a4837685654f2bc
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─CanvasShaderRD
+│      │  └─83185b63596df64144f315d9e95aff4cc475dd9ded0fd96d4954cc2ec02145cd
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          45fb1ddc6499e56682916a355ce2839e61f42dfe.vulkan.cache
+│      │          8a7277c8d3ac029b087c3fa9c55de85560be5119.vulkan.cache
+│      │          b585f2cdc5a17ed2e467f8af814098acbdc2006f.vulkan.cache
+│      │          c0a681ae42aa3e0b5abba232ccae0b036be455e4.vulkan.cache
+│      │          ddbe30d4d1be5d69b00075293fd27da8decd4af2.vulkan.cache
+│      │          f3e258e8f7ec2e7e740b62f3bc48ecf5c99fb0db.vulkan.cache
+│      │          
+│      ├─CopyShaderRD
+│      │  └─532aa62b524dd33052fa0ec6c26207a9ece41acf0a443ef28348ab38fc310b7b
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─CopyToFbShaderRD
+│      │  └─2dcc31222aac1f9be688d232681a81f10584fa947eb46507e94d11ee81e2b01d
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─CubemapDownsamplerRasterShaderRD
+│      │  └─648600434b957692f531ba4404d8222ef1510aa51eb45e695d7eaff4bff74d8a
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─CubemapFilterRasterShaderRD
+│      │  └─33e7011d2325688d306df415a33be41809a2d69ac73495fd672caebcc4ef1e5d
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─CubemapRoughnessRasterShaderRD
+│      │  └─0ee73d0dd327d465af3acd5d654ba3d645592932f27cdcecda00c39eff158ac7
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─CubeToDpShaderRD
+│      │  └─023154b78d1ea62defe55825a878384e33765df62cdb2068fad599ff99261049
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─LuminanceReduceRasterShaderRD
+│      │  └─4cc4c681a00571a4efad2ec52ac4ef77ba4b915fc7cdfd53184fbf5b2c92d03d
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─MotionVectorsShaderRD
+│      │  └─c80645c26a6ccc3ce5722d0e8cfe9280a813809350b3e1cecac0b8ddb4263d67
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─ParticlesCopyShaderRD
+│      │  └─12bf4df436a22671258a22587206aeddb59785fd7db739293d167a1557fe673e
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─ParticlesShaderRD
+│      │  └─77ffcf221f75196aa628c29db9c9ceeb42fd91a3ff2e4af2cf4a852878135de6
+│      │          f128cab0b22fb7e0d9f023d6cdb81309be392d95.vulkan.cache
+│      │          
+│      ├─SceneForwardMobileShaderRD
+│      │  └─6ca42e64602c5907c96413d29208f35aa45620a8671dc8037629df24593e7c91
+│      │          0f1bcf11b9f7757773a7866f1cd2e297cb2acf5f.vulkan.cache
+│      │          218e36a984b0c78c760adc7bcda857a77b17ad85.vulkan.cache
+│      │          2b50e38e5fd009c28175cc76423501d3f1de866f.vulkan.cache
+│      │          5f3097572932b33c93eebb3c968bad4acf0a97a9.vulkan.cache
+│      │          618494189447b24dfbb3e43c9f38e6d9f04604b0.vulkan.cache
+│      │          6ee0392e6ccb46d27eb7b08ea14ec6d5cf221168.vulkan.cache
+│      │          757ab33d4789b9457fab88a7a982d67d6209d600.vulkan.cache
+│      │          7b3dadb0d33a464bbb0a7962224c158af07f1381.vulkan.cache
+│      │          7fb66440f65dac23b75016fc52fb82ae26e9393f.vulkan.cache
+│      │          86e1b93c3d7bd17d2e21c13871086aa19aa333e7.vulkan.cache
+│      │          964e2bf8e1eed26e7e9ed4b223d256b6a0bda12a.vulkan.cache
+│      │          9f9294903cdaab4eeb10f39defaee7f48b9ad675.vulkan.cache
+│      │          a6d99b637dfee75712ae57f13dc63ae39e299a45.vulkan.cache
+│      │          ab60f8b228c0dad11d9d882c2ab4f61eb6ca2f20.vulkan.cache
+│      │          b396ad98c064d54194bbfe9f2c4d30adaaa1f6af.vulkan.cache
+│      │          b7b2f398c116e26c751517dd8d44535f700f825f.vulkan.cache
+│      │          bb38165ecd6242eb97573e5f293c2d3c40d25eee.vulkan.cache
+│      │          c4c828897f8a3fe72e3713d35b4ba452d7ed9acf.vulkan.cache
+│      │          c911b2eb203b7525047b1fc26929407fb3d4191d.vulkan.cache
+│      │          
+│      ├─ShadowFrustumShaderRD
+│      │  └─f03a28c05d945e054f58c1f837c46a07b2258c7fadd8052f1007513238aa303f
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─SkeletonShaderRD
+│      │  └─962e8853ef27a1133b4bbc2398de56f6320f47afe0602221daabc7e149d87d08
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─SkyShaderRD
+│      │  └─3ae4c226406693fc13b53795c41e5d00fc47d10fc6b41a637defb6ae69031ea1
+│      │          03e3b11c69e24394b2d955a8c0ba85587bb70839.vulkan.cache
+│      │          0a0fb987bd6ede673a5edeb59834f887758ae2a6.vulkan.cache
+│      │          301c34f080b0d9fb9ff1c17636ea175173a43e1c.vulkan.cache
+│      │          de678811d1bad3cad4892a8db7b6ea0be197d51d.vulkan.cache
+│      │          
+│      ├─SortShaderRD
+│      │  └─f52f1928acdbeaa51ec2bed9992ebf3ca914e3b99fd9067932c87debe3a2f556
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      ├─SpecularMergeShaderRD
+│      │  └─5a94f41d5dd12e0f1768fbaccdbf1a0383a72f6ddda71412c6cacc1ac524edc6
+│      │          087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│      │          
+│      └─TonemapShaderRD
+│          └─518620612569bc8ed92142f66726098e8b39d3aaea33c22191c9cba71f67b034
+│                  087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+│                  
+├─assets
+│  ├─images
+│  │  ├─language
+│  │  │      AncientHermes_Language.webp
+│  │  │      Hermes_Language.webp
+│  │  │      LoenLanguageAlphabet.webp
+│  │  │      Loen_Language.webp
+│  │  │      
+│  │  ├─recipe
+│  │  │      00812i0lgy1gsap84s8q7j314z0u01l2.webp
+│  │  │      Backlund_-_Bean_and_Turnip_Bisque.JPG.webp
+│  │  │      Backlund_-_Beef_Stew_with_Potatoes.JPG.webp
+│  │  │      Backlund_-_Deep-fried_Sailfish.JPG.webp
+│  │  │      Backlund_-_Desi_Pie.JPG.webp
+│  │  │      Backlund_-_Pasta.JPG.webp
+│  │  │      Backlund_-_White_Bread.JPG.webp
+│  │  │      Dari%3Fge_-_Eggs_Benedict.JPG.webp
+│  │  │      Dari%3Fge_-_Mayonnaise_Bread.JPG.webp
+│  │  │      Dari%3Fge_-_Smoked_Meat.JPG.webp
+│  │  │      Dari%3Fge_-_Trout_Roll.JPG.webp
+│  │  │      Dari27s_Tongue_Cookies.JPG.webp
+│  │  │      Dari3F.JPG.webp
+│  │  │      Maritime_Various_Islands_-_Bansi_Harbors_Blood_Stew.JPG.webp
+│  │  │      Maritime_Various_Islands_-_Beluga_Whale.JPG.webp
+│  │  │      Maritime_Various_Islands_-_Frank%27s_Specialty_Foods.JPG.webp
+│  │  │      Maritime_Various_Islands_-_Grilled_Black_Carp.JPG.webp
+│  │  │      Maritime_Various_Islands_-_Murloc_Meat.JPG.webp
+│  │  │      Maritime_Various_Islands_-_Teativa.JPG.webp
+│  │  │      Mystic_Traveler%27s_Gourmet_Notes_-_Back.webp
+│  │  │      Mystic_Traveler%27s_Gourmet_Notes_-_Backlund_Gourmet_Notes.webp
+│  │  │      Mystic_Traveler%27s_Gourmet_Notes_-_Front.webp
+│  │  │      Mystic_Traveler%27s_Gourmet_Notes_-_Maritime_Various_Islands_Gourmet_Notes.webp
+│  │  │      Mystic_Traveler%27s_Gourmet_Notes_-_New_City_of_Silver_Gourmet_Notes.webp
+│  │  │      Mystic_Traveler%27s_Gourmet_Notes_-_Southern_Continent_Gourmet_Notes.webp
+│  │  │      Mystic_Traveler%27s_Gourmet_Notes_-_Tingen_Gourmet_Notes.webp
+│  │  │      Mystic_Traveler%27s_Gourmet_Notes_-_Utopia_Gourmet_Notes.webp
+│  │  │      Mystic_Traveler3Fge_Region_Gourmet_Notes.webp
+│  │  │      New_City_of_Silver_-_Beef_Mushrooms.JPG.webp
+│  │  │      New_City_of_Silver_-_Black-Faced_Grass_Bread.JPG.webp
+│  │  │      New_City_of_Silver_-_Exotic_Creature_Meat.JPG.webp
+│  │  │      New_City_of_Silver_-_Fish_Mushrooms.JPG.webp
+│  │  │      New_City_of_Silver_-_Flour_Mushrooms.JPG.webp
+│  │  │      New_City_of_Silver_-_Milk_Mushrooms.JPG.webp
+│  │  │      Southern_Continent_-_Beef_Offal_Stew.JPG.webp
+│  │  │      Southern_Continent_-_Croissant_with_Cheese.JPG.webp
+│  │  │      Southern_Continent_-_Damir_Special_Cured_Meat.JPG.webp
+│  │  │      Southern_Continent_-_Grilled_Squid.JPG.webp
+│  │  │      Southern_Continent_-_Mixed_Seafood_Gumbo.JPG.webp
+│  │  │      Southern_Continent_-_Shish_Kebab.JPG.webp
+│  │  │      Tingen_-_Lemon_Cake.JPG.webp
+│  │  │      Tingen_-_Meat_Pie.JPG.webp
+│  │  │      Tingen_-_Oyster_Soup.JPG.webp
+│  │  │      Tingen_-_Pan-Fried_Meat_and_Fish.JPG.webp
+│  │  │      Tingen_-_Rye_Bread.JPG.webp
+│  │  │      Tingen_-_Timbale.JPG.webp
+│  │  │      
+│  │  └─symbol
+│  │          Darkness_Symbol.webp
+│  │          Door_Symbol.webp
+│  │          Error_Symbol.webp
+│  │          Fool_Symbol.webp
+│  │          Hanged_Man_Symbol.webp
+│  │          pathways-compatible.png
+│  │          Sun_Symbol.webp
+│  │          Tyrant_Symbol.webp
+│  │          Visionary_Symbol.webp
+│  │          White_Tower_Symbol.webp
+│  │          
+│  └─sounds
+├─data
+│  ├─history
+│  │      0_Epoch.json
+│  │      1_Epoch.json
+│  │      2_Epoch.json
+│  │      3_Epoch.json
+│  │      4_Epoch.json
+│  │      5_Epoch.json
+│  │      extra_Epoch.json
+│  │      
+│  ├─items
+│  │  │  armors.json
+│  │  │  consumables.json
+│  │  │  weapons.json
+│  │  │  
+│  │  ├─beyonder
+│  │  │      beyonder_items.json
+│  │  │      beyonder_items_0.json
+│  │  │      beyonder_items_1.json
+│  │  │      beyonder_items_2.json
+│  │  │      beyonder_items_3.json
+│  │  │      beyonder_items_uniqueness.json
+│  │  │      beyonder_items_unknown.json
+│  │  │      
+│  │  ├─books
+│  │  │      item_diary_roselle_page_001.json
+│  │  │      item_diary_roselle_page_002.json
+│  │  │      item_diary_roselle_page_003.json
+│  │  │      item_diary_roselle_page_004.json
+│  │  │      item_diary_roselle_page_005.json
+│  │  │      item_diary_roselle_page_006.json
+│  │  │      item_diary_roselle_page_007.json
+│  │  │      item_diary_roselle_page_008.json
+│  │  │      item_diary_roselle_page_009.json
+│  │  │      item_diary_roselle_page_010.json
+│  │  │      item_diary_roselle_page_011.json
+│  │  │      item_diary_roselle_page_012.json
+│  │  │      item_diary_roselle_page_013.json
+│  │  │      item_diary_roselle_page_014.json
+│  │  │      item_diary_roselle_page_015.json
+│  │  │      item_diary_roselle_page_016.json
+│  │  │      item_diary_roselle_page_017.json
+│  │  │      item_diary_roselle_page_018.json
+│  │  │      item_diary_roselle_page_019.json
+│  │  │      item_diary_roselle_page_020.json
+│  │  │      item_diary_roselle_page_021.json
+│  │  │      item_diary_roselle_page_022.json
+│  │  │      item_diary_roselle_page_023.json
+│  │  │      item_diary_roselle_page_024.json
+│  │  │      item_diary_roselle_page_025.json
+│  │  │      item_diary_roselle_page_026.json
+│  │  │      item_diary_roselle_page_027.json
+│  │  │      item_diary_roselle_page_028.json
+│  │  │      item_diary_roselle_page_029.json
+│  │  │      item_diary_roselle_page_030.json
+│  │  │      item_diary_roselle_page_031.json
+│  │  │      item_diary_roselle_page_032.json
+│  │  │      item_diary_roselle_page_033.json
+│  │  │      item_diary_roselle_page_034.json
+│  │  │      item_diary_roselle_page_035.json
+│  │  │      item_diary_roselle_page_036.json
+│  │  │      item_diary_roselle_page_037.json
+│  │  │      item_diary_roselle_page_038.json
+│  │  │      item_diary_roselle_page_039.json
+│  │  │      item_diary_roselle_page_040.json
+│  │  │      item_diary_roselle_page_041.json
+│  │  │      item_diary_roselle_page_042.json
+│  │  │      item_diary_roselle_page_043.json
+│  │  │      item_diary_roselle_page_044.json
+│  │  │      item_diary_roselle_page_045.json
+│  │  │      item_diary_roselle_page_046.json
+│  │  │      item_diary_roselle_page_047.json
+│  │  │      item_diary_roselle_page_048.json
+│  │  │      item_diary_roselle_page_049.json
+│  │  │      item_diary_roselle_page_050.json
+│  │  │      item_diary_roselle_page_051.json
+│  │  │      item_diary_roselle_page_052.json
+│  │  │      item_diary_roselle_page_053.json
+│  │  │      item_diary_roselle_page_054.json
+│  │  │      item_diary_roselle_page_055.json
+│  │  │      item_diary_roselle_page_056.json
+│  │  │      item_diary_roselle_page_057.json
+│  │  │      item_diary_roselle_page_058.json
+│  │  │      item_diary_roselle_page_059.json
+│  │  │      item_diary_roselle_page_060.json
+│  │  │      item_diary_roselle_page_061.json
+│  │  │      item_diary_roselle_page_062.json
+│  │  │      item_diary_roselle_page_063.json
+│  │  │      item_diary_roselle_page_064.json
+│  │  │      item_diary_roselle_page_065.json
+│  │  │      item_diary_roselle_page_066.json
+│  │  │      item_diary_roselle_page_067.json
+│  │  │      item_diary_roselle_page_068.json
+│  │  │      item_diary_roselle_page_069.json
+│  │  │      
+│  │  └─recipes
+│  │          recipes.json
+│  │          
+│  ├─languages
+│  │      Languages.json
+│  │      
+│  ├─pathways
+│  │      01_seer_fool.json
+│  │      03_marauder_error.json
+│  │      05_sailor_tyrant.json
+│  │      09_corpse_collector_death.json
+│  │      10_sleepless_darkness.json
+│  │      15_assassin_domeness.json
+│  │      18_mystery_pryer_hermit.json
+│  │      19_scholar_paragon.json
+│  │      
+│  └─rules
+│          actions.json
+│          attributes_rules.json
+│          combat_flow_rules.json
+│          conditions.json
+│          damage_mitigation_abilities.json
+│          damage_types.json
+│          defense_and_evasion_types.json
+│          defensive_abilities.json
+│          general_actions.json
+│          group_combat_flow.json
+│          periodic_effects.json
+│          reactionary_abilities.json
+│          skills_rules.json
+│          special_statuses.json
+│          triggers.json
+│          universal_rules.json
+│          world_rules_legal.json
+│          world_rules_war.json
+│          
+├─scenes
+│      main.gd
+│      main.gd.uid
+│      Main.tscn
+│      
+└─scripts
+    ├─core
+    │      CharacterCalculator.gd
+    │      CharacterCalculator.gd.uid
+    │      DataManager.gd
+    │      DataManager.gd.uid
+    │      Rulebook.gd
+    │      Rulebook.gd.uid
+    │      RulesEngine.gd
+    │      RulesEngine.gd.uid
+    │      
+    ├─game_objects
+    │      BaseItem.gd
+    │      BaseItem.gd.uid
+    │      CharacterResource.gd
+    │      CharacterResource.gd.uid
+    │      Inventory.gd
+    │      Inventory.gd.uid
+    │      ItemContainer.gd
+    │      ItemContainer.gd.uid
+    │      
+    └─managers
+            CombatManager.gd
+            CombatManager.gd.uid
+            

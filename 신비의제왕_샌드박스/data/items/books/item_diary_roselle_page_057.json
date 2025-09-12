@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_057",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#57)",
+  "itemName_en": "Roselle's Worn Diary Page (#57)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "9월 22일: 정신을 잃었던 것 같다... 어젯밤에 무슨 일이 있었지? 내 페이사크 미인은 어떻게 됐나? 내가 술 마시기에서 그녀에게 졌다니! 대사관 직원이 여기 여자들은 종종 남자들보다 술을 더 잘 마신다고 말했다... 앞으로 술집에 갈 때는 절제해야겠다. 내가 정신을 잃었을 때 못생긴 중년 여자가 나에게 말할 수 없는 짓을 하는 것을 원하지 않는다... 여기 술은 정말 독하다. 두통이 하루 종일 계속되었다. 다행히 배는 아프지 않다. 일찍 자야겠다. 내일은 위대한 황혼의 전당을 방문할 것이다.",
+    "entry_en": "September 22nd: I think I blacked out... What happened last night? What happened to my Feysac beauty? I actually lost out to her in drinking! The embassy staff told me that the women here are often better at drinking than men... I should show some temperance when I head to bars in the future. I sure don't want some ugly, middle-aged woman to do unspeakable things to me when I black out... The alcohol here sure is strong. My headache has lasted an entire day. Thankfully, my stomach doesn't hurt. I should sleep early. I'll be visiting the Great Twilight Hall tomorrow."
+  }
+}

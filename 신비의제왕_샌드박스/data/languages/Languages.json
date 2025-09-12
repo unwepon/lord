@@ -1,0 +1,180 @@
+{
+  "comment": "신비의 제왕 세계관에 등장하는 언어 목록과 규칙입니다.",
+  "language_types": {
+    "mystical": "신비학 언어",
+    "common": "상용어",
+    "ancient": "고대어",
+    "pre_epoch": "선시대 언어"
+  },
+  "languages": {
+    "god_almighty_unknown": {
+      "id": "god_almighty_unknown",
+      "name_ko": "정체불명의 신언",
+      "type": "mystical",
+      "origin": "원고 태양신",
+      "description": "원고 태양신이 세피라 성을 침범할 때 사용한 언어. 거인어와 비슷하면서도 다르며, 자연의 힘을 휘저을 수 있습니다.",
+      "effects": ["can_channel_nature_power_strong"]
+    },
+    "elvish": {
+      "id": "elvish",
+      "name_ko": "요정어",
+      "type": "mystical",
+      "origin": "엘프 왕",
+      "description": "새싹 시대에 엘프 왕이 창조한 고대 언어. 각 단어에 풍부한 의미가 담겨 있어 문장이 매우 짧은 것이 특징입니다. 자연의 힘을 사용할 수 있습니다.",
+      "effects": ["can_use_in_rituals_strong", "shortens_incantations"]
+    },
+    "dragonese": {
+      "id": "dragonese",
+      "name_ko": "용언",
+      "type": "mystical",
+      "origin": "용족",
+      "description": "새싹 시대에 용들이 창조한 고대 언어. 문법이 매우 단순하고 짧은 문장을 사용하는 경향이 있습니다. 자연의 힘을 사용할 수 있습니다.",
+      "effects": ["can_use_in_rituals_strong"]
+    },
+    "jotun": {
+      "id": "jotun",
+      "name_ko": "거인어",
+      "type": "mystical",
+      "origin": "거인족",
+      "description": "새싹 시대에 거인들이 창조한 고대 언어. 자연의 힘을 움직일 수 있으며, 고대 페이사크어의 기반이 되었습니다. 5시대에는 신이 버린 땅에서만 공용어로 사용됩니다.",
+      "effects": ["can_use_in_rituals_strong"]
+    },
+    "devil_language": {
+      "id": "devil_language",
+      "name_ko": "악마어",
+      "type": "mystical",
+      "origin": "악마",
+      "description": "악마 의식, 기도, 주문 시전에 사용되는 언어. 주로 심연 경로의 초월자들이 사용합니다.",
+      "effects": ["can_use_in_demonic_rituals"]
+    },
+    "ancient_hermes": {
+      "id": "ancient_hermes",
+      "name_ko": "고대 헤르메스어(고헤르메스어)",
+      "type": "mystical",
+      "origin": "헤르메스",
+      "description": "2시대에 헤르메스가 거인어와 용언을 기반으로 창조한 인간의 초월 언어. 자연의 힘을 직접적으로 움직일 수 있어 보호 조치 없는 제사나 기도에 사용됩니다.",
+      "effects": ["can_use_in_rituals_strong", "can_channel_nature_power"]
+    },
+    "hermes": {
+      "id": "hermes",
+      "name_ko": "헤르메스어",
+      "type": "mystical",
+      "origin": "고대 헤르메스어에서 파생됨",
+      "description": "4시대에 고대 헤르메스어가 단순화된 형태로, 의식에서 직접적인 효과는 약해졌지만 영계의 존재들과 소통하는 보편적인 언어입니다. 초월자들의 필수 언어입니다.",
+      "effects": ["can_use_in_rituals_weak", "can_communicate_with_spirits"]
+    },
+    "language_of_the_dead": {
+      "id": "language_of_the_dead",
+      "name_ko": "망자의 언어",
+      "type": "mystical",
+      "origin": "사신 경로",
+      "description": "사신 경로의 언어. 영체와 직접 소통하는 것부터 그들을 부리고 노예화하는 것까지 가능하게 합니다.",
+      "effects": ["can_command_undead"]
+    },
+    "language_of_fate": {
+      "id": "language_of_fate",
+      "name_ko": "운명의 언어",
+      "type": "mystical",
+      "origin": "운명 경로",
+      "description": "운명 경로의 언어. 운명에 간섭하는 힘을 가집니다.",
+      "effects": ["can_influence_fate"]
+    },
+    "language_of_the_stars": {
+      "id": "language_of_the_stars",
+      "name_ko": "별의 언어",
+      "type": "mystical",
+      "origin": "학자 경로",
+      "description": "학자 경로의 언어. 별의 힘을 빌리는 데 사용됩니다.",
+      "effects": ["can_channel_star_power"]
+    },
+    "words_of_order": {
+      "id": "words_of_order",
+      "name_ko": "질서의 언어",
+      "type": "mystical",
+      "origin": "혼돈의 안개 경로",
+      "description": "혼돈의 안개 경로의 언어. 질서를 구축하고 현실에 영향을 미칩니다.",
+      "effects": ["can_establish_order"]
+    },
+    "pre_epoch_language": {
+      "id": "pre_epoch_language",
+      "name_ko": "선시대 언어",
+      "type": "pre_epoch",
+      "origin": "제1시대 이전",
+      "description": "현대 인류가 사용하는 언어의 원형. (예: 중국어, 영어 등). 1시대의 대재앙으로 모든 정보가 지워졌으나, 차원 이동자들은 사용할 수 있습니다.",
+      "effects": []
+    },
+    "ancient_feysac": {
+      "id": "ancient_feysac",
+      "name_ko": "고대 페이사크어(고페이사크어)",
+      "type": "ancient",
+      "origin": "거인어",
+      "description": "4시대의 공용어. 북대륙 모든 현대 언어의 뿌리입니다. 약간의 신비한 특성이 남아있지만 자연의 힘을 직접 움직일 수는 없습니다.",
+      "effects": ["has_minor_mystical_properties"]
+    },
+    "loenese": {
+      "id": "loenese",
+      "name_ko": "로엔어",
+      "type": "common",
+      "origin": "고대 페이사크어",
+      "description": "로엔 왕국의 공식 언어. 신비한 힘은 없습니다.",
+      "effects": []
+    },
+    "intisian": {
+      "id": "intisian",
+      "name_ko": "인티스어",
+      "type": "common",
+      "origin": "고대 페이사크어",
+      "description": "인티스 공화국의 공식 언어.",
+      "effects": []
+    },
+    "feysac": {
+      "id": "feysac",
+      "name_ko": "페이사크어",
+      "type": "common",
+      "origin": "고대 페이사크어",
+      "description": "페이사크 제국의 공식 언어로, 고대 페이사크어와 가장 변화가 적습니다.",
+      "effects": []
+    },
+    "highlander_north": {
+      "id": "highlander_north",
+      "name_ko": "하이랜드어 (북부)",
+      "type": "common",
+      "origin": "고대 페이사크어",
+      "description": "페네포트 왕국의 공식 언어. '솔로우(태양)' 같은 단어 사용이 특징입니다.",
+      "effects": []
+    },
+    "lenburgish": {
+        "id": "lenburgish",
+        "name_ko": "랜버그어",
+        "type": "common",
+        "origin": "하이랜드어 (북부)",
+        "description": "랜버그의 공용어. 페네포트의 하이랜드어와 약간의 방언 차이만 있을 뿐 본질적으로 같습니다.",
+        "effects": []
+    },
+    "highlander_south": {
+      "id": "highlander_south",
+      "name_ko": "하이랜드어 (남부)",
+      "type": "ancient",
+      "origin": "남대륙 고대 하이랜드 왕국",
+      "description": "남대륙의 고유 고대어. 고대 페이사크어와 동등한 지위를 가지며 독자적인 기원을 가집니다.",
+      "effects": []
+    },
+    "dutanese": {
+      "id": "dutanese",
+      "name_ko": "두탄어",
+      "type": "ancient",
+      "origin": "남대륙 고대 발람 제국",
+      "description": "남대륙의 고유 언어. 고대 페이사크어와는 다른 체계지만, 마치 같은 기원을 가진 것처럼 유사점이 많습니다.",
+      "effects": []
+    },
+    "western_continent_lang": {
+      "id": "western_continent_lang",
+      "name_ko": "서대륙어",
+      "type": "pre_epoch",
+      "origin": "서대륙",
+      "description": "문법과 단어가 중국어와 매우 유사한 언어. 서대륙의 공용어입니다.",
+      "effects": []
+    }
+  }
+}
+

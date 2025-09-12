@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_024",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#24)",
+  "itemName_en": "Roselle's Worn Diary Page (#24)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상 (서열 6 시절)",
+    "entry_ko": "1월 6일: 새해, 새로운 시작. 장인으로 승급한 후, 마침내 그 일을 할 힘을 얻었다! 그것은 내 기억 속의 신비한 은판을 만드는 것이다. 내 환생은 그것 때문일 가능성이 높다! 사실, 사반트가 된 후 이미 그 모습과 표면의 이상한 상징과 문양을 기억할 수 있었다. 하지만 과거의 나는 그런 것을 복제할 수 없다는 것을 분명히 느꼈다.",
+    "entry_en": "January 6th: a brand new year, a brand new beginning. After advancing to Artisan, I finally have the powers to do that thing! That is to create the mysterious silver plate in my memories. There is a high chance that my transmigration was a result of it! In fact, after I became a Savant, I could already recall its appearance, as well as the strange symbols and patterns on its surface. But the past me could clearly sense that I wasn’t able to replicate something like that."
+  }
+}

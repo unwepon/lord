@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_039",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#39)",
+  "itemName_en": "Roselle's Worn Diary Page (#39)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1173년 8월 6일",
+    "entry_ko": "이상한 일이 벌어지고 있다. 왜 일곱 주요 교회는 물약에 대해 그렇게 이상한 태도를 취하는 걸까? 저위에서 중위 서열까지는 승급에 성공한 사람들에게 주재료를 제공할 뿐만 아니라, 관대하게도 조제법을 공유하고 물약을 만드는 데 필요한 과정을 시연해준다. 하지만 고위 서열로 승급하는 사람들에게는 완성된 물약만 제공한다. 이건 논리적이지 않다. 저위 서열 물약은 재료를 구하고 만들기가 비교적 쉬우니 조제법을 비밀로 하고 완성된 물약을 줘야 하는 것 아닌가? 그리고 고위 서열 물약은 주재료를 구하기 어려우니 조제법을 공유하고 유망한 멤버들이 재료를 찾게 해야 하는 것 아닌가? 여기에는 분명 어떤 숨겨진 비밀이 있을 것이다.",
+    "entry_en": "August 6th: There’s something strange going on. Why would the Seven Major Churches adopt such a strange attitude towards the potions? At the low to middle Sequences, they not only provide the main ingredients to those who managed to advance, but they’re also generous enough to share the formulas and demonstrate the process needed to create the potion. They would also explain in detail if a ritual is needed to create the medicine, yet finished potions are the only things they provide to those who are advancing to the higher Sequences. This isn’t logical. Shouldn’t they keep the formula a secret for the lower Sequence potions and give the candidate the completed potion since it’s relatively easy to gather the necessary ingredients and create the potion? As for the higher Sequence potions, shouldn’t they share the formula and make the promising members search for the ingredients due to the difficulty of obtaining the main ingredients? There must be some hidden secret to this."
+  }
+}

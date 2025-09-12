@@ -1,0 +1,131 @@
+{
+  "epochNumber": 4,
+  "epochName_ko": "신들의 시대",
+  "epochName_en": "The Epoch of The Gods",
+  "eras": [
+    {
+      "eraName_ko": "전국 시대 (Warring Era)",
+      "eraName_en": "Warring Era",
+      "events": [
+        {
+          "date": "Duration: 0 - 112 (2,582 BA - 2,470 BA)",
+          "description_ko": "원고 태양신 사후, 그의 남은 의식에서 진정한 조물주가 탄생했습니다. 두 번째 신성모독 석판이 나타나 여러 천사들이 목격한 후 아담이 가져갔습니다. 이 시대는 신들이 지상을 걸으며 기적을 행하고 각자의 정교회를 세우는 갈등과 전쟁의 시대였습니다. 수인과 트렌트는 이 시기에 멸종했습니다.",
+          "description_en": "After the Ancient Sun God's death, the True Creator was born from his remnant consciousness. The Second Blasphemy Slate appeared and was seen by many Angels before Adam took it. This was an era of conflict where Gods walked the land, performed miracles, and established Their Orthodox Churches. Beastmen and Treants went extinct during this time.",
+          "source_refs": [213, 214, 215, 216, 217, 218, 219, 220, 221, 224, 791, 792, 794, 795, 796],
+          "related_characters": ["Ancient Sun God", "True Creator", "Adam", "Bethel Abraham", "Solomon", "Zaratul", "Alista Tudor", "Trunsoest", "Cheek"],
+          "related_locations": []
+        },
+        {
+          "date": "During Warring Era",
+          "description_ko": "소로아스트 가문의 첫 천사가 사망했으나, 아직 신이 아니었던 솔로몬의 도움으로 특성을 지킬 수 있었습니다. 한편, 남부 대륙에서는 살린게르가 사신 경로의 서열 0이 되었습니다. 마녀 교파, 황혼 은둔자회, 모세 수도회 등 여러 비밀 조직이 이 시기에 형성되었습니다.",
+          "description_en": "The Zoroast Family's first Angel perished, but with the help of Solomon (who was not yet a God), the family kept the Beyonder Characteristic. Meanwhile, Salinger became Sequence 0 of the Death Pathway in the Southern Continent. Secret organizations like the Demoness Sect, Twilight Hermit Order, and Moses Ascetic Order were established.",
+          "source_refs": [226, 227, 228, 793, 797, 798, 799],
+          "related_characters": ["Solomon", "Salinger"],
+          "related_locations": ["Southern Continent"]
+        }
+      ]
+    },
+    {
+      "eraName_ko": "솔로몬 제국 시대",
+      "eraName_en": "Era of the Solomon Empire",
+      "events": [
+        {
+          "date": "Duration: 112 - 396 (2,470 BA - 2,186 BA)",
+          "description_ko": "솔로몬이 흑황제가 되어 북부 대륙을 통일하고 솔로몬 제국을 건국했습니다. 그는 진정한 조물주와 여러 천사 가문(소로아스트, 아브라함, 자라투, 메디치, 우로보로스 등)의 지지를 받았습니다. 이 시기, 사신은 남부 대륙에 발람 제국을 세웠습니다.",
+          "description_en": "Solomon became the Black Emperor, unified the Northern Continent, and established the Solomon Empire. He was supported by the True Creator and Angel Families like Zoroast, Abraham, Zaratul, Medici, and Ouroboros. During this time, Death established the Balam Empire in the Southern Continent.",
+          "source_refs": [229, 230, 231, 232, 241, 242, 800, 801, 802, 803, 804],
+          "related_characters": ["Solomon", "True Creator", "Antigonus", "Medici", "Ouroboros", "Bethel Abraham", "Death (Salinger)"],
+          "related_locations": ["Northern Continent", "Southern Continent", "Balam Empire"]
+        },
+        {
+          "date": "End of Solomon Empire",
+          "description_ko": "여섯 정교회 신들이 화해하고 동맹을 맺어, 알리스타 투도르와 트룬소스트를 지원하여 솔로몬 제국을 전복시켰습니다. 이 과정에는 안티고누스와 태고의 마녀도 관여했습니다.",
+          "description_en": "The Six Orthodox Gods reconciled and formed an alliance, supporting Alista Tudor and Trunsoest to usurp the Solomon Empire. This matter also involved Antigonus and the Primordial Demoness.",
+          "source_refs": [245, 246, 806, 807, 808],
+          "related_characters": ["Six Orthodox Gods", "Alista Tudor", "Trunsoest", "Antigonus", "Primordial Demoness", "Solomon"],
+          "related_locations": []
+        }
+      ]
+    },
+    {
+      "eraName_ko": "투도르-트룬소스트 연합 제국",
+      "eraName_en": "Tudor-Trunsoest United Empire",
+      "events": [
+        {
+          "date": "Duration: 396 - 510 (2,186 BA - 2,072 BA)",
+          "description_ko": "북부 대륙은 두 명의 집정관(알리스타 투도르, 트룬소스트)이 통치하는 연합 제국 체제가 되었습니다. 대부분의 천사 가문이 이들을 지지했으나, 자라투와 소로아스트 가문은 여전히 흑황제를 믿었습니다.",
+          "description_en": "The Northern Continent was governed by a system of dual Consuls (Alista Tudor, Trunsoest). Most Angel Families supported them, except for the Zaratul and Zoroast families who remained faithful to the Black Emperor.",
+          "source_refs": [247, 248, 249, 809, 810, 811],
+          "related_characters": ["Alista Tudor", "Trunsoest"],
+          "related_locations": ["Northern Continent"]
+        }
+      ]
+    },
+    {
+      "eraName_ko": "제2 솔로몬 제국과 황제들의 시대",
+      "eraName_en": "Second Solomon Empire & Era of Emperors",
+      "events": [
+        {
+          "date": "Duration: 510 - 1047 (2,072 BA - 1,535 BA)",
+          "description_ko": "흑황제 솔로몬이 부활할 조짐을 보이자 연합 제국은 분열되었습니다. 여섯 신들의 지지로 트룬소스트는 밤의 황제가 되었습니다. 아담과 아몬의 도움을 받은 투도르는 붉은 사제 경로로 전환하여 피의 황제가 되었으나 반쯤 미쳤습니다. 직후, 솔로몬이 부활하여 제2 솔로몬 제국을 재건했고, 북부 대륙은 세 황제가 대립하는 혼란의 시대로 접어들었습니다.",
+          "description_en": "As the Black Emperor was about to resurrect, the United Empire broke apart. With the support of the Six Gods, Trunsoest became the Night Emperor. Aided by Adam and Amon, Tudor switched pathways to become the half-crazed Blood Emperor. Soon after, Solomon resurrected and rebuilt the Second Solomon Empire, fracturing the Northern Continent into three, marking a chaotic era.",
+          "source_refs": [259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 813, 814, 815, 816, 817, 818, 819],
+          "related_characters": ["Solomon", "Alista Tudor", "Trunsoest", "Six Orthodox Gods", "Adam", "Amon", "Medici", "Sauron", "Einhorn"],
+          "related_locations": []
+        }
+      ]
+    },
+    {
+      "eraName_ko": "네 황제의 전쟁",
+      "eraName_en": "War of the Four Emperors",
+      "events": [
+        {
+          "date": "Duration: 1047 - 1052 (1,535 BA - 1,530 BA)",
+          "description_ko": "네 명의 서열 0 황제(흑황제 솔로몬, 피의 황제 투도르, 밤의 황제 트룬소스트, 죽음의 황제 살린게르)가 서로 싸웠습니다. 전쟁의 결과로 솔로몬, 투도르, 트룬소스트가 사망했습니다. 이 전쟁으로 많은 천사들이 죽고 천사 가문들이 쇠퇴했습니다.",
+          "description_en": "The Four Sequence 0 Emperors (Black Emperor Solomon, Blood Emperor Tudor, Night Emperor Trunsoest, and Underworld Emperor Salinger) fought against each other. The war resulted in the deaths of Solomon, Tudor, and Trunsoest. Many Angels perished and Angel Families declined.",
+          "source_refs": [269, 270, 274, 275, 276, 277, 278, 279, 831, 832, 833],
+          "related_characters": ["Solomon", "Alista Tudor", "Trunsoest", "Death (Salinger)"],
+          "related_locations": []
+        },
+        {
+          "date": "전쟁 직후 (After the war)",
+          "description_ko": "안티고누스는 통제 불능이 되어 흑야 여신에게 봉인되었습니다. 자라투 가문의 조상은 살해당했고, 베델 아브라함은 추방되었습니다. 죽음의 황제는 전쟁에서 가장 큰 이익을 얻어 붉은 사제 유일성을 획득했습니다. 진정한 조물주는 큰 부상을 입고 신들의 버림받은 땅으로 도망쳤습니다.",
+          "description_en": "Antigonus lost control and was sealed by the Evernight Goddess. The ancestor of the Zaratul family was killed, and Bethel Abraham was banished. The Underworld Emperor benefited the most, gaining the Red Priest Uniqueness. The True Creator was heavily wounded and escaped to the Forsaken Land of the Gods.",
+          "source_refs": [280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 844, 845, 846, 847, 855, 856],
+          "related_characters": ["Antigonus", "Evernight Goddess", "Zaratul", "Bethel Abraham", "Death (Salinger)", "True Creator"],
+          "related_locations": ["Foggy Town", "Forsaken Land of the Gods"]
+        }
+      ]
+    },
+    {
+      "eraName_ko": "일곱 신들의 갈등과 창백한 시대",
+      "eraName_en": "Conflicts of the Seven Gods & Pale Era",
+      "events": [
+        {
+          "date": "Duration: 1053 - 1233 (1,530 BA - c. 1,300 BA)",
+          "description_ko": "전쟁 후 트룬소스트 제국은 네 개의 왕국(로엔, 페네포트, 페이사크, 인티스)으로 분열되었습니다. 이후 150여 년간 일곱 정교회 신들은 서로 다른 진영으로 나뉘어 갈등을 겪었습니다. 이 시대 말기, 미쳐버린 죽음의 황제가 태고의 마녀와 손잡고 북부 대륙에 '창백한 재앙'을 일으켰습니다.",
+          "description_en": "After the war, the Trunsoest Empire split into four kingdoms (Loen, Feynapotter, Feysac, Intis). For over 150 years, the Seven Orthodox Gods were fractured into different alliances and had conflicts. At the end of this era, the maddened Death joined forces with the Primordial Demoness to create the 'Pale Disaster' on the Northern Continent.",
+          "source_refs": [308, 309, 310, 311, 315, 317, 318, 319, 320, 321, 858, 859, 860, 864, 865, 866, 867, 870, 871, 872, 873],
+          "related_characters": ["Death (Salinger)", "Primordial Demoness", "Seven Orthodox Gods"],
+          "related_locations": ["Northern Continent", "Loen", "Feynapotter", "Feysac", "Intis"]
+        },
+        {
+          "date": "End of Fourth Epoch",
+          "description_ko": "일곱 신들은 결국 다시 힘을 합쳐 죽음의 황제를 파괴하고 태고의 마녀에게 심각한 부상을 입혔습니다. 이 과정에서 모든 신들 또한 큰 부상을 입었습니다. 시대가 끝나갈 무렵, 태초 조물주의 의지가 약해지면서 지구의 장벽에 균열이 생기기 시작했고, 일곱 신들은 이를 메우기 위해 자신들의 신국을 성계로 옮겨야만 했습니다.",
+          "description_en": "The Seven Gods eventually joined hands again, destroyed Death, and severely wounded the Primordial Demoness. All seven gods were also heavily injured. At the end of the epoch, as the Original Creator's will faded, cracks appeared on Earth's Barrier, forcing the Seven Gods to move their Divine Kingdoms to the Astral World to mend them.",
+          "source_refs": [326, 327, 333, 338, 339, 340, 877, 878, 879, 880, 881, 882],
+          "related_characters": ["Seven Orthodox Gods", "Death (Salinger)", "Primordial Demoness", "Original Creator", "Outer Deities"],
+          "related_locations": ["Astral World", "Western Continent", "Berserk Sea"]
+        },
+        {
+          "date": "왜곡된 역사 (Fabricated History)",
+          "description_ko": "(후대에 전해지는 왜곡된 역사) 솔로몬 가문은 악마들과 결탁했고, '타락한 천사'의 지원을 받아 일곱 신들과 약 1000년간 싸웠습니다. 결국 일곱 신들이 승리하여 타락한 천사를 봉인했다고 전해집니다.",
+          "description_en": "(The fabricated history passed down) The Solomon Family colluded with Demons, and with the support of the greatest devil, the 'Fallen Angel', they battled the Seven Gods for about 1,000 years. Ultimately, the Seven Gods triumphed and sealed the Fallen Angel.",
+          "source_refs": [885, 886, 887, 888, 889, 890],
+          "related_characters": ["Solomon", "Seven Orthodox Gods"],
+          "related_locations": []
+        }
+      ]
+    }
+  ]
+}

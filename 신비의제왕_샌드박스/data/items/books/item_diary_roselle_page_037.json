@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_037",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#37)",
+  "itemName_en": "Roselle's Worn Diary Page (#37)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "5월 18일: 최근에 악몽을 꾸고 있다. 고대 은회색 갑옷을 입고 절벽 옆에 앉아 있는 꿈을 꾼다. 내 앞은 침묵이고, 발밑에는 바닥 없는 검은 안개가 있다. 그것은 부패와 악으로 가득 차 있었다. 쳐다보는 것만으로도 나에게 영향을 미쳤다. 끝에는 내 얼굴이 복잡해지고 칠흑 같은 문양이 생기면서 심연을 감시했다. 내 피부는 단단해지고 끈적한 액체가 몸 표면을 흐르는 느낌이 들었다. 내 눈은 완전히 이성을 잃었다. 그것은 심연의 반영이었다. 지난달 내가 보고 들어가려 했던 심연의 반영이었다! 이 악몽이 잦아지면서, 극단적인 생각이 흔해지고 있다는 것을 깨달았다. 등에는 검붉은 덩어리가 자라고 있고, 체온도 점차 내려가고 있다. 이것이 심연의 부패 형태인가? 확인하고 해결할 방법을 생각해야 한다!",
+    "entry_en": "May 18th: I've been having nightmares recently. I dream of myself wearing ancient silver-gray armor and sitting beside a cliff. In front of me is silence, and there's a bottomless black fog beneath me. It was filled with corruption and evil. Merely looking at it was enough to influence me. Towards the end, my face grew complicated, jet-black patterns as I monitored the abyss. My skin turned hard and I had the feeling that sticky liquid was flowing across the surface of my body. My eyes completely lost their reason. It was a reflection of the Abyss. It was the reflection of the Abyss which I saw and attempted to enter last month! As this nightmare becomes more frequent, I realize that extreme thoughts are becoming a common occurrence for me. Also, dark red lumps are growing on my back. My body temperature is also gradually decreasing. Is this a form of corruption from the Abyss? I have to think of a way to confirm and resolve it!"
+  }
+}

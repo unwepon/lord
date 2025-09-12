@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_058",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#58)",
+  "itemName_en": "Roselle's Worn Diary Page (#58)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "9월 23일: 위대한 황혼의 전당은 정말 웅장하다. 마치 신화가 현실로 구현된 것 같다. 그 건물은 완전히 거인들을 위해 준비된 것 같다. 신앙이 같지 않아서 둘레만 돌 수 있었다. 위대한 황혼의 전당 아래 광장도 술 향기로 가득했다! 그곳에는 많은 사람들이 있었다. 무릎을 꿇고 있는 사람, 앉아 있는 사람, 악기를 연주하는 사람도 있었다. 그들은 꽤 편안하고 개방적인 느낌을 풍겼다. 나는 뼈 피리를 부는 페이사크인과 알게 되었다. 동족에 비해 그는 터무니없이 키가 컸다. 약 3미터 정도였다. 그의 이름은 호네거였고, 그는 페이사크에서 가장 순수한 거인 혈통을 가진 씨족 중 하나라고 주장했다. 그가 뼈 피리를 부는 모습은 매우 슬퍼 보였다. 마치 이곳에 속하지 않았지만 어디로 가야 할지 모르는 것 같았다. 인티스의 여자 꽁무니나 쫓아다니는 놈들과 비교하면, 그는 훨씬 더 시인 같았다. 나는 호네거와 잠시 대화를 나누고 전에 가졌던 질문을 했다. 그는 단지 향수병에 걸렸을 뿐이라고 말했다. 하지만 문제는 그가 성 밀롬 토박이라는 사실이다. 그는 이곳을 떠난 적이 없다.",
+    "entry_en": "September 23rd: The Great Twilight Hall is indeed grand. It's like a myth materializing into reality. That building seems to be completely prepared for giants. Since I don't share their faith, I could only circle the perimeter. The square at the bottom of the Great Twilight Hall is also filled with the fragrance of alcohol! There were plenty of people there, some kneeling, some sitting, others playing musical instruments. They exude a rather relaxed and open feeling. I got to know a Feysacian who blows a bone flute. Compared to his kinsmen, he's ridiculously tall. He's roughly three meters tall. His name is Honegger, and he claims to be from one of the clans in Feysac that have the purest giant bloodline. The way he plays the bone flute looks very sorrowful, as though he doesn't belong here but has no idea where to go to. Compared to the skirt chasers at Intis, he's a lot more like a poet. I had a chat with Honegger for a while and raised my question from before. He said that he's only homesick. But the problem lies in the fact that he's a true blue native from St. Millom. He has never left this place before."
+  }
+}

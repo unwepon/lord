@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_067",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#67)",
+  "itemName_en": "Roselle's Worn Diary Page (#67)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "1월 1일: 새해의 시작. 마침 첫 번째 신성모독 카드를 완성했다. 나는 스물두 개의 신성한 경로의 궁극적인 비밀을 이 다른 신성모독 카드에 숨기고 세상에 흩뿌릴 것이다. 만약 일이 실패하면, 그것들은 내 아이들이 의지할 수 있는 최고의 보험이 될 것이다. 하하, 그들이 원하는 질서를 방해하고 신성의 심오한 신비를 퍼뜨릴 것이다! 이 신성모독 카드들은 반점술과 반예언의 특성을 가질 것이다. 내 아이들에게 주는 것들을 제외하고는, 운명적인 자들이 그것을 받을 것이다!",
+    "entry_en": "January 1st: A beginning of a new year. I happened to finish my first Card of Blasphemy. I will hide the ultimate secret of the twenty-two paths of the divine in these different Cards of Blasphemy and scatter them across the world. If things fail, they’ll be the best insurance that my children can fall back onto. Haha, I’ll disrupt the order they wish to have and spread the profound mysteries of the divine! These Cards of Blasphemy will possess characteristics of being anti-divination and anti-prophecy. Apart from the ones I’m giving my children, the fated ones will receive it!"
+  }
+}

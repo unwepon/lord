@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_065",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#65)",
+  "itemName_en": "Roselle's Worn Diary Page (#65)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "11월 28일: 그림 꿈을 다시 꾸었다. 그는 내 부하들 중 가장 똑똑했지만, 불행히도 그 이름 없는 섬을 탐험하는 동안 알 수 없는 감염으로 안개 바다에서 죽었다. 그는 아이조차 남기지 않았다. 그때 나는 그 이름 없는 섬이 상상할 수 없는 위험을 가진 비밀을 숨기고 있다는 것을 알았지만, 내 힘이 부족하여 참을 수밖에 없었다. 이번 꿈은 내 영성이 나에게 그 섬을 탐험하고, 그 비밀을 파악하고, 그림의 문제를 완전히 해결할 수 있다고 상기시켜주는 결과일 것이다.",
+    "entry_en": "November 28th: I dreamed of Grimm again. He was the smartest among my subordinates, but unfortunately, he died in the Fog Sea due to some unknown infection while exploring that nameless island. He didn’t even leave a child behind. Back then, I knew that the nameless island hid secrets with unimaginable danger, but due to my lacking strength, all I could do was hold back. The dream this time is likely a result of my spirituality reminding me that I can explore that island, grasp its secrets, and completely resolve Grimm’s matter."
+  }
+}

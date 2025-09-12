@@ -1,0 +1,82 @@
+[
+  {
+    "name": "초월적인 재생 (달 - 흡혈귀)",
+    "description": "흡혈귀의 강력한 생명력으로 매 라운드 생명력을 회복합니다.",
+    "mechanics": {
+      "trigger": {
+        "type": "on_round_start"
+      },
+      "conditions": [
+        {
+          "type": "character_has_status",
+          "value": "재생 중"
+        }
+      ],
+      "actions": [
+        {
+          "type": "heal",
+          "dice": "1d6"
+        }
+      ],
+      "comment": "이 능력은 흡혈귀가 기본적으로 보유하거나, 특정 조건 만족 시 '재생 중' 상태가 부여되어 발동합니다."
+    }
+  },
+  {
+    "name": "출혈",
+    "description": "심각한 부상으로 인해 매 라운드 생명력을 지속적으로 잃습니다.",
+    "mechanics": {
+      "trigger": {
+        "type": "on_round_start"
+      },
+      "conditions": [
+        {
+          "type": "character_has_status",
+          "value": "출혈"
+        }
+      ],
+      "actions": [
+        {
+          "type": "deal_damage",
+          "damage_type": "물리",
+          "dice": "1d2",
+          "comment": "규칙서 48p의 '매 라운드 시작 시 1d2 생명력을 상실한다' 규칙을 구현합니다."
+        },
+        {
+          "type": "reduce_status_duration",
+          "status": "출혈",
+          "value": 1
+        }
+      ],
+      "comment": "응급 처치 등으로 '출혈' 상태가 제거되기 전까지 지속됩니다. 'reduce_status_duration' action은 상태의 남은 지속시간을 1씩 감소시키는 로직으로, main_game_skeleton.py에 구현이 필요합니다."
+    }
+  },
+  {
+    "name": "불타는 중 (화염병)",
+    "description": "화염병에 의해 몸에 불이 붙어 지속적인 화염 피해를 입습니다.",
+    "mechanics": {
+      "trigger": {
+        "type": "on_round_start"
+      },
+      "conditions": [
+        {
+          "type": "character_has_status",
+          "value": "불타는 중"
+        }
+      ],
+      "actions": [
+        {
+          "type": "deal_damage",
+          "damage_type": "화염",
+          "dice": "1d6",
+          "comment": "규칙서 41p의 '매 라운드 시작 시 1d6 화염 피해' 규칙을 구현합니다."
+        },
+        {
+          "type": "reduce_status_duration",
+          "status": "불타는 중",
+          "value": 1
+        }
+      ],
+      "comment": "화염병에 맞으면 '불타는 중' 상태가 2라운드 동안 부여된다고 가정합니다. 이 능력은 해당 상태의 효과를 처리합니다."
+    }
+  }
+]

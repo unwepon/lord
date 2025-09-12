@@ -1,0 +1,105 @@
+{
+  "// 이 파일은 신비의 제왕 세계관의 물리 법칙, 사회 규칙, 법률 등을 정의합니다.": {},
+
+  "combat_rules": [
+    {
+      "rule_id": "gunpowder_weapon_ignores_agility",
+      "name_ko": "화약 무기 방어 무시 규칙",
+      "description_ko": "화약을 사용하는 열병기는 대상의 민첩과 회피 능력에 기반한 방어 보너스를 무시합니다.",
+      "trigger": {
+        "type": "on_attack_roll"
+      },
+      "conditions": [
+        {
+          "type": "attacker_weapon_property_is",
+          "property": "uses_gunpowder",
+          "value": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "ignore_defense_property",
+          "value": ["민첩", "회피"]
+        }
+      ],
+      "reference": "규칙서 p.265"
+    },
+    {
+      "rule_id": "armor_break_normal_damage",
+      "name_ko": "갑옷 파괴 (일반 피해)",
+      "description_ko": "10점 이상의 유효 물리 피해를 받으면 갑옷이 파손되어 약점이 노출됩니다. 불사 생명체에게는 효과가 없습니다.",
+      "trigger": { "type": "on_damage_dealt" },
+      "conditions": [
+        { "type": "target_property_is_not", "property": "creature_type", "value": "불사 생명체" },
+        { "type": "wearing_armor_is", "value": true },
+        { "type": "effective_damage_is_gte", "value": 10 },
+        { "type": "damage_type_is_not_in", "value": ["총기", "폭파"] }
+      ],
+      "actions": [
+        { "type": "apply_status", "status": "갑옷 파손 (일반)" }
+      ],
+      "reference": "규칙서 p.42"
+    },
+    {
+      "rule_id": "armor_break_firearm_damage",
+      "name_ko": "갑옷 파괴 (총기 피해)",
+      "description_ko": "총기/폭파 피해에 명중당하면 갑옷이 파괴됩니다. 불사 생명체에게는 효과가 없습니다.",
+      "trigger": { "type": "on_damage_dealt" },
+      "conditions": [
+        { "type": "target_property_is_not", "property": "creature_type", "value": "불사 생명체" },
+        { "type": "wearing_armor_is", "value": true },
+        { "type": "damage_type_is_in", "value": ["총기", "폭파"] }
+      ],
+      "actions": [
+        { "type": "apply_status", "status": "갑옷 파손 (총기)" }
+      ],
+      "reference": "규칙서 p.42"
+    },
+    {
+      "rule_id": "wound_expansion",
+      "name_ko": "상처 확대 규칙",
+      "description_ko": "10점의 유효 피해를 입을 때마다 약점이 커져 급소 공격이 용이해집니다.",
+      "trigger": { "type": "on_damage_dealt" },
+      "conditions": [
+        { "type": "effective_damage_is_gte", "value": 10 }
+      ],
+      "actions": [
+        { 
+          "type": "apply_status", 
+          "status": "상처 확대",
+          "stacks": "floor(effective_damage / 10)"
+        }
+      ],
+      "reference": "규칙서 p.42"
+    },
+    {
+      "rule_id": "skin_armor_partial_recovery",
+      "name_ko": "피부 갑옷 회복 (1단계)",
+      "description_ko": "초월자가 생명력을 10점 회복하면 '상처 확대' 상태가 사라집니다.",
+      "trigger": { "type": "on_heal" },
+      "conditions": [
+        { "type": "character_has_status", "status": "상처 확대" },
+        { "type": "total_hp_recovered_since_injury_is_gte", "value": 10 }
+      ],
+      "actions": [
+        { "type": "remove_status", "status": "상처 확대" }
+      ],
+      "reference": "규칙서 p.43"
+    },
+    {
+      "rule_id": "skin_armor_full_recovery",
+      "name_ko": "피부 갑옷 회복 (2단계)",
+      "description_ko": "초월자가 생명력을 20점 회복하면 '갑옷 파손' 상태가 완전히 수리됩니다.",
+      "trigger": { "type": "on_heal" },
+      "conditions": [
+        { "type": "character_has_any_status", "statuses": ["갑옷 파손 (일반)", "갑옷 파손 (총기)"] },
+        { "type": "total_hp_recovered_since_injury_is_gte", "value": 20 }
+      ],
+      "actions": [
+        { "type": "remove_status", "status": "갑옷 파손 (일반)" },
+        { "type": "remove_status", "status": "갑옷 파손 (총기)" }
+      ],
+      "reference": "규칙서 p.43"
+    }
+  ]
+}

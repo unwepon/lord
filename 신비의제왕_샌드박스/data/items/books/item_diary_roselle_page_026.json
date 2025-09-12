@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_026",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#26)",
+  "itemName_en": "Roselle's Worn Diary Page (#26)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상 (서열 5 시절)",
+    "entry_ko": "9월 10일: 오랫동안 참았지만, 그래도 조금은 불평하지 않을 수 없다. 내가 사반트 길을 선택한 건 정말 멍청한 짓이었을 거야, 맞지? 물론, 이것이 내 가장 큰 장점을 발전시키고 교회가 나를 매우 중요하게 여기게 해주었다. 하지만 문제는 처음 몇 서열에는 전투에 필요한 초월적 힘이 부족하다는 것이다. 신비한 아이템에 의존하고 외부 아이템에 너무 많이 의존할 수밖에 없다. 예를 들어, 서열 5 아스트로맨서가 되어야만 비로소 나만의 전투 초월적 힘을 얻게 된다! 그 현대 이름은 나를 좀 무섭게 한다. 천문학자라니... 내가 전능한 미친 과학자가 되는 건가? 하늘이시여, 자비를 베푸소서. 나는 대학 입시에서 2등급 학생이었을 뿐이라고!",
+    "entry_en": "September 10th: I’ve endured it for a long time, but I still can’t help but complain a little. I must’ve had f**king sh*t for brains to chose the Savant path, right? Of course, this has indeed allowed me to develop my greatest advantage, allowing the Church to attach great importance to me. But the problem is that the first few Sequences lack any Beyonder powers needed for combat. I can only make do by relying on mystical items and rely way too much on external items. For example, after I advance again, I’ll gain Beyonder powers combat powers that I can call my own. Sequence 5 Astromancer! Its modern name scares me a little. It’s actually called Astronomer… Am I going to end up as an all-powerful mad scientist? Heavens have mercy on me. I was only a second-tier student at the college entrance examination!"
+  }
+}

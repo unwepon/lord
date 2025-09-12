@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_006",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#6)",
+  "itemName_en": "Roselle's Worn Diary Page (#6)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상 (서열 4 데미갓 직전)",
+    "entry_ko": "서열 4 데미갓으로 승급을 앞두고 있다. 통제 불능만 되지 않는다면, 내 생명의 자연 질서가 질적으로 변할 것이다. 더는 단명하는 생물이 아니게 된다. ...두 가지 선택지가 있었다. 사반트 경로의 연금술사와 미스터리 프라이어 경로의 신비학자. 결국 나는 히든 세이지라는 위험한 존재 때문에 경로를 바꾸지 않기로 했다. ...연금술사의 승급 의식은 특정 지역의 모든 생명력을 추출해야 한다... 왜 이단 종교의 제사 의식과 별반 다르지 않은 거지... 나는 항상 물약 서열 시스템에 어둡고 미친 부분이 너무 많다고 느꼈다. 때로는 절망할 정도로 사악하다.",
+    "entry_en": "About to advance to Sequence 4 to become a demigod. After this, as long as I don’t lose control, then my life’s natural order will experience a qualitative change. I would no longer be a short-lived creature. I faced two choices. One is Alchemist of the Savant pathway, and the other is Mysticologist of the Mystery Pryer pathway. Eventually, I chose not to change pathways since the Hidden Sage is a very dangerous existence. However, I ultimately suspect that ‘He’ isn’t a real deity. The only problem is that the corresponding ritual of Alchemist needs to extract all the life force of a particular region, desertification of the land and the drying of lakes… Why is this not much different from a cult’s sacrificial ritual… I’ve always felt that the potion Sequence system has too many dark and crazy parts to it. Occasionally, it would be so evil that it can make one despair."
+  }
+}

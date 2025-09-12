@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_068",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#68)",
+  "itemName_en": "Roselle's Worn Diary Page (#68)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "12월 27일: 최근에 불안감을 느끼고 있다. 다음에 무슨 일이 일어날지 확신이 없기 때문이다. 나는 더 이상 도움을 갈망하지 않는다. 그들이 중립을 지켜준다면 매우 만족할 것이다. 나는 나 자신을 가장 위험한 상황에 처하게 했다. 이것은 내가 주도적으로 한 행동이지만, 선택의 여지가 없었기 때문이기도 하다. 때로는 내가 어떻게 이렇게 되었는지 매우 혼란스럽다. 내가 너무 극단적이었을까, 아니면 이것이 내가 할 수 있는 유일한 일이었을까? 아니, 이 시점에서 더 이상 혼란스러워할 수 없다. 내 마음가짐에 영향을 미치고 이미 희박한 기회를 더욱 희박하게 만드는 것 외에는 의미가 없다. 이 지경에 이르렀으니, 계속 나아갈 수밖에 없다. 성공하면, 자연스럽게 햇살과 무지개가 펼쳐질 것이다. 헤헤, 내 모든 희망은 한 문장에 달려있다: '죽음의 объятиях возможна жизнь!' (죽음의 품 안에서 삶은 가능하다!)",
+    "entry_en": "December 27th: I’ve been feeling uneasy recently because I have no confidence in what will happen next. I no longer yearn for help. I’m very satisfied if they can remain neutral. I have put myself in the most dangerous situation. This is an act of me taking initiative, but it is also a choice due to a lack of options. Sometimes, I’m very confused. How did I end up like this? Was I too extreme, or was this the only thing I could do? No, at this point in time, I can’t be confused anymore. Apart from affecting my mindset and making the already slim chances even slimmer, it’s meaningless. Now that I’ve reached this point, I can only continue on. If I succeed, it will naturally be sunshine and rainbows. Heh heh, all my hopes are placed on one sentence: 'Life is possible by being in death’s embrace!'"
+  }
+}

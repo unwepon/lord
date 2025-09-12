@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_025",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#25)",
+  "itemName_en": "Roselle's Worn Diary Page (#25)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상 (시엘 탄생)",
+    "entry_ko": "4월 18일: 마틸다가 임신했다. 예상했던 일이고, 어느 사랑의 행위에서 임신했는지 정확히 말할 수도 있다. 내 초월적 특성이 감소하는 것을 느꼈기 때문이다. 임신이 성공하면, 내 초월적 특성은 신비한 연결을 따라 내 아이에게 일부가 이전된다. 그 후 걱정되어 팬 에스티 대주교에게 물었다. 그는 이것이 정상적인 현상이라고 말했다. 서열 7 이하는 초월적 특성이 다음 세대로 전달되지 않지만, 절대적인 것은 아니다. 서열 6과 5는 자연스럽게 일부를 물려주지만, 부모의 힘에는 영향을 미치지 않는다. 아이의 경우, 서열 9에 가까운 특정 초월적 힘을 가지고 태어날 것이다. 하지만 그 결과로 그들의 경로는 기본적으로 고정된다. 고위 서열에서는 초월적 특성의 상속을 통제할 수 있다. 물려주거나, 물려주지 않거나, 심지어 조금만, 3분의 1, 절반, 또는 전부를 물려줄지 선택할 수 있다. 즉, 고위 서열 초월자에게서 태어난 아이들은 초월자로 태어날 수 있다는 말이다. 서열은 부모 중 한 명이 결정한다. 신들의 후손도 이와 같을지 궁금하다…",
+    "entry_en": "April 18th: Matilda is pregnant. It’s to be expected, and I can even tell you exactly which love-making session she conceived in, because I felt a decrease in my Beyonder characteristic. Once the conception is successful, my own Beyonder characteristic will follow a mysterious connection, and part of it will be transferred to my child. After that, I asked Archbishop Fan Esti worriedly. He told me that this is a normal phenomenon. For Sequence 7 and below, Beyonder characteristics will not be passed on to the next generation, but it isn’t absolute, Sequence 6 and 5 will naturally pass down a portion, but it will not affect the parent’s strength. As for the child, they would be born with certain Beyonder powers, close to that of Sequence 9. But as a result, their pathway is basically fixed. At high Sequences, the inheritance of Beyonder characteristics is something one can control. One can choose to pass down or not, or one can even choose to pass down just a little bit, a third, half, or all of them. In other words, the children born from High-Sequence Beyonders might be born as Beyonders. As for the Sequence number, it’s up to either one of the parents to decide. I wonder if the descendants of the deities are like this as well…"
+  }
+}

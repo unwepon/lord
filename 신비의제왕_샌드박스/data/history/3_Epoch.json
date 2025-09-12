@@ -1,0 +1,51 @@
+{
+  "epochNumber": 3,
+  "epochName_ko": "대격변 시대",
+  "epochName_en": "The Cataclysm Epoch",
+  "eras": [
+    {
+      "eraName_ko": "영광의 시대 (실제 역사)",
+      "eraName_en": "Glorious Era (True History)",
+      "events": [
+        {
+          "date": "Duration: 0 - 1086 (3,668 BA - 2,582 BA)",
+          "description_ko": "모든 고대신이 죽은 후, 원고 태양신은 세상의 절대적인 통치자가 되었고 인류는 번성했습니다. 3,668 BA 1월 3일, 아몬이 태어났습니다. 원고 태양신 아래에는 8명의 천사왕(사스릴, 아담, 아몬, 하라버근, 레오드로, 오세쿠스, 우로보로스, 메디치)이 있었습니다.",
+          "description_en": "After the death of all Ancient Gods, the Ancient Sun God became the absolute ruler of the world and humanity thrived. On Jan 3, 3,668 BA, Amon was born. There were 8 Kings of Angels under 'Him': Sasrir, Adam, Amon, Herabergen, Leodero, Aucuses, Ouroboros, and Medici.",
+          "source_refs": [191, 192, 193, 194, 195, 196, 761, 762, 763, 764],
+          "related_characters": ["Ancient Sun God", "Amon", "Sasrir", "Adam", "Herabergen", "Leodero", "Aucuses", "Ouroboros", "Medici"],
+          "related_locations": []
+        },
+        {
+          "date": "During Glorious Era",
+          "description_ko": "흑야 여신, 전쟁의 신, 대지의 어머니 신이 서열 0이 되어 원고 태양신에게 대항하는 동맹을 맺었습니다. 한편, 원고 태양신 내부에서 태초의 하느님의 의식이 깨어나기 시작하자, 그의 또 다른 자아인 어둠의 천사 사스릴은 흑야 여신과 협력하여 비밀 조직 '장미 구원'을 설립했습니다. 이는 원고 태양신 내부의 광기에 맞서기 위한 계획이었습니다.",
+          "description_en": "The Evernight Goddess, God of Combat, and Earth Mother became Sequence 0 and formed an alliance against the Ancient Sun God. Meanwhile, as the consciousness of the Primordial God Almighty began to awaken inside the Ancient Sun God, his other self, Dark Angel Sasrir, collaborated with the Evernight Goddess to form Rose Redemption as an attempt to fight against the awakening madness.",
+          "source_refs": [201, 202, 765, 766, 767, 768, 769, 770, 771],
+          "related_characters": ["Evernight Goddess", "God of Combat", "Earth Mother", "Ancient Sun God", "Sasrir", "Rose Redemption"],
+          "related_locations": ["Giant King's Court"]
+        },
+        {
+          "date": "End of Glorious Era",
+          "description_ko": "장미 구원의 계획이 실행되어, 원고 태양신은 신들의 전쟁터(현재의 폐허의 바다)에서 포위되어 사망했습니다. 그러나 그는 바람, 순백, 지혜의 천사에게 배신당해 부활 계획에 차질이 생겼고, 불완전하게 부활하여 '진정한 조물주'가 되었습니다. 그의 신성은 아담에게 계승되었고, 그의 분열 충격으로 동부 대륙은 '신들의 버림받은 땅'이 되었으며, 두 번째 신성모독 석판이 탄생했습니다. 이로써 1086년간의 영광스러운 시대가 막을 내렸습니다.",
+          "description_en": "Rose Redemption's plot succeeded, and the Ancient Sun God was killed at the Battlefield of the Gods (now the Sea of Ruins). However, he was betrayed by the Wind, White, and Wisdom Angels, foiling his resurrection plan. He was reborn imperfectly as the 'True Creator'. His godhood was inherited by Adam. The shockwave of his fragmentation transformed the Eastern Continent into the 'Forsaken Land of the Gods' and created the Second Blasphemy Slate. Thus, the 1086-year Glorious Era ended.",
+          "source_refs": [208, 209, 210, 212, 772, 773, 774, 775, 776, 777, 778],
+          "related_characters": ["Ancient Sun God", "Rose Redemption", "Wind Angel Leodero", "White Angel Aucuses", "Wisdom Angel Herabergen", "True Creator", "Adam"],
+          "related_locations": ["Sea of Ruins", "Forsaken Land of the Gods"]
+        }
+      ]
+    },
+    {
+      "eraName_ko": "대격변 시대 (전해지는 역사)",
+      "eraName_en": "Cataclysm Era (The History Passed Down)",
+      "events": [
+        {
+          "date": "Unknown",
+          "description_ko": "(정교회에서 전하는 왜곡된 역사) 인류는 전례 없는 발전을 이루었으나, 또 다른 거대한 대격변이 닥쳤습니다. 신들의 보호 아래 인류는 간신히 멸종을 피했지만, 많은 역사 기록이 소실되고 문명은 다시 시작되었습니다. 정교회의 전설에 따르면, 흑야 여신, 대지의 어머니, 전쟁의 신이 폭풍의 제왕, 영원한 타오르는 태양, 지식과 지혜의 신과 함께 이 대격변으로부터 인류를 보호했다고 전해집니다.",
+          "description_en": "(The distorted history told by the Orthodox Churches) Humanity achieved unprecedented development, but another great cataclysm struck. Under the protection of the gods, humanity barely avoided extinction, but many historical records were lost, and civilization was reset. According to the legends of the Orthodox Churches, the Evernight Goddess, the Earth Mother, and the God of Combat descended upon the world and protected humans from the Cataclysm along with the Lord of Storms, the Eternal Blazing Sun, and the God of Knowledge and Wisdom.",
+          "source_refs": [779, 780, 781, 782, 783],
+          "related_characters": ["Seven Orthodox Gods"],
+          "related_locations": []
+        }
+      ]
+    }
+  ]
+}

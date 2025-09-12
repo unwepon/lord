@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_066",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#66)",
+  "itemName_en": "Roselle's Worn Diary Page (#66)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상 (서열 1 시절)",
+    "entry_ko": "10월 5일: 몇몇 원시달 신자들이 내가 설립한 블랙 슈트 조직에 잡혔다. 그들은 해당 제사 의식을 완료하지 못했다. 그들의 힘이 진홍빛 달에서 직접 오는 것 같아 그들의 행동에 흥미가 생겼다. 불행히도, 많은 양의 데이터가 진홍빛 달이 실제로 우리 행성 주위를 도는 위성이라는 것을 확인해주었다. 그렇다면, 그것은 어떻게 물리학과 신비를 융합하는가? 현재 내 힘으로는 진홍빛 달로 향하는 것이 불가능하지는 않다. 기껏해야 번거롭고 약간 어려울 뿐이지만, 필요해 보이지는 않는다.",
+    "entry_en": "October 5th: A few Primordial Moon believers were caught by the Black Suits organization I established. They failed to complete the corresponding sacrificial ritual. Their behavior has intrigued me, as their strength seems to come directly from the crimson moon. Unfortunately, large amounts of data have confirmed that the crimson moon is really a satellite that’s revolving around our planet. Then, how is it fusing physics and mystery together? With my present strength, it’s not impossible to head for the crimson moon. At most, it will be troublesome and a little difficult, but it doesn’t seem to be necessary."
+  }
+}

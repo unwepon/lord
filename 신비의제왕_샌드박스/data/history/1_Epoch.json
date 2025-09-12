@@ -1,0 +1,97 @@
+{
+  "epochNumber": 1,
+  "epochName_ko": "혼돈의 시대",
+  "epochName_en": "The Age of Chaos",
+  "eras": [
+    {
+      "eraName_ko": "잃어버린 시대 (Lost Era)",
+      "eraName_en": "Lost Era",
+      "events": [
+        {
+          "date": "Duration: 0 - 564",
+          "description_ko": "의도적으로 역사에서 지워진 기간입니다. 태초의 조물주가 깨어나 대부분의 인류를 파괴하며 종말을 불러왔으나, 결정적인 순간에 내적으로 분열하고 자폭하여 인류를 구원했습니다. '그'는 6개의 세피로트와 16개의 유일성, 그리고 수많은 초월적 특성으로 나뉘었습니다. 이 과정에서 이전의 일곱 빛이 소멸되었습니다.",
+          "description_en": "A period deliberately erased from history. The Original Creator awakened, leading to an apocalypse. At a critical moment, the Creator fractured internally and self-destructed, saving humanity. 'He' split into six Sefirot, sixteen Uniquenesses, and countless Beyonder Characteristics. The previous Seven Lights were also wiped out during this event.",
+          "source_refs": [60, 667, 668, 669, 670, 671, 672],
+          "related_characters": ["Original Creator", "Seven Lights"],
+          "related_locations": []
+        },
+        {
+          "date": "During Lost Era",
+          "description_ko": "태초의 조물주의 분열은 우주 깊은 곳에 있던 외신들의 세피로트까지 끌어당겼습니다. 조물주의 유해는 외신들로부터 지구를 보호하는 장벽을 형성했습니다. 남겨진 초월적 특성들은 인간, 동물 등과 융합하여 거인, 엘프, 용과 같은 다양한 돌연변이를 탄생시켰습니다.",
+          "description_en": "The Original Creator's fragmentation drew in Sefirot from Outer Deities. The remains of the Creator formed a barrier protecting Earth. The remaining Beyonder Characteristics were acquired by humans and animals, resulting in various mutations like giants, elves, and dragons.",
+          "source_refs": [676, 677, 684, 685],
+          "related_characters": ["Outer Deities", "Original Creator"],
+          "related_locations": ["Earth"]
+        },
+        {
+          "date": "End of Lost Era",
+          "description_ko": "태초의 하느님과 현황천존은 다른 세피로트들의 의지를 꺾었으나, 추가 세피로트를 흡수한 후 수렴 본능이 강해져 서로를 향한 행동을 개시했습니다. 이들의 첫 추가 세피로트 포식이 '잃어버린 시대'의 끝을 알렸습니다.",
+          "description_en": "The Primordial God Almighty and the Celestial Worthy defeated the wills of other Sefirot, but after absorbing additional Sefirah, their inclination to converge intensified, and they began taking actions against each other. This marked the end of the Lost Era.",
+          "source_refs": [686, 687, 688, 689, 690, 691],
+          "related_characters": ["Primordial God Almighty", "Celestial Worthy"],
+          "related_locations": []
+        }
+      ]
+    },
+    {
+      "eraName_ko": "파괴의 시대 (Era of Destruction)",
+      "eraName_en": "Era of Destruction",
+      "events": [
+        {
+          "date": "Duration: 564 - 566",
+          "description_ko": "태초의 하느님과 브루드 하이브가 오미벨라와 제두스를 낳았습니다. 현황천존은 혼돈의 아들을 마법의 소원 램프에 봉인했습니다. 직후, 두 기둥(태초의 하느님과 현황천존)은 전면전을 벌여 둘 다 소멸했습니다.",
+          "description_en": "The Primordial God Almighty and the Brood Hive gave birth to Omebella and Zedus. The Celestial Worthy sealed the Son of Chaos inside the Magic Wishing Lamp. Soon after, the two Pillars engaged in a full-scale war and both perished.",
+          "source_refs": [71, 72, 698, 699, 700],
+          "related_characters": ["Primordial God Almighty", "Brood Hive", "Omebella", "Zedus", "Celestial Worthy", "Son of Chaos"],
+          "related_locations": []
+        },
+        {
+          "date": "After the battle",
+          "description_ko": "전투 후, 태초 하느님의 시체는 혼돈의 바다에서 최초의 신성모독 석판을 형성했으며 그 옆에는 오류 경로의 유일성이 있었습니다. 현황천존은 세피라 성과 혼돈의 바다를 제외한 모든 세피로트를 서부 대륙에 봉인했습니다. 이 봉인 이전에 엘프들은 서부 대륙을 떠나 돌아올 수 없게 되었습니다.",
+          "description_en": "After the battle, the Primordial God Almighty's corpse formed the First Blasphemy Slate in the Chaos Sea with the Error Uniqueness next to it. The Celestial Worthy sealed all other Sefirot to the Western Continent. Before the seal, the Elves left the Western Continent and were never able to return.",
+          "source_refs": [73, 75, 76, 77, 78, 79, 701, 702, 703, 704],
+          "related_characters": ["Primordial God Almighty", "Celestial Worthy"],
+          "related_locations": ["Chaos Sea", "Western Continent", "Sefirah Castle"]
+        }
+      ]
+    },
+    {
+      "eraName_ko": "학살의 시대 (Era of Carnage)",
+      "eraName_en": "Era of Carnage",
+      "events": [
+        {
+          "date": "Duration: 567 - 981",
+          "description_ko": "두 기둥이 사라진 후, 억눌려 있던 다양한 초월적 종족들이 광기와 수렴 본능에 이끌려 서로 싸우며 땅과 바다를 피로 물들였습니다. 오미벨라는 이 혼돈을 끝내려 했고, 부모의 유해를 지키던 오르미르를 발견하고 그가 이성을 되찾도록 도왔습니다. 이 시기에 초자연적 종족들은 지능을 얻기 시작했고, 최초의 언어인 엘프어는 1세대 엘프 왕이 만들었습니다.",
+          "description_en": "After the two Pillars perished, the various Beyonder races fought against each other, staining the land and seas with blood. Omebella sought to end the chaos and discovered Aurmir, helping him regain some rationality. During this period, the supernatural races began to obtain intelligence, and the first language, Elvish, was created by the first-generation Elf King.",
+          "source_refs": [67, 68, 69, 705, 706, 707, 708, 709, 710],
+          "related_characters": ["Omebella", "Aurmir", "Zedus", "Elf King"],
+          "related_locations": []
+        },
+        {
+          "date": "During Carnage Era",
+          "description_ko": "영계에서 새로운 일곱 빛이 태어나 비밀 조직인 '퓨어 라이트 클럽(Great White Brotherhood)'을 결성했습니다. 또한, 증기와 기계의 신에 따르면 인류 문명은 이 단계에서 '수만 년' 동안 지속되었다고 합니다.",
+          "description_en": "The new Seven Lights was born from the Spirit World. 'They' formed a secret organization — the Great White Brotherhood. Based on the God of Steam and Machinery's civilization picture, human civilizations have lasted for 'tens of thousands of years' at this stage.",
+          "source_refs": [80, 81, 82, 83],
+          "related_characters": ["Seven Lights", "God of Steam and Machinery"],
+          "related_locations": ["Spirit World"]
+        },
+        {
+          "date": "c. 7,000 BA",
+          "description_ko": "에데파나가 태어났습니다.",
+          "description_en": "Edefana was born.",
+          "source_refs": [84],
+          "related_characters": ["Edefana"],
+          "related_locations": []
+        },
+        {
+          "date": "End of Era of Carnage",
+          "description_ko": "제두스가 죽고 최초의 고대신인 오르미르가 탄생하면서 1시대가 끝났습니다. 이는 태초의 조물주로부터 태어나지 않은 진정한 신의 등장을 의미하며, 이 순간부터 장벽의 카운트다운이 시작되었습니다.",
+          "description_en": "Zedus' death and the birth of Aurmir, the first Ancient God, marked the end of the First Epoch—the rise of a true deity not born of the Original Creator, and the barrier's countdown began at this moment.",
+          "source_refs": [711],
+          "related_characters": ["Zedus", "Aurmir"],
+          "related_locations": []
+        }
+      ]
+    }
+  ]
+}

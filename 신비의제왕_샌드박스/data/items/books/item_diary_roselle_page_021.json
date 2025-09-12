@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_021",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#21)",
+  "itemName_en": "Roselle's Worn Diary Page (#21)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "4월 26일: 자라툴이 찾아왔다. 나는 의도적으로 기적이 무엇인지 물었다. 그는 나에게 내가 생각하는 것이 무엇인지 되물었다. 내가 생각하는 것? 내 마음속의 기적은 단 하나, 문명의 경이로움이다! 예를 들어, 거인 왕 오르미르의 옛 거처였던 페이사크 제국의 위대한 황혼의 전당 같은 것 말이다. 자라툴은 마침내 직접적인 대답을 해주었다. 그는 말했다. '기적이 뭐냐고? 기적은 죽음에서 부활하는 것이다!'",
+    "entry_en": "April 26th: Zaratul came visiting. I deliberately asked him what a miracle was. He asked me in return about what I thought it was. What I think it is? There is only one miracle in my heart, and that is the wonders of civilization! For example, the Great Twilight Hall of the Feysac Empire, the former residence of the Giant King, Aurmir. Zaratul finally gave a direct answer. He said, ‘What is a miracle? A miracle is to be resurrected from the dead!’"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_034",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#34)",
+  "itemName_en": "Roselle's Worn Diary Page (#34)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "4월 8일: 블랙 킹호의 뱃머리에 서서 팔을 뻗으며 그림과 에드워즈에게 말했다. '내 재산은 너희들 것이지만, 먼저 찾아야 할 것이다. 내 모든 것을 안개 바다 끝에 두고 왔다!' 그들은 내 유머를 전혀 이해하지 못하고 정말 다른 보물이 있는지 물었다. 정말 지루하다. 계속 그러면 내 아포칼립스의 네 기사가 될 수 없을걸!",
+    "entry_en": "April 8th: I stood at the bow of Black King and stretched my arms, saying to Grimm and Edwards, ‘My fortune is yours for the taking, but you’ll have to find it first. I left everything I own at the ends of the Fog Sea!’ They did not understand my humor at all and even asked if I really had other treasures. How boring. You can’t be my Four Horsemen of the Apocalypse if you keep at that!"
+  }
+}

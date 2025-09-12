@@ -1,0 +1,139 @@
+{
+  "epochNumber": 5,
+  "epochName_ko": "철기 시대",
+  "epochName_en": "The Iron Age",
+  "eras": [
+    {
+      "eraName_ko": "창백한 시대의 종결",
+      "eraName_en": "End of the Pale Era",
+      "events": [
+        {
+          "date": "Duration: 0 - 23 (c. 1,300 BA)",
+          [cite_start]"description_ko": "사망 집정관 아지크가 흑야 여신 교회의 성자와 천사들과 싸웠습니다[cite: 1035, 1038]. [cite_start]결국 일곱 정교회 신들이 힘을 합쳐 사신을 파괴했고, 그의 죽음으로 북부와 남부 대륙을 가르는 베르세르크 해가 생겨났습니다[cite: 341, 342, 343, 344, 345, 346, 877, 878, 879, 880, 881, 882, 1036, 1039]. [cite_start]발람 제국은 붕괴했고 남부 대륙에는 권력 공백이 생겼으며, 태고의 마녀는 큰 부상을 입었습니다[cite: 341, 342, 343, 344, 345, 346, 877, 878, 879, 880, 881, 882, 1037, 1040].",
+          [cite_start]"description_en": "Death Consul Azik fought the Saints and Angels of the Church of the Evernight Goddess[cite: 1035, 1038]. [cite_start]The Seven Orthodox Gods joined forces and destroyed Death[cite: 341, 342, 343, 344, 345, 346, 877, 878, 879, 880, 881, 882, 1039]. [cite_start]His death created the Berserk Sea that separated the Northern and Southern Continents[cite: 341, 342, 343, 344, 345, 346, 877, 878, 879, 880, 881, 882, 1036]. [cite_start]The Balam Empire collapsed, creating a power vacuum in the Southern Continent, and the Primordial Demoness was heavily injured[cite: 341, 342, 343, 344, 345, 346, 877, 878, 879, 880, 881, 882, 1037, 1040].",
+          "source_refs": [341, 342, 343, 344, 345, 346, 877, 878, 879, 880, 881, 882, 1035, 1036, 1037, 1038, 1039, 1040],
+          "related_characters": ["Azik Eggers", "Death (Salinger)", "Seven Orthodox Gods", "Primordial Demoness", "Katarina Pelle"],
+          "related_locations": ["Berserk Sea", "Balam Empire"]
+        }
+      ]
+    },
+    {
+      "eraName_ko": "격동의 시대 (Era of Upheaval)",
+      "eraName_en": "Era of Upheaval",
+      "events": [
+        {
+          "date": "Duration: 24 - 1017 (1325 BA - 332 BA)",
+          [cite_start]"description_ko": "신들은 더 이상 지상을 걷지 않았고, 초월적인 힘과 이전 시대의 역사는 대중에게 숨겨졌습니다[cite: 308, 1041, 1043]. [cite_start]사신의 몰락 이후 남부 대륙에서는 저항군이 등장하고 하일랜드 왕국과 파즈 왕국이 건국되었습니다[cite: 309, 310, 1046, 1055]. [cite_start]이 시기 영교단, 장미 학파, 생명 학파 등 여러 비밀 조직이 형성되었습니다[cite: 313, 1047, 1052].",
+          [cite_start]"description_en": "Gods no longer walked the land, and extraordinary power was concealed from the common people[cite: 308, 1041, 1043]. [cite_start]After the fall of Death, the Resistance appeared at sea, and the Highlands and Paz Kingdoms were founded[cite: 309, 310, 1046, 1055]. [cite_start]Secret organizations like the Numinous Episcopate, Rose School of Thought, and Life School of Thought were formed[cite: 313, 1047, 1052].",
+          "source_refs": [305, 306, 307, 308, 309, 310, 311, 312, 313, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1052, 1055],
+          "related_characters": [],
+          "related_locations": ["Southern Continent", "Highlands Kingdom", "Paz Kingdom"]
+        },
+        {
+            "date": "1125년 10월 11일 (224 BA)",
+            [cite_start]"description_ko": "로셀 구스타브가 태어났습니다[cite: 326, 384, 1078].",
+            [cite_start]"description_en": "Roselle Gustav was born[cite: 326, 384, 1078].",
+            "source_refs": [326, 384, 1078],
+            "related_characters": ["Roselle Gustav"],
+            "related_locations": []
+        }
+      ]
+    },
+    {
+      "eraName_ko": "로셀과 산업혁명 시대",
+      "eraName_en": "Roselle and the Industrial Revolution Era",
+      "events": [
+        {
+          "date": "1143년 2월 (206 BA)",
+          [cite_start]"description_ko": "황도현이 로셀 구스타브로 환생했습니다[cite: 326, 1082, 1323, 2163]. [cite_start]그는 자신의 환생이 며칠 전 구매했던 신비한 은판 때문일 것이라 추측했습니다[cite: 1324, 2164]. [cite_start]그는 증기기관 등 수많은 발명품을 만들어 산업혁명을 촉발시켰고 [cite: 328, 1083, 1084][cite_start], 이로 인해 장인의 신은 '증기와 기계의 신'으로 이름을 바꾸었습니다[cite: 330, 1086, 1533, 2161].",
+          [cite_start]"description_en": "Huang Tao transmigrated as Roselle Gustav[cite: 326, 1082, 1323, 2163]. [cite_start]He suspected his transmigration was due to a mysterious silver plate he had bought a few days prior[cite: 1324, 2164]. [cite_start]He made countless inventions like the steam engine, sparking the Industrial Revolution [cite: 328, 1083, 1084][cite_start], and because of this, the God of Craftsmanship changed 'His' name to the God of Steam and Machinery[cite: 330, 1086, 1533, 2161].",
+          "source_refs": [326, 327, 328, 329, 330, 388, 389, 390, 391, 392, 1082, 1083, 1084, 1085, 1086, 1323, 1324, 1533, 2161, 2163, 2164],
+          "related_characters": ["Roselle Gustav", "God of Steam and Machinery"],
+          "related_locations": []
+        },
+        {
+          "date": "1173년 - 1198년 (176 BA - 151 BA)",
+          [cite_start]"description_ko": "1173년, 로셀은 인티스 공화국의 집정관이 되었습니다[cite: 331, 1087, 1088]. [cite_start]1194년에는 남부 대륙으로 가는 안전한 항로를 발견하여 식민지화 시대를 열었습니다[cite: 334, 1093, 1094]. [cite_start]1198년, 그는 흑황제로 승격했으나 직후 암살당했습니다[cite: 336, 337, 1107, 1109]. [cite_start]그의 사후 인티스는 다시 공화국으로 돌아갔습니다[cite: 336, 1108, 1110].",
+          [cite_start]"description_en": "In 1173, Roselle became the consul of the Intis Republic[cite: 331, 1087, 1088]. [cite_start]In 1194, he discovered a safe sea route to the Southern Continent, starting the era of colonization[cite: 334, 1093, 1094]. [cite_start]In 1198, he became the Black Emperor but was assassinated shortly after[cite: 336, 337, 1107, 1109]. [cite_start]After his death, Intis returned to a Republic[cite: 336, 1108, 1110].",
+          "source_refs": [331, 332, 333, 334, 335, 336, 337, 397, 398, 413, 414, 415, 416, 1087, 1088, 1091, 1092, 1093, 1107, 1108, 1109, 1110],
+          "related_characters": ["Roselle Gustav"],
+          "related_locations": ["Intis Republic", "Southern Continent"]
+        }
+      ]
+    },
+    {
+      "eraName_ko": "고요한 세기 (The Quiet Century)",
+      "eraName_en": "The Quiet Century",
+      "events": [
+        {
+          "date": "1198년 - 1348년 (151 BA - 1 BA)",
+          "description_ko": "로셀 사후부터 세계대전 발발 직전까지의 시기입니다. [cite_start]북부 대륙 국가들은 남부 대륙과 소니아 해의 여러 섬들을 식민지화했습니다[cite: 342, 350]. [cite_start]이 기간 동안 주요 인물들(던 스미스, 클레인 모레티, 오드리 홀 등)이 태어났고, 여러 법률(기본교육법, 빈민법)이 제정되었습니다[cite: 1121, 1127, 1136].",
+          "description_en": "The period after Roselle's death and before the World War. [cite_start]The Northern Continent nations colonized the Southern Continent and islands in the Sonia Sea[cite: 342, 350]. [cite_start]Key figures (Dunn Smith, Klein Moretti, Audrey Hall, etc.) were born, and laws like the Basic Education Law and Poor Law were established[cite: 1121, 1127, 1136].",
+          "source_refs": [340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 1115, 1116, 1119, 1121, 1123, 1124, 1127, 1136, 1140],
+          "related_characters": ["Dunn Smith", "Klein Moretti", "Audrey Hall", "Alger Wilson", "Leonard Mitchell", "Derrick Berg"],
+          "related_locations": ["Loen Kingdom", "Sonia Sea"]
+        }
+      ]
+    },
+    {
+      "eraName_ko": "신비의 제왕 시대 (Lord of Mysteries Era)",
+      "eraName_en": "Lord of Mysteries Era",
+      "events": [
+        {
+          "date": "1349년 6월 28일",
+          [cite_start]"description_ko": "원래의 클레인 모레티가 자살하고, 주명서가 그의 몸으로 환생했습니다[cite: 446, 1140, 1142]. [cite_start]타로 클럽이 창립되었습니다[cite: 450, 1144].",
+          [cite_start]"description_en": "The original Klein Moretti committed suicide, and Zhou Mingrui transmigrated as Klein Moretti[cite: 446, 1140, 1142]. [cite_start]The Tarot Club was founded[cite: 450, 1144].",
+          "source_refs": [446, 447, 448, 449, 450, 1140, 1141, 1142, 1143, 1144],
+          "related_characters": ["Klein Moretti", "Zhou Mingrui"],
+          "related_locations": []
+        },
+        {
+          "date": "1350년 10월 - 1352년 봄",
+          [cite_start]"description_ko": "1350년 10월, 로엔과 페이사크 간의 세계대전이 발발했습니다[cite: 396, 411, 1168]. [cite_start]이 전쟁은 신들의 전쟁으로 확대되어, 1352년 봄, 전쟁의 신이 대지의 어머니(릴리스)에게 배신당해 사망하면서 끝났습니다[cite: 428, 429, 1213]. [cite_start]이 전쟁의 결과로 흑야 여신은 황혼 거인의 유일성을 획득했고 [cite: 437, 1216][cite_start], 아담은 공상가 서열 0으로 승격했습니다[cite: 439, 1218].",
+          [cite_start]"description_en": "In October 1350, the World War between Loen and Feysac began[cite: 396, 411, 1168]. [cite_start]It escalated into a Battle of Gods, ending in Spring 1352 when the God of Combat was backstabbed and killed by the Earth Mother (Lilith)[cite: 428, 429, 1213]. [cite_start]As a result, the Evernight Goddess obtained the Twilight Giant Uniqueness [cite: 437, 1216][cite_start], and Adam promoted to Sequence 0 Visionary[cite: 439, 1218].",
+          "source_refs": [396, 402, 403, 404, 405, 406, 410, 411, 413, 425, 426, 427, 428, 429, 430, 436, 437, 438, 439, 474, 1168, 1172, 1213, 1216, 1218, 1221],
+          "related_characters": ["King George Augustus III", "Evernight Goddess", "God of Combat", "Earth Mother (Lilith)", "Adam"],
+          "related_locations": ["Backlund", "Loen Kingdom", "Feysac Empire"]
+        },
+        {
+          "date": "1352년 봄 - 가을",
+          [cite_start]"description_ko": "세계대전 후 클레인은 신들의 버림받은 땅을 떠나 천사인 서열 2 기적의 주술사로 승격했습니다[cite: 365, 1223]. [cite_start]그가 유토피아를 건설하는 동안 자라투와 아담의 습격을 받았으나 [cite: 372, 448, 1237][cite_start], 지니의 도움으로 탈출하여 자라투를 죽이고 천사왕이 되었습니다[cite: 373, 463, 464, 467, 1223].",
+          [cite_start]"description_en": "After the World War, Klein left the Forsaken Land of the Gods and promoted to Sequence 2 Miracle Invoker, becoming an Angel[cite: 365, 1223]. [cite_start]While building Utopia, he was raided by Zaratul and Adam [cite: 372, 448, 1237][cite_start], but escaped with the help of the Genie, killed Zaratul and became a King of Angels[cite: 373, 463, 464, 467, 1223].",
+          "source_refs": [365, 371, 372, 373, 441, 442, 448, 449, 455, 463, 464, 467, 519, 530, 1223, 1237],
+          "related_characters": ["Klein Moretti", "Adam", "Zaratul", "Genie"],
+          "related_locations": ["Utopia", "Corpse Cathedral", "Forsaken Land of the Gods"]
+        },
+        {
+          "date": "1352년 가을",
+          [cite_start]"description_ko": "아몬이 도어 씨의 승급 의식을 훔쳐 서열 0 '오류 씨'가 되었습니다[cite: 375, 479, 1241]. [cite_start]직후, 클레인은 바보로 승격하기 위한 의식을 시작했고, 수많은 신들의 개입 속에서 결국 성공했으나 [cite: 483, 623][cite_start], 세피라 성을 침입한 아몬과 최후의 도박을 벌여야 했습니다[cite: 379, 639, 640].",
+          "description_en": "Amon stole Mr. Door's apotheosis ritual and became Sequence 0 'Mr. [cite_start]Error'[cite: 375, 479, 1241]. [cite_start]Shortly after, Klein began his ritual to become The Fool and ultimately succeeded amidst the interference of many deities [cite: 483, 623][cite_start], but had to engage in a final gambit against Amon who invaded Sefirah Castle[cite: 379, 639, 640].",
+          "source_refs": [374, 375, 376, 377, 378, 379, 472, 473, 479, 481, 483, 484, 485, 513, 521, 580, 623, 637, 638, 639, 640, 1241],
+          "related_characters": ["Amon", "Mr. Door", "Klein Moretti", "Evernight Goddess", "Adam", "Primordial Demoness"],
+          "related_locations": ["Sefirah Castle"]
+        },
+        {
+          "date": "1352년 말",
+          [cite_start]"description_ko": "'바보의 도박'에서 승리한 클레인은 오류와 도어 경로의 유일성을 획득했으나 [cite: 380, 688][cite_start], 그로 인해 현황천존의 의지가 더욱 깨어나게 되었습니다[cite: 690]. [cite_start]클레인은 현황천존의 의지와 싸우기 위해 세피라 성에서 깊은 잠에 빠졌습니다[cite: 381, 694].",
+          [cite_start]"description_en": "Victorious in 'The Fool's Gambit', Klein obtained the Uniquenesses of the Error and Door pathways [cite: 380, 688][cite_start], but this further awakened the will of the Celestial Worthy[cite: 690]. [cite_start]To combat this will, Klein fell into a deep slumber inside Sefirah Castle[cite: 381, 694].",
+          "source_refs": [380, 381, 685, 688, 689, 690, 691, 692, 693, 694],
+          "related_characters": ["Klein Moretti", "Amon", "Celestial Worthy"],
+          "related_locations": ["Sefirah Castle"]
+        }
+      ]
+    },
+    {
+      "eraName_ko": "종말의 서곡 (Prelude to the Apocalypse)",
+      "eraName_en": "Prelude to the Apocalypse",
+      "events": [
+        {
+          "date": "1352년 - 1358년",
+          [cite_start]"description_ko": "클레인이 잠든 사이, 외신들의 침입이 심화되고 초자연적 사건의 강도와 규모가 증가했습니다[cite: 383, 397]. [cite_start]바보 교회가 세워지고, 타로 클럽의 멤버들은 각자의 길을 걸으며 성장했습니다[cite: 1255]. [cite_start]이 시기, 코르두 마을에서 루미안 리와 관련된 비극적인 사건이 발생하며 새로운 이야기가 시작됩니다[cite: 1256, 1274, 1276].",
+          [cite_start]"description_en": "While Klein slept, the invasion of the Outer Deities intensified, and the scale of supernatural incidents increased[cite: 383, 397]. [cite_start]The Church of the Fool was established, and the Tarot Club members grew on their own paths[cite: 1255]. [cite_start]During this time, a tragic incident involving Lumian Lee in Cordu Village marks the beginning of a new story[cite: 1256, 1274, 1276].",
+          "source_refs": [382, 383, 384, 396, 397, 398, 1255, 1256, 1274, 1276],
+          "related_characters": ["Klein Moretti", "Lumian Lee", "Aurore Lee"],
+          "related_locations": ["Cordu Village"]
+        }
+      ]
+    }
+  ]
+}

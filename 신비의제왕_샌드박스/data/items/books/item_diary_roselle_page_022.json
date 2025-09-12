@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_022",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#22)",
+  "itemName_en": "Roselle's Worn Diary Page (#22)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1155년 11월 9일",
+    "entry_ko": "알고 보니 서열 경로 내에 실제로 비밀이 숨겨져 있었다. 에스틴 대주교는 서열 5 초월자가 된 후, 나머지 서열은 한두 개의 다른 경로에서 같은 수준의 서열로 대체될 수 있다고 말했다! 즉, 중위 서열에서 고위 서열로 넘어갈 때부터 시작된다! 하지만 이것은 그 한두 개의 경로로만 제한된다. 잘못된 경로의 물약으로 대체하면, 반쯤 미치는 것이 가장 가벼운 결과이며, 더 이상 승급할 수 없다. 이런 식으로 서열 4부터 경로를 대체하기 시작할 수 있다. 불면자 경로와 시체 수집가 경로. 그래, 교회의 사반트 경로와 미스터리 프라이어 경로도 고위 서열에서 서로 대체할 수 있다.",
+    "entry_en": "It turns out that there is actually a secret hidden within Sequence pathways. Archbishop Estin told me that after becoming a Sequence 5 Beyonder, the rest of the Sequences could be replaced with Sequences of the same level from one or two other pathways! In other words, it starts from the Mid-Sequence to High-Sequence! But this is only limited between those one or two pathways. If it’s replaced with a potion from a wrong pathway, semi-insanity is the mildest outcome, and one can’t advance any further. This way, one can begin substituting pathways from Sequence 4 onwards. Sleepless and Corpse Collector pathways. Yes, the Church’s Savant and Mystery Pryer pathways can also substitute for one another at a High Sequence."
+  }
+}

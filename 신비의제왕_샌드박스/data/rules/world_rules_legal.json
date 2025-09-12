@@ -1,0 +1,45 @@
+{
+  "// 이 파일은 신비의 제왕 세계관의 사회 규칙 및 법률 등을 정의합니다.": {},
+
+  "legal_and_social_rules": {
+    "loen_kingdom": {
+      "name_ko": "로엔 왕국 법률 및 사회 규범",
+      "firearm_possession": [
+        {
+          "weapon_type": ["엽총", "소총"],
+          "legality": "조건부 합법",
+          "requirements": [
+            {
+              "type": "permit",
+              "name": "사냥 허가증"
+            }
+          ],
+          "permit_issuance_conditions": [
+            {
+              "type": "skill_level_is",
+              "skill": "신용",
+              "level": "숙련됨"
+            }
+          ],
+          "notes_ko": "사냥 허가증은 신용 등급이 '숙련됨' 이상일 때 발급받을 수 있습니다.",
+          "reference": "규칙서 p.42"
+        },
+        {
+          "weapon_type": "증기 소총",
+          "legality": "제한적",
+          "allowed_groups": ["군대", "증기 교회"],
+          "exceptions": ["경찰", "공식 임무 수행자"],
+          "notes_ko": "군대와 증기 교회만 보유 가능하나, 공식 임무 수행자는 예외로 간주될 수 있습니다.",
+          "reference": "규칙서 p.42"
+        }
+      ],
+      "illegal_firearm_consequences": {
+        "description_ko": "불법 총기 소지는 중범죄는 아니나, 경찰에 의해 발각될 경우 처벌받을 수 있습니다.",
+        "on_discovery": "체포 및 심문",
+        "result_if_no_justification": "치안 법정에 회부됨",
+        "notes_ko": "합당한 이유(예: 주웠다고 주장하며 화약 흔적 없음 증명)를 제시하지 못하면 법정에 서게 됩니다.",
+        "reference": "규칙서 p.42"
+      }
+    }
+  }
+}

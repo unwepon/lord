@@ -1,0 +1,41 @@
+    "action_name_in": {
+        "type": "action_name_in",
+        "description": "현재 수행하는 행동의 이름이 지정된 목록 안에 포함되어 있는지 확인합니다.",
+        "parameters": ["value (list of strings)"],
+        "example_usage": {"type": "action_name_in", "value": ["급소 타격", "이연격"]}
+    },
+    
+    "equipped_weapon_type": {
+        "type": "equipped_weapon_type",
+        "description": "캐릭터가 특정 종류의 무기를 장착하고 있는지 확인합니다. (규칙서 36p) ",
+        "parameters": ["value (list of strings)"],
+        "example_usage": {"type": "equipped_weapon_type", "value": ["주먹", "단검"]}
+    },
+
+    "target_distance_is": {
+        "type": "target_distance_is",
+        "description": "대상과의 거리가 특정 조건(예: 1미터 이하)을 만족하는지 확인합니다. (규칙서 36p) ",
+        "parameters": ["operator (string: '==', '<=', '>=', '<', '>')", "value (int or float)"],
+        "example_usage": {"type": "target_distance_is", "operator": "<=", "value": 1}
+    },
+
+    "character_has_status": {
+        "type": "character_has_status",
+        "description": "능력 시전자가 특정 상태(예: '조준 중')를 가지고 있는지 확인합니다. (규칙서 35p) [cite: 309]",
+        "parameters": ["value (string)"],
+        "example_usage": {"type": "character_has_status", "value": "조준 중"}
+    },
+    
+    "target_has_status": {
+        "type": "target_has_status",
+        "description": "능력의 대상이 특정 상태(예: '속박됨')를 가지고 있는지 확인합니다.",
+        "parameters": ["value (string)"],
+        "example_usage": {"type": "target_has_status", "value": "속박됨"}
+    },
+
+    "environment_is": {
+        "type": "environment_is",
+        "description": "현재 환경이 특정 상태(예: '만월')인지 확인합니다. (규칙서 18p) ",
+        "parameters": ["value (string)"],
+        "example_usage": {"type": "environment_is", "value": "만월"}
+    }

@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_048",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#48)",
+  "itemName_en": "Roselle's Worn Diary Page (#48)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1184년 3월 12일",
+    "entry_ko": "4시대, 3시대, 심지어 2시대에 관한 자료를 찾아볼 필요가 있다고 느낀다. 그 고대 비밀 조직에 가입한 경험은 여기에 수많은 비밀이 숨겨져 있을 수 있으며, 그것이 한 시대의 방향에 영향을 미칠 종류의 것임을 알려준다. 불행히도, 그러한 정보는 놀라울 정도로 드물다. 그것들은 교회에 의해 보관되거나 파괴되었다. 나는 내 부하들에게 의존해서는 많은 것을 얻을 수 없을 것이라고 믿는다. 가장 좋은 방법은 여전히 내 서열을 올리는 것이다. 그것은 내가 교회에서 더 높은 지위와 더 큰 힘을 얻게 해줄 것이다.",
+    "entry_en": "I feel there's a need to seek out some material regarding the Fourth Epoch, Third Epoch, and even the Second Epoch. The experience that came from joining that ancient secret organization tells me that there might be countless secrets hidden here, the kind that will influence the direction of an epoch. Unfortunately, such information is astonishingly rare. They're either kept by the Church, or they have been destroyed. I believe that I'm unlikely to gain much simply by relying on my subordinates. The best method is still to raise my Sequence. It will allow me to gain a higher status and greater power in the Church."
+  }
+}

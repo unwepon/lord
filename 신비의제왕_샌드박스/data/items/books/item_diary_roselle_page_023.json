@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_023",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#23)",
+  "itemName_en": "Roselle's Worn Diary Page (#23)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1157년 5월 8일",
+    "entry_ko": "사랑하는 베르나데트가 거의 두 살이 되었다. 클수록 더 사랑스럽다. 그녀는 확실히 엄마와 나의 훌륭한 유전자를 실망시키지 않는 아가씨다. 그녀가 명확하게 '아빠'라고 부르는 것을 듣고 그녀의 활기찬 모습을 보니, 갑자기 만족감이 들었다. 이 세계에 환생한 이후로 많은 일을 했다. 일부는 명예롭지 않다고 말할 수 있지만, 부끄러워하거나 후회한 적은 없다. 한편으로는 내 욕망을 억제하기가 매우 어렵고 환경에 쉽게 영향을 받기 때문이다. 다른 한편으로는, 나는 여전히 이 세계에 대한 소외감을 가지고 있다. 이 세계의 부모님은 나에게 매우 잘해주신다. 나도 그들을 자랑스럽게 만들기 위해 열심히 노력했지만, 그들에 대한 내 감정이 실질적이지 않다는 것을 안다. 마찬가지로, 이것이 내가 마틸다를 대하는 방식이다. 사랑보다는 소유욕에 가깝다. 내 정신 상태가 가상 현실 롤플레잉 게임을 하는 것과 같다는 것을 인정해야 한다. 부모님, 형제, 친구들은 모두 NPC다. 그들에게 약간의 감정을 바칠 수는 있지만, 결코 진지하지는 않다. 하지만 베르나데트가 태어난 후, 나는 이 세계에 대한 추가적인 소속감을 느꼈다. 나는 더 이상 이방인이 아니었다. 이 아이는 내 아이다. 살아있는 내 아이다. 아마도 이것이 소위 성숙이라는 것일까?",
+    "entry_en": "My beloved Bernadette is almost two. The older she grows, the more likable she is. She’s indeed a young lady who doesn’t let down the excellent genes of her mother and I. Hearing her clearly call me daddy and seeing her bubbly figure, I suddenly felt a sense of satisfaction. Ever since I transmigrated to this world, I’ve done many things. I can say that some aren’t honorable, but I’ve not felt any shame about it, nor have I ever regretted it. On the one hand, this has to do with me finding it very difficult to curb my desires, making it easy for me to be influenced by my environment. On the other hand, I still have a sense of alienation from this world. My parents in this world are very nice to me. I’ve also worked hard to make them proud, but I know that my feelings for them aren’t substantial. Similarly, this is how I treat Matilda. It’s more a possessive instinct rather than love. I have to admit that my mental state is like playing a role-playing game in virtual reality. My parents, brothers, and friends are all non-playable characters. I can devote some of my feelings to them, but never anything serious. But after Bernadette was born, I realized that I had an additional sense of belonging to this world. I was no longer as estranged from it. This is my child, a living child of mine. Perhaps this is what so-called maturity is?"
+  }
+}

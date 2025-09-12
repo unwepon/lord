@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_031",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#31)",
+  "itemName_en": "Roselle's Worn Diary Page (#31)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "6월 2일: 베르나데트가 내 등을 마사지해줬다! 딸이 있다는 건 좋은 일이다. 늙은 아버지를 돌볼 줄 알고, 그녀가 원하는 것을 한눈에 알 수 있지만, 적어도 연기는 하려고 한다. 게다가, 마사지도 잘했다. 나는 그녀에게 어떤 초월자 경로를 원하는지 물었다. 그녀는 아직 결정하지 못했지만, '원하는 대로 하되, 해를 끼치지는 말라'는 격언을 좋아한다고 말했다.",
+    "entry_en": "June 2nd: Bernadette massaged my back! It’s good to have a daughter. She knows to care for her old father, and although I can see what she wants at a glance, at least she’s willing to put on an act. Besides, she did a good job. I asked her which Beyonder pathway she wanted. She said she was undecided, but she liked the maxim of ‘do as you wish, but do no harm.’"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_030",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#30)",
+  "itemName_en": "Roselle's Worn Diary Page (#30)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "2월 15일: 내가 설계하고 감독한 개량된 대포가 완성되었다. 효과는 기대보다 못했지만, 문제는 그리 크지 않다. 이것과 대량 생산만 있으면, 진정한 선진 전술이 무엇인지 세상에 보여줄 수 있을 것이다! 축하하기 위해, 나를 얕보던 놈들을 초대하는 연회를 열기로 했다. 뺨 맞을 준비나 해라!",
+    "entry_en": "February 15th: The modified artillery I designed and supervised was completed. The effect was worse than I expected, but the problem isn’t that great. With it and mass production, I’ll be able to show the world what true advanced tactics are! In order to celebrate, I decided to hold a banquet to invite those fellows who looked down on me. Just wait to be slapped in the face!"
+  }
+}

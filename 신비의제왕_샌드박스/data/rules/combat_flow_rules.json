@@ -1,0 +1,340 @@
+{
+  "// 이 파일은 전투의 단계별 진행 순서와 규칙을 정의합니다.": {},
+  "time_rule": {
+    "name": "라운드 시간",
+    "description": "전투의 각 라운드는 현실 시간 약 6초에 해당합니다.",
+    "duration_seconds": 6
+  },
+  
+  "sequence_rule": {
+    "name": "행동 순서 규칙",
+    "description": "모든 전투는 '선제권 판정'을 통해 행동 순서를 결정한 뒤, 그 순서에 따라 진행됩니다.",
+    "steps": [
+      {
+        "step": 1,
+        "name": "선제권 판정",
+        "description": "전투 시작 시, 모든 참여자는 행동 순서를 정하기 위해 선제권 판정을 합니다. ",
+        "formula": "1d20 + inspiration_modifier + agility_modifier",
+        "reference": "규칙서 p.27 "
+      },
+      {
+        "step": 2,
+        "name": "행동 순서 진행",
+        "description": "선제권 판정 결과, 가장 높은 값을 가진 참여자부터 순서대로 각자의 턴을 진행합니다."
+      }
+    ]
+  },
+
+  "combat_flow": {
+    "phases": [
+      {
+        "phase_id": "start_of_combat",
+        "name_ko": "전투 시작 단계",
+        "steps": [
+          {
+            "step_id": "determine_surprise",
+            "name_ko": "기습 판정",
+            "description_ko": "기습하는 쪽(.은밀 행동)과 당하는 쪽(.경계)의 대항 판정을 진행합니다. 더 높은 쪽이 승리합니다.",
+            "check_type": "contested_roll",
+            "attacker_check": {
+              "skill": "은밀 행동",
+              "description": "기습하는 쪽의 판정"
+            },
+            "defender_check": {
+              "skill": "경계",
+              "description": "기습 당하는 쪽의 판정"
+            },
+            "outcomes": [
+              {
+                "result": "attacker_wins",
+                "description_ko": "기습이 성공하여 '기습 라운드'를 얻습니다.",
+                "action": "proceed_to_phase",
+                "phase_id": "surprise_round"
+              },
+              {
+                "result": "defender_wins",
+                "description_ko": "경계에 성공하여 기습 없이 바로 '정식 전투 라운드'로 들어갑니다.",
+                "action": "proceed_to_phase",
+                "phase_id": "combat_round_initial"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "phase_id": "surprise_round",
+        "name_ko": "기습 라운드",
+        "description_ko": "기습에 성공한 진영만 행동할 수 있는 특별 라운드입니다. ",
+        "rules": {
+          "participants": "attacker_side_only",
+          "defender_state": "cannot_act",
+          "available_actions": {
+            "description_ko": "각 개인은 아래 두 가지 행동 중 하나를 선택하여 수행할 수 있습니다. ",
+            "option_1": {
+              "description_ko": "공격, 시전, 이동 행동 중 1개",
+              "type": ["standard_action", "movement_action"],
+              "count": 1
+            },
+            "option_2": {
+              "description_ko": "신속 행동 2개",
+              "type": "swift_action",
+              "count": 2
+            }
+          },
+          "conditional_effects": [
+            {
+              "effect_name": "불의 효과",
+              "condition": "기습하는 쪽이 시야에 노출되지 않거나 존재가 감지되지 않음 ",
+              "action": {
+                "type": "apply_status",
+                "target_side": "defender",
+                "status": "불의 (Flat-footed)"
+              }
+            },
+            {
+              "effect_name": "우위/불리 효과",
+              "condition": "기습 라운드 동안 지속 ",
+              "actions": [
+                {
+                  "type": "apply_status",
+                  "target_side": "attacker",
+                  "status": "우위 (Advantage)"
+                },
+                {
+                  "type": "apply_status",
+                  "target_side": "defender",
+                  "status": "불리 (Disadvantage)"
+                }
+              ]
+            }
+          ]
+        },
+        "end_of_round_rules": {
+          "trigger": "모든 기습 참여자의 행동 종료 후",
+          "description_ko": "기습으로 인해 발생한 '우위/불리' 효과는 이 라운드가 끝나면 일반적으로 제거됩니다.  단, 포위/협공/투명화 등 다른 조건으로 인한 효과는 유지될 수 있습니다.",
+          "cleanup_effects": ["우위 (기습)", "불리 (기습)"]
+        }
+      },
+      {
+        "phase_id": "combat_round",
+        "name_ko": "정식 전투 라운드",
+        "loop": true
+      }
+    ]
+  },
+
+  "action_point_rules": {
+    "name": "라운드별 행동 포인트",
+    "description": "매 라운드, 각 플레이어는 아래에 명시된 종류와 개수의 행동 포인트를 가집니다.",
+    "reference": "규칙서 p.27 ",
+    "points_per_round": [
+      {
+        "action_type": "standard_action",
+        "name_ko": "공격/시전 행동",
+        "count": 1,
+        "description_ko": "해당 턴의 가장 주된 행동입니다. 무기 공격이나 초월 능력 시전 등이 포함됩니다."
+      },
+      {
+        "action_type": "swift_action",
+        "name_ko": "신속 행동",
+        "count": 3,
+        "description_ko": "매우 짧은 시간에 완료할 수 있는 보조적인 행동입니다."
+      },
+      {
+        "action_type": "movement_action",
+        "name_ko": "이동 행동",
+        "count": 1,
+        "description_ko": "자신의 이동력만큼 거리를 이동하는 행동입니다. 신체적 위치 이동 뿐만이 아니라 일부 사지와 물체의 이동도 나타낸다."
+      },
+      {
+        "action_type": "free_action",
+        "name_ko": "자유 행동",
+        "count": "Unlimited",
+        "description_ko": "시간이 거의 소모되지 않는 행동으로, 횟수 제한이 없습니다. (예: 말하기)"
+      }
+    ]
+  },
+
+  "actions": [
+    {
+      "action_type": "standard_action",
+      "name_ko": "공격/시전 행동",
+      "description_ko": "턴의 가장 주된 행동입니다. 초월 능력 사용(시전) 또는 무기 공격 중 하나를 선택하여 수행합니다. ",
+      "priority": 2,
+      "can_use_on_others_turn": false,
+      "examples": [
+        "무기 공격",
+        "초월 능력 사용",
+        "응급 처치"
+      ],
+      "reference": "규칙서 p.27-28"
+    },
+    {
+      "action_type": "swift_action",
+      "name_ko": "신속 행동",
+      "description_ko": "매우 짧은 시간에 완료할 수 있는 보조 행동입니다. 다른 사람의 턴에도 사용할 수 있지만, 그들의 행동을 방해할 수는 없습니다. [cite: 257, 258, 261]",
+      "priority": 3,
+      "can_use_on_others_turn": true,
+      "examples": [
+        "볼트액션 소총 장전",
+        "작은 물건 꺼내기",
+        "손가락 튕기기"
+      ],
+      "reference": "규칙서 p.27-28"
+    },
+    {
+      "action_type": "movement_action",
+      "name_ko": "이동 행동",
+      "description_ko": "자신의 이동력(힘+민첩)만큼 거리를 이동하는 행동입니다. [cite: 99, 267] 다른 사람의 턴에도 사용할 수 있지만 다음 라운드로 누적되지는 않습니다. ",
+      "priority": 2,
+      "can_use_on_others_turn": true,
+      "examples": [
+        "달리기",
+        "약병 집어 마시기",
+        "나무 상자 들어 막기"
+      ],
+      "reference": "규칙서 p.27-29"
+    },
+    {
+      "action_type": "free_action",
+      "name_ko": "자유 행동",
+      "description_ko": "시간이 거의 소모되지 않아 다른 행동과 동시에 진행 가능하며 횟수 제한이 없습니다.  다른 사람의 턴에도 사용할 수 있으나 행동을 방해할 수는 없습니다. ",
+      "priority": 4,
+      "can_use_on_others_turn": true,
+      "examples": [
+        "말하기",
+        "스스로 시전 취소하기"
+      ],
+      "reference": "규칙서 p.27-28"
+    }
+  ],
+
+  "full_round_action": {
+    "name_ko": "전체 라운드 행동",
+    "description_ko": "자신의 턴 전체를 소모하여 수행하는 행동입니다. 이 행동을 시작하면 다음 자신의 턴이 시작될 때까지 완료된 것으로 간주되지 않으며, 그동안 다른 행동을 할 수 없습니다.",
+    "cost_in_actions": {
+      "standard_action": 1,
+      "swift_action": 3,
+      "movement_action": 1,
+      "free_action": "All"
+    },
+    "duration_rule": "다음 자신의 턴이 시작될 때 완료",
+    "reference": "규칙서 p.28"
+  },
+
+  "action_conversion": {
+    "name_ko": "동작 전환",
+    "description_ko": "상위 행동을 하위 행동 여러 개로 전환할 수 있는 규칙입니다.",
+    "rules": [
+      {
+        "from": { "action_type": "standard_action", "count": 1 },
+        "to": { "action_type": "swift_action", "count": 2 }
+      }
+    ],
+    "restrictions": [
+      "하위 행동을 상위 행동으로 합칠 수는 없습니다.",
+      "이동 행동은 다른 행동으로 전환할 수 없습니다."
+    ],
+    "reference": "규칙서 p.28"
+  },
+
+  "extra_actions": {
+    "name_ko": "추가 동작",
+    "description_ko": "초월 능력이나 신기한 물건 등으로 추가 행동을 얻었을 때 적용되는 규칙입니다.",
+    "source_limitation": {
+      "applies_to": "external_sources",
+      "description_ko": "이 규칙은 신기한 물건, 의식 마법 등 외부 요인으로 얻은 추가 동작에만 적용됩니다. 캐릭터 자신의 초월 능력이나 신화 형태로 얻는 추가 동작에는 적용되지 않습니다."
+    },
+    "diminishing_returns_rule": {
+      "description_ko": "같은 종류의 추가 행동을 여러 개 얻을 경우, 첫 번째만 유효하며 나머지는 '무효 동작'이 됩니다. 이 '무효 동작'들을 모아 추가적인 유효 행동으로 교환할 수 있습니다.",
+      "valid_actions_per_turn_limit": 1,
+      "void_action_conversion_rate": [
+        { "valid_action_number": 2, "cost_in_void_actions": 2 },
+        { "valid_action_number": 3, "cost_in_void_actions": 3 },
+        { "valid_action_number": 4, "cost_in_void_actions": 4 }
+      ]
+    },
+    "reference": "규칙서 p.28"
+  },
+
+  "attack_resolution": {
+    "rule_id": "standard_attack_check",
+    "name_ko": "공격 판정 규칙",
+    "description_ko": "공격자의 판정값이 목표의 방어 수치를 초과해야 공격이 성공(명중)한 것으로 간주됩니다.",
+    "reference": "규칙서 p.28-29",
+    "process": [
+      {
+        "step": 1,
+        "name_ko": "방어 유형 결정",
+        "description_ko": "공격에 사용된 능력(예: 격투, 위협)에 따라 목표의 어떤 방어(물리, 의지, 건강)에 대항할지 결정합니다."
+      },
+      {
+        "step": 2,
+        "name_ko": "공격자 판정값 계산",
+        "description_ko": "공격자는 '1d20 + 관련 속성 + 관련 기능' 공식을 통해 자신의 최종 판정값을 계산합니다."
+      },
+      {
+        "step": 3,
+        "name_ko": "목표 방어 수치 확인",
+        "description_ko": "목표의 방어 수치는 정해진 공식에 따라 계산된 고정값입니다. 예를 들어, 물리 방어는 '10 + 민첩 + 갑옷 + 회피' 입니다.",
+        "note_ko": "단, 총기 공격의 경우 목표의 방어 계산 시 '민첩'과 '회피' 보너스를 제외합니다."
+      },
+      {
+        "step": 4,
+        "name_ko": "결과 판정",
+        "resolution_rule": "공격자 판정값 > 목표 방어 수치",
+        "outcomes": [
+          {
+            "condition": "success",
+            "description_ko": "공격이 명중하여 피해 판정 단계로 넘어갑니다."
+          },
+          {
+            "condition": "failure",
+            "description_ko": "공격이 빗나가거나 막혀 피해를 주지 못합니다."
+          }
+        ]
+      }
+    ]
+  },
+
+  "group_combat_flow": {
+    "name_ko": "특수 전투 (단체전) 흐름",
+    "trigger_condition": "전투 참여자 4명 이상",
+    "phases": [
+      {
+        "phase_id": "start_of_combat",
+        "name_ko": "전투 시작 단계",
+        "steps": [
+          { "step_id": "roll_initiative", "name_ko": "선제권 굴림", "rule_to_apply": "initiative" }
+        ]
+      },
+      {
+        "phase_id": "group_combat_round",
+        "name_ko": "단체전 라운드",
+        "loop": true,
+        "steps": [
+          {
+            "step_id": "kp_narration",
+            "name_ko": "상황 설명 및 적 의도 선언",
+            "description_ko": "KP는 현재 환경과 적의 위치, 그리고 적이 이번 라운드에 하려는 행동을 서술합니다."
+          },
+          {
+            "step_id": "player_action_declaration",
+            "name_ko": "플레이어 행동 동시 선언",
+            "description_ko": "모든 플레이어는 이번 라운드에 할 행동을 선언합니다. 혼란을 피하기 위해 선제권 순서대로 선언할 수 있습니다."
+          },
+          {
+            "step_id": "simultaneous_resolution",
+            "name_ko": "행동 동시 해결 및 통합 서술",
+            "description_ko": "KP는 선제권이 가장 높은 캐릭터부터 모든 행동의 결과를 하나의 이야기로 엮어 서술합니다. 이 과정에서 플레이어는 신속/자유 행동으로 반응할 수 있습니다."
+          }
+        ]
+      },
+      {
+        "phase_id": "end_of_round",
+        "name_ko": "라운드 종료 단계",
+        "description_ko": "지속 효과를 처리하고 전투 종료 여부를 확인합니다."
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_046",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#46)",
+  "itemName_en": "Roselle's Worn Diary Page (#46)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1184년 3월 10일",
+    "entry_ko": "나는 그 고대하고 가장 비밀스러운 조직의 모임에 참석했다. 여러 관찰 끝에, 나는 점점 더 한 가지 문제에 대해 의아해하고 있다: 시대의 흐름이란 무엇을 의미하는가? 누가 시대의 흐름을 정의하는가? 만약 그들이 주장하는 대로 모든 것이 끝나고 원래의 창조주가 죽음에서 부활하여 잠에서 깨어나 모든 것을 그의 몸으로 되돌려 새로운 세계와 새로운 역사를 만든다면, 그들이 시대가 기대하는 대로 발전하게 할 필요가 없다. 그들은 세계 대전, 천사들 간의 전쟁, 심지어 신들 간의 전쟁을 일으키는 등 온갖 계략을 꾸며 그들의 목표를 가속화할 수 있지 않은가?",
+    "entry_en": "I participated in that ancient and most secret organization's gathering. After many observations, I'm increasingly puzzled over a problem: What does it mean to be the trend of the times? Who defines the trend of the times? If it's really as they claim, when everything ends and the original Creator is resurrected from the dead, awakening from his slumber, he would gather everything back into his body to create a new world and new history. Then there's no need for them to let the times develop according to what they expect of the times. They can quickly come up with all kinds of schemes, such as triggering a world war, a war between angels, or even a war between deities. Wouldn't that accelerate their goals?"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_052",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#52)",
+  "itemName_en": "Roselle's Worn Diary Page (#52)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "놀랍다. 도어 씨가 누설한 4시대의 역사는 점점 더 흥미로워진다. 폭풍 속에 갇혀 어둠의 심연에서 길을 잃은 이 불운한 놈은 흑황제가 한 번 죽었다가 다시 부활했다고 말했다. 놀랍게도, 이것은 그 고대 비밀 조직에서 말한 것과 일치한다. 그 모임에서 그들은 흑황제의 아홉 개의 비밀 영묘가 모두 파괴된 것은 아니라고 말했다. 이 신이 땅을 걷더라도 죽으면 부활할 수 있었다. 아홉 개의 영묘가 모두 파괴되더라도, 흑황제가 남긴 질서가 남아있는 한, '그'는 이상하게 부활할 수 있었다. 새로운 흑황제가 탄생해야만 그는 완전히 소멸되어 다시는 나타나지 않을 것이다.",
+    "entry_en": "How surprising. The Fourth Epoch history divulged by Mr. Door is getting more and more interesting. This unlucky b*stard who’s trapped amidst the storm and lost to the depths of darkness told me that the Black Emperor died once and had revived again. Surprisingly, this matches what was said in that ancient secret organization. Back during that gathering, they said that the nine secret mausoleums of the Black Emperor weren’t all destroyed. Even if this deity who walked the land were to perish, ‘He’ could resurrect. Even if all nine mausoleums were destroyed, as long as the order left behind by the Black Emperor remained, ‘He’ had the ability to strangely resurrect. Only with the birth of a new Black Emperor would he be completely obliterated, never to appear again."
+  }
+}

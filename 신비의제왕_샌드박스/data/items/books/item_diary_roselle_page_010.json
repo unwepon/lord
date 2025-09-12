@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_010",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#10)",
+  "itemName_en": "Roselle's Worn Diary Page (#10)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1143년 3월 6일",
+    "entry_ko": "젠장, 여기 음식을 먹다 보니 변비에 걸릴 지경이다!",
+    "entry_en": "Dammit, I’m almost constipated from eating the food here!"
+  }
+}

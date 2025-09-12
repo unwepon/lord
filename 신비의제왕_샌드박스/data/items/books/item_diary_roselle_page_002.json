@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_002",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#2)",
+  "itemName_en": "Roselle's Worn Diary Page (#2)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1143년 2월 28일",
+    "entry_ko": "이 세계는 내가 아는 것과 좀 다른 것 같다. 오늘 사냥하다 길을 잃었는데, 상상도 못 할 격렬한 전투를 봤다. 포위된 남자는 얼굴에 눈이 더 돋아나 총 4개의 눈을 가지고 있었다! 심지어 암녹색 빛을 쐈다! 이건 말도 안 돼! 인간형 괴물인가? 이건 판타지 세계였던 거다, 그렇지? 그 괴물의 상대는 더 강했다. 그는 황금빛 불꽃으로 타오르는 빛기둥을 소환했다... 다행히 그들은 날 발견하지 못했다. 괴물을 처리한 후 그 사람은 시체를 가지고 떠났다. 나 황타오는 역시 주인공이다. 환생한 지 며칠 만에 이 세계의 진실을 발견했다! 어쩌면 그들은 은제 기념품의 신비한 상징과 문양을 알아볼지도 모른다... 물론 묻지는 않을 거다. 그들처럼 되어서 직접 풀어낼 거다! ...그리고 빌어먹을, 그 문양이 어떻게 생겼는지 기억도 안 난다. 희미하게만 떠오를 뿐이다.",
+    "entry_en": "This world might be a little different from what I know it to be. I got lost while hunting in the woods today. As a result, I saw an unimaginably intense battle. In the battle, the man who was surrounded had additional eyes growing on his face—a total of four eyes! They even shot dark green light! Th-this is f**king illogical! Is this a humanoid monster? This is actually a fantasy world, right? That monster’s opponent was even more powerful. He summoned a pillar of light that burned with golden flames. Yes, I think it was summoned… Fortunately, they didn’t discover me. After getting rid of that monster, that person left with the corpse. I, Huang Tao, am indeed the protagonist. I discovered the truth of this world a few days after I transmigrated! Perhaps they can recognize the mysterious symbols and patterns on the silver token… Of course, I won’t ask. I want to become like them and crack it myself! There’s another key reason as to why I said this. I can’t even f**king remember what the pattern looks like. I can only vaguely remember it."
+  }
+}

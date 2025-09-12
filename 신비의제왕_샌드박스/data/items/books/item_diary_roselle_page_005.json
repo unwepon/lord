@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_005",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#5)",
+  "itemName_en": "Roselle's Worn Diary Page (#5)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1156년 4월 2일",
+    "entry_ko": "내 딸은 똑똑하다. 한 살도 안 돼서 말을 할 수 있다니! 몇 단어밖에 못 배웠지만, 앞으로의 발전이 더딜 리 없다고 믿는다! 이건 분명 나를 닮은 거야! ... 베르나데트, 꽤 좋은 이름이다. 아름답게 들리지만, 마음속 깊은 곳에서는 계속 중국어 애칭을 지어주고 싶은 충동이 든다. ... 아, 그녀는 진짜 할머니와 할아버지를 뵙지 못하겠구나...",
+    "entry_en": "My daughter is smart. She can speak before the age of one! Although she has only learned a few words, I believe that her subsequent development can’t be slow! She must have inherited this from me! Bernadette, this name is quite good. It sounds beautiful, but deep in my heart, I keep having the urge to give her a Chinese nickname. Sigh, she won’t get to see her real grandmother and grandfather…"
+  }
+}

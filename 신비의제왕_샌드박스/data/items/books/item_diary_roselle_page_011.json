@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_011",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#11)",
+  "itemName_en": "Roselle's Worn Diary Page (#11)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1143년 3월 16일",
+    "entry_ko": "이 세계에서 처음으로 귀족 무도회에 참석했다. 젊은 아가씨들과 마님들은 내가 상상했던 것보다 훨씬 낫다. 내가 읽었던 소설에서는 중세 시대에 목욕도 안 하고 역겨운 체취를 가리기 위해 향수에 의존했다고 했다. 하지만 여긴 다르다. 그들은 목욕을 좋아하고, 매력적인 향수, 하얀 피부, 그리고 잘록한 허리를 가졌다. 대부분 몸매도 꽤 좋다. 긴장을 극복하고 데릴로즈 자작의 어린 딸과 즐거운 대화를 나눴다. 조상들의 공적, 우리 가문의 영지, 그리고 현재 내 귀족 칭호에 대해 이야기했다. 그러자 그녀는 정중하게 먹을 것을 좀 가져오고 싶다고 했다. 그땐 별로 신경 쓰지 않았지만, 나중에 정원에서 산책하다가 그녀가 빈 서재에서 플로라이스 백작의 장남과 놀아나는 것을 발견했다. 젠장! 오늘 처음 만났는데! 나 황타오, 로셀이 잘생기지 않은 건가? 아니면 내가 재미없는 건가? 정말 현실적이군! 다행히 마님들은 나를 꽤 잘 대해주셨다. 그들 안에 숨겨진 열정을 느낄 수 있었다, 헤헤.",
+    "entry_en": "My first time attending a noble ball in this world. The young ladies and madams are a lot better than I imagined. In the novels I read, they didn’t bathe in the middle ages and relied on perfume to mask their disgusting body odor. But it’s different here. They love to take baths. They have charming perfumes, fair skin, and tight waists. Most of them have pretty good figures. I overcame my nervousness and had a nice chat with the young daughter of Viscount Derilose. We talked about the meritorious deeds of my ancestors, talked about my family’s estate, and my present aristocratic title. Then, she politely mentioned that she wanted to get something to eat. I didn’t pay much attention to it at the time, but when I went downstairs to take a walk in the garden, I found her in an empty study f**king with the eldest son of Earl Florais. F**k! This is their first time meeting each! Is it me, Huang Tao, Roselle, who isn’t good-looking enough? Or am I not entertaining enough? How realistic! Fortunately, the madams have treated me quite well. I can sense the hidden passion within them, hehe."
+  }
+}

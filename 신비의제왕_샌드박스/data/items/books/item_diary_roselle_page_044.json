@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_044",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#44)",
+  "itemName_en": "Roselle's Worn Diary Page (#44)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1184년 1월 1일",
+    "entry_ko": "성대한 신년 갈라에서 플로레나 부인은 정말 눈부셨다.",
+    "entry_en": "At the grand New Year Gala, Lady Florena was truly splendid."
+  }
+}

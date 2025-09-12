@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_056",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#56)",
+  "itemName_en": "Roselle's Worn Diary Page (#56)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "9월 21일: 성 밀롬에 도착했다. 공식적으로 첫 국빈 방문을 시작했다. 페이사크의 날씨는 정말 조금 춥다. 10월도 안 됐는데 눈이 올 것 같다. 다양한 코트와 겨울옷으로 유명한 이유가 있다. 그리고 술도! 젠장, 여기 사람들은 터무니없이 키가 크다. 거인의 후손인 나라답다. 하지만 나는 사람들이 나를 내려다보는 것을 싫어한다! 오늘 밤에는 술집에 가서 페이사크 미인과 술을 나눌 것이다!",
+    "entry_en": "September 21st: Arrived at St. Millom. I've officially begun my first state visit. Feysac's weather is really a little cold. It's not even October and it looks like it's about to snow. It's no wonder it's famous for its various coats and winter wear. As well as its liquor! F*ck, the people here are ridiculously tall. As expected of a country that descended from giants. However, I have to say that I hate it when people look down on me! Tonight, I'll be going to a bar to find a Feysac beauty to share some drinks!"
+  }
+}

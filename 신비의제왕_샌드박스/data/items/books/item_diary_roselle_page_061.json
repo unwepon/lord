@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_061",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#61)",
+  "itemName_en": "Roselle's Worn Diary Page (#61)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "1월 16일: 추가 조사 결과, 엘프는 환생자와 아무 관련이 없을지도 모른다. 적어도 그들은 중국어, 영어 또는 다른 상징을 남기지 않았다. 그들은 아마도 항상 엘프어를 사용했을 것이다. 그 어떤 것도 나에게 친숙한 느낌을 주지 않는다. 게다가, 우리가 공통으로 가진 발명품들은 내가 오기 전에는 나타나지 않았다. 유명한 인용구도 마찬가지다. 비슷한 의미를 가진 속담과 관용구는 있지만, 단어 선택이 완전히 다르다. 내가 지금 가진 모든 아이템과 전설 중에서 내 이론을 뒷받침하는 것은 아무것도 없다. 이것은 조금 실망스럽지만, 또한 나를 안심시킨다. 만약 내가 다른 환생자나 다른 환생자들을 만난다면, 나는 정말 그들을 어떻게 대해야 할지 모를 것이다.",
+    "entry_en": "January 16th: After further investigation, elves might really have nothing to do with transmigrators. At the very least, they didn’t leave behind any Chinese, English, or other symbols. They have likely been using Elvish all the time. Nothing of it gives me a sense of familiarity. Furthermore, the inventions we have in common didn’t appear before I came. Likewise for famous quotes. There are only proverbs and idioms with similar meanings but with a completely different choice of words. From all the items and legends I have now, none of them support my theory. This is a little disappointing, but it also makes me relieved. If I were to encounter another transmigrator or other transmigrators, I really have no idea how to face them."
+  }
+}

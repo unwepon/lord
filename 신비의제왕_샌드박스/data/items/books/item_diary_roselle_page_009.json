@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_009",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#9)",
+  "itemName_en": "Roselle's Worn Diary Page (#9)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1143년 2월 25일",
+    "entry_ko": "정말 지루한 세상이다. 신문도 없고 소설도 거의 없다! 이 문화적으로 빈곤한 사회를 도와야 할 것 같지만, 그러려면 돈을 좀 벌고 종이를 만드는 법과 인쇄술을 어떻게 하는지 기억해내야 한다. 환생자로서 나는 새 아빠와 엄마가 준 용돈으로만 살 수 있다. 반짝이는 페르모 금화를 가끔 한두 개 볼 수 있을 뿐이다. 정말 비극적인 이야기다. 하지만 사냥은 꽤 재미있다.",
+    "entry_en": "What a boring world. There are no newspapers and so few novels! I think I need to help this culturally impoverished society, but the premise of this is that I have to get some money and recall how paper is made and how the print press is done. As a transmigrator, I can only live on the pocket money that my new dad and mom gave me. I can only occasionally see one or two shiny Fermo gold. What a tragic story. However, hunting is quite interesting."
+  }
+}

@@ -1,0 +1,647 @@
+[
+  {
+    "id": "UNQ-FOOL",
+    "type": "Uniqueness",
+    "name": "바보 (Fool)",
+    "pathway": "바보 (Fool)",
+    "description": "상징이 새겨진 반투명 가면 → 반투명한 어두운 망토 → 검은 트렌치 코트",
+    "possessor": "클레인 모레티 (수용됨)",
+    "narrative_ability": "세상의 모든 것을 속이고 어리석게 만드는 근원적인 힘. '어리석게 하기(Fooling)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "어리석음의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "FOOL_UNIQUENESS_AURA",
+            "note": "세상의 모든 것을 속이고 어리석게 만드는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-ERROR",
+    "type": "Uniqueness",
+    "name": "오류 (Error)",
+    "pathway": "오류 (Error)",
+    "description": "수정 외알안경 → 한 쌍의 검은 장갑",
+    "possessor": "클레인 모레티 (수용됨)",
+    "narrative_ability": "규칙의 허점을 찾아내고 모든 것을 훔치는 근원적인 힘. '버그(Bug)'와 '절도(Steal)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "버그의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "ERROR_UNIQUENESS_AURA",
+            "note": "규칙의 허점을 찾아내고 모든 것을 훔치는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-DOOR",
+    "type": "Uniqueness",
+    "name": "문 (Door)",
+    "pathway": "문 (Door)",
+    "description": "한 쌍의 별빛 눈알 → 별가루가 박힌 지팡이",
+    "possessor": "클레인 모레티 (수용됨)",
+    "narrative_ability": "모든 공간을 연결하고 복제하는 근원적인 힘. '복제(Replication)'와 '공간 봉인' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "차원문의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "DOOR_UNIQUENESS_AURA",
+            "note": "모든 공간을 연결하고 복제하는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-WHEEL_OF_FORTUNE",
+    "type": "Uniqueness",
+    "name": "운명의 수레바퀴 (Wheel of Fortune)",
+    "pathway": "운명의 수레바퀴 (Wheel of Fortune)",
+    "description": "각 면에 빨간 점이 있는 평범한 6면체 흰 주사위",
+    "possessor": "윌 오셉틴 (수용됨)",
+    "narrative_ability": "모든 운명을 관장하고 재시작하는 근원적인 힘. '운명 재부팅(Reboot)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "재부팅의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "WHEEL_OF_FORTUNE_UNIQUENESS_AURA",
+            "note": "모든 운명을 관장하고 재시작하는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-BLACK_EMPEROR",
+    "type": "Uniqueness",
+    "name": "검은 황제 (Black Emperor)",
+    "pathway": "검은 황제 (Black Emperor)",
+    "description": "많은 어두운 보석이 박힌 왕관",
+    "possessor": "검은 황제의 왕관 (봉인물)",
+    "narrative_ability": "질서를 비틀고 규칙을 왜곡하는 근원적인 힘. '왜곡(Distortion)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "왜곡의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "BLACK_EMPEROR_UNIQUENESS_AURA",
+            "note": "질서를 비틀고 규칙을 왜곡하는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-JUSTICIAR",
+    "type": "Uniqueness",
+    "name": "심판자 (Justiciar)",
+    "pathway": "심판자 (Justiciar)",
+    "description": "얇은 황동판으로 제본된 책",
+    "possessor": "트룬소스트 황동 책 (봉인물)",
+    "narrative_ability": "세상의 모든 규칙을 정의하고 집행하는 근원적인 힘. '정의(Definition)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "정의의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "JUSTICIAR_UNIQUENESS_AURA",
+            "note": "세상의 모든 규칙을 정의하고 집행하는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-VISIONARY",
+    "type": "Uniqueness",
+    "name": "공상가 (Visionary)",
+    "pathway": "공상가 (Visionary)",
+    "description": "뇌와 정신이 융합된 듯한 회백색 물체",
+    "possessor": "아담",
+    "narrative_ability": "모든 것을 상상하고 현실로 만드는 근원적인 힘. '상상(Envision)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "상상의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "VISIONARY_UNIQUENESS_AURA",
+            "note": "모든 것을 상상하고 현실로 만드는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-HANGED_MAN",
+    "type": "Uniqueness",
+    "name": "매달린 남자 (Hanged Man)",
+    "pathway": "매달린 남자 (Hanged Man)",
+    "description": "머리가 다섯 개인 짙은 그림자",
+    "possessor": "아담",
+    "narrative_ability": "모든 것을 타락시키고 변질시키는 근원적인 힘. '타락(Depravity)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "타락의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "HANGED_MAN_UNIQUENESS_AURA",
+            "note": "모든 것을 타락시키고 변질시키는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-SUN",
+    "type": "Uniqueness",
+    "name": "태양 (Sun)",
+    "pathway": "태양 (Sun)",
+    "description": "찬란하게 빛나는 황금빛 태양",
+    "possessor": "아담",
+    "narrative_ability": "모든 것을 정화하고 불태우는 근원적인 힘. '정화(Purification)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "정화의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "SUN_UNIQUENESS_AURA",
+            "note": "모든 것을 정화하고 불태우는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-TYRANT",
+    "type": "Uniqueness",
+    "name": "폭군 (Tyrant)",
+    "pathway": "폭군 (Tyrant)",
+    "description": "번개에 휩싸인 격렬한 폭풍",
+    "possessor": "아담",
+    "narrative_ability": "모든 것을 파괴하는 폭풍과 번개의 근원적인 힘. '폭풍(Storm)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "폭풍의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "TYRANT_UNIQUENESS_AURA",
+            "note": "모든 것을 파괴하는 폭풍과 번개의 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-WHITE_TOWER",
+    "type": "Uniqueness",
+    "name": "백색 탑 (White Tower)",
+    "pathway": "백색 탑 (White Tower)",
+    "description": "책으로 이루어진 환상의 백색 탑",
+    "possessor": "아담",
+    "narrative_ability": "세상의 모든 지식과 정보를 아우르는 근원적인 힘. '전지(Omniscience)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "전지의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "WHITE_TOWER_UNIQUENESS_AURA",
+            "note": "세상의 모든 지식과 정보를 아우르는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-DARKNESS",
+    "type": "Uniqueness",
+    "name": "어둠 (Darkness)",
+    "pathway": "어둠 (Darkness)",
+    "description": "밤과 같은 검은 낫",
+    "possessor": "아마니세스 (수용됨)",
+    "narrative_ability": "모든 것을 숨기고 잠재우는 근원적인 힘. '은폐(Concealment)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "은폐의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "DARKNESS_UNIQUENESS_AURA",
+            "note": "모든 것을 숨기고 잠재우는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-DEATH",
+    "type": "Uniqueness",
+    "name": "죽음 (Death)",
+    "pathway": "죽음 (Death)",
+    "description": "깃털 달린 뱀 → 깃털 달린 뱀들이 감겨있는 환상의 책",
+    "possessor": "아마니세스 (수용됨)",
+    "narrative_ability": "모든 것의 끝을 고하는 근원적인 힘. '종결(The End)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "종결의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "DEATH_UNIQUENESS_AURA",
+            "note": "모든 것의 끝을 고하는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-TWILIGHT_GIANT",
+    "type": "Uniqueness",
+    "name": "황혼 거인 (Twilight Giant)",
+    "pathway": "황혼 거인 (Twilight Giant)",
+    "description": "주황-붉은 빛으로 덮인 과장된 롱소드",
+    "possessor": "아마니세스 (수용됨)",
+    "narrative_ability": "모든 것을 끝내는 황혼의 근원적인 힘. '황혼(Twilight)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "황혼의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "TWILIGHT_GIANT_UNIQUENESS_AURA",
+            "note": "모든 것을 끝내는 황혼의 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-DEMONESS",
+    "type": "Uniqueness",
+    "name": "마녀 (Demoness)",
+    "pathway": "마녀 (Demoness)",
+    "description": "원초적인 흰색 마녀 조각상 → ?",
+    "possessor": "루미안 리 (수용됨)",
+    "narrative_ability": "모든 것을 재앙으로 이끄는 종말의 근원적인 힘. '종말(Apocalypse)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "종말의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "DEMONESS_UNIQUENESS_AURA",
+            "note": "모든 것을 재앙으로 이끄는 종말의 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-RED_PRIEST",
+    "type": "Uniqueness",
+    "name": "붉은 사제 (Red Priest)",
+    "pathway": "붉은 사제 (Red Priest)",
+    "description": "철빛 검은 금속 깃대에 달린, 그을리고 피 묻은 깃발",
+    "possessor": "루미안 리 (수용됨)",
+    "narrative_ability": "모든 것을 전쟁으로 이끄는 근원적인 힘. '전쟁(War)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "전쟁의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "RED_PRIEST_UNIQUENESS_AURA",
+            "note": "모든 것을 전쟁으로 이끄는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-HERMIT",
+    "type": "Uniqueness",
+    "name": "은둔자 (Hermit)",
+    "pathway": "은둔자 (Hermit)",
+    "description": "생기 없고 무감각하며, 속눈썹이 없는 미묘한 눈",
+    "possessor": "증기과 기계의 신 (소유자)",
+    "narrative_ability": "세상의 모든 비밀을 숨기고 은둔하는 근원적인 힘. '숨김(Hiding)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "은둔의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "HERMIT_UNIQUENESS_AURA",
+            "note": "세상의 모든 비밀을 숨기고 은둔하는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-PARAGON",
+    "type": "Uniqueness",
+    "name": "모범 (Paragon)",
+    "pathway": "모범 (Paragon)",
+    "description": "알려지지 않음",
+    "possessor": "증기과 기계의 신 (수용됨)",
+    "narrative_ability": "모든 것을 분석하고 제작하는 근원적인 힘. '제작(Crafting)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "제작의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "PARAGON_UNIQUENESS_AURA",
+            "note": "모든 것을 분석하고 제작하는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-MOTHER",
+    "type": "Uniqueness",
+    "name": "어머니 (Mother)",
+    "pathway": "어머니 (Mother)",
+    "description": "풀, 곡식, 나무, 버섯과 수많은 생식 기관이 돋아나는 갈색 흙덩어리",
+    "possessor": "클레인 모레티 (현재 소유자)",
+    "narrative_ability": "모든 것을 낳고 기르는 근원적인 힘. '탄생(Birth)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "탄생의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "MOTHER_UNIQUENESS_AURA",
+            "note": "모든 것을 낳고 기르는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-MOON",
+    "type": "Uniqueness",
+    "name": "달 (Moon)",
+    "pathway": "달 (Moon)",
+    "description": "진홍색 달",
+    "possessor": "클레인 모레티 (현재 소유자)",
+    "narrative_ability": "모든 것을 뒤트는 진홍빛 달의 근원적인 힘. '진홍(Crimson)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "진홍의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "MOON_UNIQUENESS_AURA",
+            "note": "모든 것을 뒤트는 진홍빛 달의 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-ABYSS",
+    "type": "Uniqueness",
+    "name": "심연 (Abyss)",
+    "pathway": "심연 (Abyss)",
+    "description": "알려지지 않음",
+    "possessor": "파르바우티",
+    "narrative_ability": "모든 것을 삼키는 심연의 근원적인 힘. '심연(Abyss)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "심연의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "ABYSS_UNIQUENESS_AURA",
+            "note": "모든 것을 삼키는 심연의 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "UNQ-CHAINED",
+    "type": "Uniqueness",
+    "name": "속박된 (Chained)",
+    "pathway": "속박된 (Chained)",
+    "description": "붕대, 가시, 장미 층으로 감싸인 작은 환상의 형체",
+    "possessor": "클레인 모레티 (현재 소유자)",
+    "narrative_ability": "모든 것을 속박하고 고통받게 하는 근원적인 힘. '속박(Chaining)' 권능의 정수입니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "속박의 기운",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "CHAINED_UNIQUENESS_AURA",
+            "note": "모든 것을 속박하고 고통받게 하는 근원적인 힘이 느껴집니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ITEM-0-01",
+    "type": "Sealed Artifact",
+    "name": "샐린저의 피의 깃발",
+    "pathway": "붉은 사제 (Red Priest)",
+    "description": "새까맣게 탄 깃발. 깃대는 철빛이 도는 검은 금속으로 되어 있고, 깃발에는 위험한 핏자국이 잔뜩 묻어 있습니다.",
+    "possessor": "지혜와 지식의 신 교회 (모로라 지하)",
+    "narrative_ability": "그 존재만으로 주변 환경과 주민들에게 극단적인 영향을 미칩니다. 주변을 호전적이고 재앙이 끊이지 않는 곳으로 만듭니다.",
+    "narrative_drawback": "서열 5를 초과하는 비욘더의 접근을 금지하며, 봉인 구역 관리자에게 치명적인 위험을 가합니다. 규칙을 어긴 관리자는 사라지거나 괴물로 변합니다.",
+    "mechanics": [
+      {
+        "ability_name": "몰락의 군기 (패시브)",
+        "trigger": { "type": "passive_aura" },
+        "conditions": [
+          { "type": "location_proximity", "target": "ITEM-0-01", "range": "city" }
+        ],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "SALINGER_BANNER_AURA",
+            "note": "깃발 주변의 공기가 호전성과 재앙의 기운으로 가득 차, 주민들은 난폭해지고 재앙이 끊이지 않습니다.",
+            "gm_note": "이 유물 주변 지역(모로라)에 극한의 기상 이변, 주민들의 호전성 증가, 폭력 사건 빈발 등을 연출하세요. 서열 5 초과 비욘더 접근 시 위험 이벤트를 발생시키세요."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ITEM-0-02",
+    "type": "Sealed Artifact",
+    "name": "트룬소스트 황동 책",
+    "pathway": "심판자 (Justiciar)",
+    "description": "얇은 황동판으로 제본된 책. 전반부에는 세상의 근본 규칙이, 후반부는 비어 있습니다.",
+    "possessor": "세피라 성 (클레인 모레티 소유)",
+    "narrative_ability": "새로운 법률을 도입하며, 법을 어긴 사람은 자동으로 처벌받거나 행동이 불가능해집니다. 이 규칙은 공표되어야 효력이 있습니다.",
+    "narrative_drawback": "누적적으로 새로운 법률을 스스로 작성하여 결국 무엇을 하든 처벌받는 시스템을 만듭니다. 완벽한 법률 체계가 완성되면, 책은 완전히 각성하여 세계의 근본 규칙을 수정할 수 있습니다.",
+    "mechanics": [
+      {
+        "ability_name": "법률 제정",
+        "trigger": { "type": "on_player_action" },
+        "conditions": [
+          { "type": "action_name_in", "value": ["법률 제정", "법률 선포"] }
+        ],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "ENACT_BRASS_BOOK_LAW",
+            "note": "황동 책의 빈 페이지에 이 세계에 적용될 새로운 법률을 기록합니다.",
+            "gm_note": "플레이어가 선포한 법률을 기록하고, 해당 법률을 어기는 모든 캐릭터에게 처벌을 가하는 서사를 연출하세요."
+          }
+        ]
+      },
+      {
+        "ability_name": "누적되는 악법과 각성",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "BRASS_BOOK_ESCALATION",
+            "note": "당신도 모르는 사이에, 황동 책이 스스로 새로운 법률을 새기며 점점 더 완벽한 규칙 체계를 향해 나아갑니다.",
+            "gm_note": "매 라운드 종료 시, 책이 점점 더 불리하고 엄격한 법률을 스스로 추가하는 과정을 묘사하여 플레이어를 압박하세요. 완벽한 법률 체계가 완성되면 재앙급 이벤트 발생 가능."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ITEM-UNSPECIFIED-CROWN",
+    "type": "Sealed Artifact",
+    "name": "검은 황제의 왕관",
+    "pathway": "검은 황제 (Black Emperor)",
+    "description": "많은 어두운 보석이 박힌 왕관. 검은 황제의 유일성으로 형성되었습니다.",
+    "possessor": "알 수 없음",
+    "narrative_ability": "알려지지 않았으나, 질서를 비틀고 규칙을 왜곡하는 근원적인 힘을 담고 있습니다.",
+    "narrative_drawback": "알려지지 않음",
+    "mechanics": [
+      {
+        "ability_name": "황제의 속삭임",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "BLACK_EMPEROR_CROWN_MYSTERY",
+            "note": "왕관의 검은 보석에서 질서와 왜곡에 대한 알 수 없는 속삭임이 들려오는 듯합니다.",
+            "gm_note": "특정 서사적 조건(예: 법과 질서가 무너지는 장소)이 충족되었을 때, 이 아이템의 숨겨진 힘을 드러내는 이벤트를 연출할 수 있습니다."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ITEM-UNSPECIFIED-DICE",
+    "type": "Living Artifact",
+    "name": "확률의 주사위",
+    "pathway": "운명의 수레바퀴 (Wheel of Fortune)",
+    "description": "각 면에 빨간색 점이 있는 일반 주사위입니다. 운명의 수레바퀴 유일성 그 자체입니다.",
+    "possessor": "리치아르도",
+    "narrative_ability": "주사위의 눈에 따라 행운 또는 불운의 확률을 극단적으로 조작합니다. (1-3: 불운, 4-6: 행운)",
+    "narrative_drawback": "완전히 제어 불가능하며 살아있는 특성을 가졌습니다. 소유자와 주변의 운명을 끊임없이 뒤바꾸며, 장기적으로는 전 세계에 영향을 미칠 수 있습니다.",
+    "mechanics": [
+      {
+        "ability_name": "운명의 변덕",
+        "trigger": { "type": "on_round_end" },
+        "conditions": [],
+        "actions": [
+          {
+            "type": "custom_event",
+            "event_name": "DICE_OF_PROBABILITY_EFFECT",
+            "note": "주사위가 보이지 않는 곳에서 저절로 굴러가며, 당신과 주변의 운명이 그 결과에 따라 뒤바뀌는 것이 느껴집니다.",
+            "gm_note": "매 라운드 종료 시, 1-6을 무작위로 결정. 1-3은 불운(숫자가 낮을수록 강력), 4-6은 행운(숫자가 높을수록 강력) 이벤트를 서사적으로 연출하세요."
+          }
+        ]
+      }
+    ]
+  }
+]

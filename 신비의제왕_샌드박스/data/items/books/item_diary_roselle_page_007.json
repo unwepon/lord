@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_007",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#7)",
+  "itemName_en": "Roselle's Worn Diary Page (#7)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1184년 1월 4일",
+    "entry_ko": "내 아이들은 왜 이렇게 멍청할까? 몇 번이나 반복해서 말했는데. 저 사기꾼들에게 속지 말라고! 물약의 핵심은 파악하는 게 아니라 소화하는 것이다! 힘을 빌리는 게 아니라 연기하는 거라고! 그리고 물약의 이름은 단순히 상징적인 게 아니라 구체적인 형상이며, 소화의 '열쇠'다!",
+    "entry_en": "Why are my children so stupid? I’ve repeated myself so many times. Do not be fooled by those charlatans! The key thing about potions is not about grasping them, but digesting them! It’s nothing about tapping powers, but acting! And the name of a potion is not solely symbolic at its core, but a concrete imagery, and the ‘key’ to digestion!"
+  }
+}

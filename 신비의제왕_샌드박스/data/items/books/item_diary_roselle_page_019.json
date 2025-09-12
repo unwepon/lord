@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_019",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#19)",
+  "itemName_en": "Roselle's Worn Diary Page (#19)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "4월 14일: 최근에 너무 많은 행사에 참석했더니, 정신은 멀쩡한데 육신이 말을 듣지 않는다... 하지만 그건 아무것도 아니다! 아직 젊지만 퇴보의 위험에 대해 조심해야겠다. 절제! 절제! 고고학자 서열은 내 체격을 향상시키고 특정 능력도 효과적으로 강화했다. 하지만 이건 전문 분야가 아니라 부수적인 것이다. 서열을 계속 올리면 이전 물약의 변화도 심화될 것이다. 이것이 내 동기다. 약제사들은 부작용 없는 약을 조제할 수 있다고 한다. 몇몇에게 물어봐야겠다. 또한, 정말 자제해야 한다. 무절제한 행동은 문턱을 계속 높일 뿐이며, 만족도는 평소와 같지 않을 것이다.",
+    "entry_en": "April 14th: I’ve been attending too many events recently, and the flesh is weak even though the spirit is willing… But that’s nothing! Although I’m still young, I should be careful about the risk of retrograding. Temperance! Temperance! The Archaeologist Sequence has improved my physique and effectively enhanced a certain degree of my powers. However, this isn’t its area of expertise, but just something that comes with it. As I continue raising my Sequence, the changes from the previous potions will also intensify. This is my motivation. Apparently, Apothecaries can concoct medicine that lack side effects. Perhaps, I should ask a few of them. Also, I really have to control myself. Unrestrained behavior will only lead to continuous increases in the threshold, and the degree of satisfaction wouldn’t be like how it would normally be."
+  }
+}

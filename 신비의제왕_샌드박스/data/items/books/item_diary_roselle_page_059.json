@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_059",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#59)",
+  "itemName_en": "Roselle's Worn Diary Page (#59)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "1월 10일: 소니아 섬을 방문했다. 이곳은 고대 엘프 섬이라고도 불린다. 많은 엘프 유적과 관습이 남아있다. 첫날 놀랐던 것은 엘프들이 실제로 '피 케이크'를 만들고, 동물의 내장을 즐겨 먹으며, 향신료를 잘 사용한다는 점이다. 그들은 젓가락도 발명했다? 벽화에 묘사된 엘프들을 생각해보면, 푸른 머리카락을 제외하고는 얼굴 윤곽과 눈이 지구의 아시아인과 비슷하다. 그들이 내 동포일 수도 있을까?",
+    "entry_en": "January 10th: Visited Sonia Island. This place is also called Ancient Elf Island. It has plenty of elvish ruins and customs left over. I was surprised on the first day. The elves actually make ‘blood cake,’ and they enjoy eating animal organs and are good at using spices. They even invented chopsticks? Thinking about the elvish depictions on the murals, apart from their blue hair, their facial contours and eyes are similar to Asians on Earth. Could they be my fellow countryman?"
+  }
+}

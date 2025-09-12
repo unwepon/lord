@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_043",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#43)",
+  "itemName_en": "Roselle's Worn Diary Page (#43)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1183년 12월 16일",
+    "entry_ko": "폭풍 속에 갇혀 어둠 속에서 길을 잃은 그 불쌍한 친구와 연락이 닿았다. 그는 자신을 '도어 씨'라고 부르며 복잡하고 어려운 의식을 가르쳐주려 했다. 그가 현실 세계로 돌아오는 것을 도와주면 내 요청 세 가지를 들어주겠다고 약속했다. 내가 바보라고 생각하나? 두 생에 걸쳐 60년 이상을 살았다. 이것이 악신과 악마들이 하는 일반적인 조종이라는 것을 모를 것 같나? 하지만 그가 묘사한 4시대의 역사는 정말 흥미로웠다. 4시대의 유명한 '네 황제의 전쟁'은 알지만, 구체적인 세부 사항과 주요 인물들은 주요 교회들이 퍼뜨린 정보에 국한되어 있다. 예를 들어, 솔로몬 제국의 '흑황제'처럼. 오늘에서야 이 소위 '도어 씨'가 마침내 내 질문에 답해주며 나머지 세 황제가 누구인지 알려주었다. 반쯤 미친 튜더 왕조의 혈황제, 트룬소스트 제국의 밤의 황제, 그리고 남부 대륙의 지하 세계 황제, 일명 '죽음'이다.",
+    "entry_en": "I managed to contact the pathetic fellow who’s trapped in the storm and was lost in the darkness. He called himself Mr. Door and tried to teach me a complicated and difficult ritual. He wanted me to help him return to the real world and promised to fulfill three of my requests. Does he think I’m stupid? I’ve lived for more than sixty years over my two lives. Does he think I can’t tell that this is the usual manipulation done by evil gods and devils? But the history of the Fourth Epoch that he described was truly interesting. I know of the most famous ‘War of the Four Emperors’ in the Fourth Epoch, but the specific details and the main figures involved are limited to the information spread by the major Churches. For example, the ‘Black Emperor’ of the Solomon Empire. It wasn’t until today that this so-called Mr. Door finally answered my questions by letting me know who the remaining three emperors are. The half-insane Blood Emperor of the Tudor Dynasty, the Night Emperor of the Trunsoest Empire, and the Underworld Emperor of the Southern Continent, also known as Death."
+  }
+}

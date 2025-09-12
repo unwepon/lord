@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_016",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#16)",
+  "itemName_en": "Roselle's Worn Diary Page (#16)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "7월 12일: 오늘 또 다른 사실을 깨달았다. 봉인물은 교회의 전반적인 힘에 중요한 구성 요소다. 비록 일부 봉인물은 매우 위험하지만. 일곱 교회 중 장인의 신은 가장 적은 수의 봉인물을 가지고 있으며, 상대적으로 덜 위험하다… 미래가 없는 조직에 들어온 건가? 아니, 이렇게 생각해야지. 빈 종이만이 좋은 그림을 그릴 수 있다. 약한 조직이야말로 내 능력을 발휘하기에 가장 좋은 곳이다! ... 7월 14일: 그 신비로운 자라툴 씨를 다시 만났다. 그가 고대 조직인 비밀 결사의 지도자일 줄은 전혀 예상하지 못했다!",
+    "entry_en": "July 12th: I’ve realized another fact today. The Sealed Artifacts are an important component of a church’s overall strength, even though some of the sealed items are very, very dangerous. Among the seven churches, the God of Craftsmanship wields the least number of Sealed Artifacts which are also relatively less dangerous… Did I join an organization without a future? No, I should think of it this way; only a blank piece of paper can produce a good painting. A weak organization is the best place for me to display my abilities! ... July 14th: I saw that mysterious Mr. Zaratul again. I never expected him to be the leader of an ancient organization, the Secret Order!"
+  }
+}

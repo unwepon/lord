@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_014",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#14)",
+  "itemName_en": "Roselle's Worn Diary Page (#14)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상 (서열 9)",
+    "entry_ko": "5월 21일: 장인의 신 교회는 나에게 두 가지 선택지, 두 개의 시작 서열 경로를 주었다. 하나는 사반트다. 그들이 소유한 완전한 서열 경로다. 다른 하나는 미스터리 프라이어로, 모세 수도회에서 얻었지만 상위 서열이 부족하다. ... 5월 22일: 내 선택은 쉬웠다: 사반트! 사반트는 완전한 서열 경로를 가지고 있다! 비록 신비주의에 대한 더 많은 정보를 가지는 것이 귀환에 도움이 될 수 있지만, 내가 충분히 강하지 않다면 환생을 위해 외부의 도움이 필요할 것이다. 그리고 이 외부 존재가 좋은지 나쁜지, 자비로운지 악의적인지 알 수 없다. 내가 통제할 수 없으니 매우 위험할 수 있다. 그렇다면 왜 나 자신을 강화하고 내 힘에 의지하여 돌아가지 않겠는가? 따라서 완전한 서열이 내 고려 사항에서 가장 중요한 요소였다!",
+    "entry_en": "May 21st: The Church of the God of Craftsmanship gave me two choices, two beginning Sequence pathways. One of them is the Savant. It is a complete Sequence pathway they possess. The other is Mystery Pryer, which they obtained from the Moses Ascetic Order, but it lacks the higher Sequences. ... May 22nd: My choice was easy: Savant! The Savant has a complete Sequence pathway! Although wielding more information on mysticism can aid my return home, the problem is that if I am not strong enough, there is a need to acquire external help for transmigration. And I do not know if this external entity would be good or bad, benevolent or malicious. I cannot control it, and thus it could be very dangerous. In that case, why not strengthen myself and return by relying on my own powers? Thus, the complete Sequence was the most important factor in my considerations!"
+  }
+}

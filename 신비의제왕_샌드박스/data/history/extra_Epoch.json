@@ -1,0 +1,134 @@
+{
+  "category_ko": "세계관 부록",
+  "category_en": "World Compendium",
+  "sections": [
+    {
+      "sectionName_ko": "서문 및 인용구",
+      "sectionName_en": "Introduction & Quotes",
+      "entries": [
+        {
+          "type": "quote",
+          "content_ko": "나는 신이 아니라, 단지 이 세상의 긴 역사에 관심이 있는 바보일 뿐이다.",
+          "content_en": "I am not God, I am merely The Fool who is interested in the long history of this world.",
+          "author": "바보가 데릭 버그에게",
+          "source_refs": [2]
+        },
+        {
+          "type": "quote",
+          "content_ko": "인간이 역사로부터 배울 수 있는 유일한 교훈은 인간은 역사로부터 아무런 교훈도 얻지 못하고, 항상 같은 비극을 반복한다는 것이다.",
+          "content_en": "The only lesson that humans can learn from history is that humans do not gain any lessons from history, and they're always repeating the same tragedies.",
+          "author": "클레인 모레티가 던 스미스에게",
+          "source_refs": [696, 697, 698]
+        }
+      ]
+    },
+    {
+      "sectionName_ko": "시간 표기법 및 연대기",
+      "sectionName_en": "Time Notation & Chronology",
+      "entries": [
+        {
+          "type": "definition",
+          "term": "기준점",
+          "description_ko": "모든 시간의 기준점은 제5시대 1349년, 주명서가 클레인 모레티로 환생한 시점입니다.",
+          "description_en": "The reference point is at Year 1349 of the 5th Epoch, when Zhou Mingrui transmigrated as Klein Moretti.",
+          "source_refs": [399, 699, 701]
+        },
+        {
+          "type": "definition",
+          "term": "BA",
+          "description_ko": "'Before Arrival'의 약자로, 기준점(1349년) 이전의 시간을 나타냅니다. (예: 3668 BA는 기준점으로부터 3668년 전을 의미합니다.)",
+          "description_en": "'Before Arrival'. The time before the reference point. (e.g. 3668 BA means 3668 years before the arrival of Zhou Mingrui.)",
+          "source_refs": [399, 700, 702]
+        },
+        {
+          "type": "chronology_table",
+          "description_ko": "각 시대별 상세 연대표.",
+          "description_en": "Detailed chronology table for each epoch.",
+          "table": [
+            {"epoch": 1, "era": "Lost Era", "start_ba": 7210, "end_ba": 6646, "duration_years": 564},
+            {"epoch": 1, "era": "Era of Destruction", "start_ba": 6646, "end_ba": 6644, "duration_years": 2},
+            {"epoch": 1, "era": "Era of Carnage", "start_ba": 6643, "end_ba": 6229, "duration_years": 414},
+            {"epoch": 2, "era": "Sprouting Era", "start_ba": 6229, "end_ba": 4961, "duration_years": 1268},
+            {"epoch": 2, "era": "Early Era of Fire", "start_ba": 4961, "end_ba": 4499, "duration_years": 462},
+            {"epoch": 2, "era": "Dual Era", "start_ba": 4499, "end_ba": 4269, "duration_years": 230},
+            {"epoch": 2, "era": "Era of Tranquility", "start_ba": 4269, "end_ba": 3904, "duration_years": 365},
+            {"epoch": 2, "era": "Dawn Era", "start_ba": 3904, "end_ba": 3668, "duration_years": 236},
+            {"epoch": 3, "era": "Glorious Era", "start_ba": 3668, "end_ba": 2582, "duration_years": 1086},
+            {"epoch": 4, "era": "Warring Era", "start_ba": 2582, "end_ba": 2470, "duration_years": 112},
+            {"epoch": 4, "era": "Solomon Empire", "start_ba": 2470, "end_ba": 2186, "duration_years": 284},
+            {"epoch": 4, "era": "Tudor-Trunsoest United Empire", "start_ba": 2186, "end_ba": 2072, "duration_years": 114},
+            {"epoch": 4, "era": "Second Solomon Empire", "start_ba": 2072, "end_ba": 1535, "duration_years": 537},
+            {"epoch": 4, "era": "War of the Four Emperors", "start_ba": 1535, "end_ba": 1530, "duration_years": 5},
+            {"epoch": 4, "era": "Conflicts of the Seven Gods", "start_ba": 1530, "end_ba": 1372, "duration_years": 157},
+            {"epoch": 4, "era": "Pale Era", "start_ba": 1372, "end_ba": 1349, "duration_years": 23}
+          ],
+          "source_refs": [400, 401]
+        }
+      ]
+    },
+    {
+      "sectionName_ko": "우주적 존재들의 개입",
+      "sectionName_en": "Involvement of Cosmic Entities",
+      "entries": [
+        {
+          "type": "lore",
+          "title_ko": "지구의 장벽과 외신",
+          "title_en": "Earth's Barrier and the Outer Deities",
+          "content_ko": "태초 조물주의 잔여 힘은 지구 주위에 외신들의 직접적인 침입을 막는 보이지 않는 장벽을 형성했습니다. 그러나 시간이 지나고 조물주의 의지가 약해지면서 이 장벽은 점차 약화되고 있으며, 이는 4시대 역사의 주요 변수 중 하나였습니다. 장벽이 완전히 사라지면 종말이 도래할 것입니다.",
+          "content_en": "The residual power of the Original Creator constituted an invisible barrier that prevents Outer Deities from invading directly. Over time, as the Creator's will fades, this barrier weakens, which was a major factor influencing the history of the Fourth Epoch. When the barrier is completely gone, The Apocalypse will arrive.",
+          "source_refs": [273, 274, 275, 282]
+        },
+        {
+          "type": "lore",
+          "title_ko": "서부 대륙의 봉인과 세피로트",
+          "title_en": "Seal of the Western Continent and the Sefirot",
+          "content_ko": "현황천존이 서부 대륙에 여러 세피로트를 봉인했지만, 조물주의 의지가 약해지면서 이 봉인 또한 점차 약화되고 있습니다. 세피로트들은 본능적 혹은 의식적으로 자신들의 상징성을 이용해 외부 세계에 영향을 미치려 하며, 4시대에 나타난 많은 변칙적인 사건들의 배후에 이들의 영향이 있었습니다 (예: 무질서의 나라가 중재자 유일성을 오염시킨 것).",
+          "content_en": "The Celestial Worthy sealed several Sefirot in the Western Continent, but this seal is also gradually weakening. The Sefirot instinctively or consciously use their symbolism to influence the outside world. This influence is behind many anomalies of the Fourth Epoch (e.g., the Nation of Disorder corrupting the Justiciar Uniqueness).",
+          "source_refs": [284, 285, 287, 288, 290]
+        }
+      ]
+    },
+    {
+      "sectionName_ko": "4시대 건축 양식",
+      "sectionName_en": "Fourth Epoch Architecture",
+      "entries": [
+        {
+          "type": "lore",
+          "content_ko": "4시대의 솔로몬, 투도르, 트룬소스트 제국의 건축물은 모두 상식에 어긋나는 유사한 스타일을 가졌습니다. 무질서하고 비대칭적이며, 검은색을 자주 사용하는 것이 특징입니다. 천장에 매달린 촛대와 검은 벽의 꽃무늬는 가장 대표적인 특징으로, 혼돈 속에서도 촛대의 개수 같은 엄격한 규칙이 존재하여 기저의 질서를 반영했습니다.",
+          "content_en": "The architecture of the Solomon, Tudor, and Trunsoest Empires in the Fourth Epoch all had similar styles that went against common sense—they were disorderly, asymmetrical, and frequently used the color black. Candlesticks hanging from the ceiling and floral patterns on black walls were typical characteristics, yet they maintained strict rules, like the number of candlesticks, reflecting an underlying order within the chaos.",
+          "source_refs": [294, 295, 296, 297]
+        }
+      ]
+    },
+    {
+      "sectionName_ko": "미래 예언 및 전망",
+      "sectionName_en": "Future Prophecies & Outlook",
+      "entries": [
+        {
+          "type": "prophecy",
+          "content_ko": "지식과 지혜의 신은 제5시대 1368년에 종말(Apocalypse)이 일어날 것이라고 예언했습니다.",
+          "content_en": "The God of Knowledge and Wisdom has prophesied that The Apocalypse will happen in the year 1368 of the Fifth Epoch.",
+          "source_refs": [283, 1308]
+        },
+        {
+          "type": "outlook",
+          "content_ko": "시온 데레차는 초월자가 평온한 삶을 살 수 있는 날은 (만약 6시대가 존재한다면) 5시대의 끝과 6시대의 시작에서나 가능할 것이라고 주장했습니다.",
+          "content_en": "Xio Derecha once claimed that the day a Beyonder could live a carefree life might only be attainable at the end of the Fifth Epoch and the beginning of the Sixth Epoch, if there is even a Sixth Epoch at all.",
+          "source_refs": [1309, 1310]
+        }
+      ]
+    },
+    {
+      "sectionName_ko": "기타 주석",
+      "sectionName_en": "Miscellaneous Notes",
+      "entries": [
+        {
+          "type": "note",
+          "content_ko": "로셀은 자신이 환생하기 전에 접했던 여러 현대 미디어(틱톡, 왕자영요, 배틀그라운드 등)를 언급했습니다.",
+          "content_en": "Roselle mentioned several contemporary media — Lin Gao’s Five Hundred Good-for-nothings, Tik Tok, Kings of Glory and PUBG — that he had engaged with before his transmigration.",
+          "source_refs": [723, 724, 1311, 1312]
+        }
+      ]
+    }
+  ]
+}

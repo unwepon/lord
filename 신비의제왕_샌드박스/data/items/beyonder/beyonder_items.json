@@ -1,0 +1,55 @@
+[
+  {
+    "name": "물건의 특징에 부합하는 이름",
+    "item_category": "1.무기, 2.휴대 물품, 3.설치 기물 중 하나",
+    "sequence_grade": "서열 등급 (0-9 숫자 또는 '초과'와 같은 문자열)",
+    "sealed_artifact_grade": "공식 봉인물 등급 (예: '1등급 봉인물', '아티팩트')",
+    "pathway": "아이템의 근원이 되는 경로 (예: '암살자', '외신', ['변호사', '중재자'])",
+    "description": "신기한 물건의 명확한 형태, 얽혀있는 역사나 소문 등의 상세한 설명.",
+    "activation_method": "아이템을 사용하는 구체적인 방법 (예: '브로치에 영성을 주입한다.')",
+    "containment_procedure": "봉인물일 경우, 안전하게 보관하는 방법 (예: '피가 담긴 병에 담는다.')",
+
+    "mechanics": {
+      "description": "아이템의 긍정적인 효과에 대한 서술적 설명 (예: '소지자의 정신 오염을 정화한다.')",
+      "trigger": {
+        "type": "능력 발동 계기 (예: on_action_check, on_being_targeted)"
+      },
+      "conditions": [
+        {
+          "type": "능력 발동 조건 타입 (예: action_name_in)",
+          "value": "조건 값 (예: ['정화 시전'])",
+          "comment": "사용자가 서술한 '능력을 사용하는 계기'를 기계가 이해할 수 있는 데이터로 변환한 부분"
+        }
+      ],
+      "actions": [
+        {
+          "type": "긍정적 효과 타입 (예: remove_status, modify_check_bonus)",
+          "value": "효과 값",
+          "comment": "사용자가 서술한 '아이템의 긍정적인 효과'를 기계가 이해할 수 있는 데이터로 변환한 부분"
+        }
+      ]
+    },
+
+    "side_effects": {
+      "description": "아이템의 부작용에 대한 서술적 설명 (예: '시력 저하. 영혼에 데미지가 누적된다.')",
+      "mechanics": {
+        "trigger": {
+          "type": "부작용 발동 계기 (예: on_use, on_round_start)"
+        },
+        "conditions": [
+           {
+             "comment": "사용자가 서술한 '부작용이 발생하는 계기'를 데이터로 변환한 부분. (예: '안경의 장시간 착용' -> 'character_has_status', 'value': '안경 착용 3라운드 이상')"
+           }
+        ],
+        "actions": [
+          {
+            "type": "부정적 효과 타입 (예: apply_status, deal_damage)",
+            "target": "self",
+            "value": "효과 값",
+            "comment": "사용자가 서술한 '아이템의 부작용'을 데이터로 변환한 부분"
+          }
+        ]
+      }
+    }
+  }
+]

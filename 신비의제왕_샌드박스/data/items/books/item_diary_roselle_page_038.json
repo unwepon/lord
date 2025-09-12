@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_038",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#38)",
+  "itemName_en": "Roselle's Worn Diary Page (#38)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1173년 6월 2일",
+    "entry_ko": "왕국은 혼란을 거듭하며 전쟁을 일으켰지만, 페이사크 제국, 로엔 왕국, 페네포트 왕국을 완전히 파괴하지는 못했다. 그래서 왕국은 막대한 부채를 짊어지고 경제는 붕괴 직전이다. 내가 관찰한 바로는 백성, 상인, 군인들이 매우 불만스러워하고 있다. 폭동은 불꽃 하나만 부족할 뿐이다! 이것이 내 기회다. 하지만 매우 조심해야 한다. 솔론 가문은 4시대의 역사를 목격했으며 고위 서열 초월자를 가질 가능성이 높은 고대 가문이다. 나는 교회의 지원이 필요하고, 영원한 태양 교회와 암묵적인 합의를 해야 한다. 나는 즉시 나타날 수 없다. 먼저 반란군이 질서를 파괴하게 한 다음, 내가 보호자로서 모든 것을 끝낼 것이다. 집정관 로셀 구스타브. 그 이름이 마음에 든다.",
+    "entry_en": "June 2nd: The kingdom has created chaos, again and again, instigating wars without being able to completely destroy the Feysac Empire, the Loen Kingdom, and the Feynapotter Kingdom. As such, the kingdom has no choice but to shoulder huge debts, and its economy is on the verge of collapse. From my observations, the people, merchants, and soldiers are very dissatisfied. The riots are just lacking a spark! This is my chance. But I have to be very careful. The Sauron Family has witnessed the history of the Fourth Epoch and is an ancient family with a high possibility of having High-Sequence Beyonders. I need the support of the Church, as well as gain a tacit agreement with the Church of the Eternal Blazing Sun. I can’t appear immediately. First, I’ll let the rebels destroy order before I end it all as a protector. Consul Roselle Gustav. I like that name."
+  }
+}

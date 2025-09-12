@@ -1,0 +1,83 @@
+[
+  {
+    "name": "가죽 갑옷",
+    "description": "가죽 갑옷이 제공하는 기본적인 물리 피해 경감 효과입니다. ",
+    "mechanics": {
+      "trigger": {
+        "type": "on_damage_taken"
+      },
+      "conditions": [
+        {
+          "type": "damage_type_is",
+          "value": "물리"
+        }
+      ],
+      "actions": [
+        {
+          "type": "reduce_damage_flat",
+          "value": 2
+        }
+      ],
+      "comment": "이 능력은 '가죽 갑옷' 아이템을 장착했을 때 캐릭터에게 부여됩니다. 'reduce_damage_flat'은 main_game_skeleton.py에 추가되어야 할 새로운 action 타입입니다."
+    }
+  },
+  {
+    "name": "사슬 갑옷",
+    "description": "사슬 갑옷이 제공하는 물리 및 화염 피해 경감 효과입니다. ",
+    "mechanics": {
+      "trigger": {
+        "type": "on_damage_taken"
+      },
+      "conditions": [
+        {
+          "type": "damage_type_in",
+          "value": ["물리", "화염"]
+        }
+      ],
+      "actions": [
+        {
+          "type": "reduce_damage_flat",
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "강철 피부 (시체 수거자 - 활송장)",
+    "description": "활송장의 몸은 강철처럼 단단해져 높은 물리 피해 경감을 제공합니다. ",
+    "mechanics": {
+      "trigger": {
+        "type": "on_damage_taken"
+      },
+      "conditions": [
+        {
+          "type": "damage_type_is",
+          "value": "물리"
+        }
+      ],
+      "actions": [
+        {
+          "type": "reduce_damage_flat",
+          "value": 10
+        }
+      ]
+    }
+  },
+  {
+    "name": "여명 갑옷 (전사 - 여명 기사)",
+    "description": "여명 갑옷이 체외의 모든 피해를 경감시킵니다. ",
+    "mechanics": {
+      "trigger": {
+        "type": "on_damage_taken"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "type": "reduce_damage_flat",
+          "value": 3
+        }
+      ],
+      "comment": "조건이 없으므로 모든 유형의 피해에 적용됩니다."
+    }
+  }
+]

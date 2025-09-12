@@ -1,0 +1,28 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="신비의제왕_샌드박스"
+run/main_scene="uid://cau4gp46uveuh"
+config/features=PackedStringArray("4.4", "Mobile")
+config/icon="res://icon.svg"
+
+[autoload]
+
+DataManager="*res://scripts/core/DataManager.gd"
+CharacterCalculator="*res://scripts/core/CharacterCalculator.gd"
+Rulebook="*res://scripts/core/Rulebook.gd"
+RulesEngine="*res://scripts/core/RulesEngine.gd"
+CombatManager="*res://scripts/managers/CombatManager.gd"
+
+[rendering]
+
+renderer/rendering_method="mobile"

@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_051",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#51)",
+  "itemName_en": "Roselle's Worn Diary Page (#51)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "어떻게 이런 일이 일어날 수 있지!? 내 예측이 틀리지 않았다면, 이런 일을 겪은 사람은 나뿐만이 아닐 것이다! 안 돼. 안 돼! 어떻게 이럴 수가!? 내가 본 것은 모든 것이 파괴될 것이라고 말해준다. 내가 만든 모든 것도 마찬가지다! 안 돼! 이런 결말을 받아들일 수 없어! 나는 자신을 구하기 위해 열심히 노력해야 한다. 일곱 신들에게 의존할 수 없어! 서열 0의 왕좌에 올라야만, 나와 내가 소중히 여기는 것들이 보존될 것이다! 도어 씨를 현실 세계로 끌어들이려고 시도해야 할까? 안 돼! 비록 '그'가 서열 1이라고 주장하지만, 나는 '그'가 평범한 서열 1이 아니라고 믿는다! '그'가 나에게 예상치 못한 재앙을 가져올 가능성이 매우 높다!",
+    "entry_en": "How can that happen!? If my predictions aren’t wrong, I’m not the only one who met with that encounter! No. No! How can that happen!? The thing that I saw tells me that everything will be destroyed. Likewise for everything I’ve created! No! I can’t accept such an ending! I have to work hard to save myself. I can’t rely on the seven deities! As long as I ascend to the throne of Sequence 0, only then will I and the things I value be preserved! Should I attempt to pull Mr. Door back into the real world? No! Although ‘He’ claims to be only a Sequence 1, I believe that ‘He’ isn’t just an ordinary Sequence 1! It’s very likely that ‘He’ will bring unexpected catastrophe upon me!"
+  }
+}

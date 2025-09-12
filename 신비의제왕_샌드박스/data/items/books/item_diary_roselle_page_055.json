@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_055",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#55)",
+  "itemName_en": "Roselle's Worn Diary Page (#55)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "9월 23일: 신들의 버림받은 땅을 찾는 배와의 통신이 끊겼다. 무선 전신기를 발명하는 것을 고려해야겠다. 폭풍의 영향을 받지 않았으면 좋겠다. ... 9월 24일: 이타카 양은 플로레나 부인보다 더 매혹적이다. 아마도 나는 그냥 내 젊은 시절을 그리워하는 것일지도 모른다.",
+    "entry_en": "September 23rd: I have lost communications with the ship seeking the Forsaken Land of the Gods. I should consider inventing wireless telegraphs. I hope it would not be affected by the storm. ... September 24th: Miss Ithaca is more mesmerizing than Lady Florena. Perhaps, I’m just being nostalgic about my youth."
+  }
+}

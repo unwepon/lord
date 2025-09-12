@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_045",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#45)",
+  "itemName_en": "Roselle's Worn Diary Page (#45)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1184년 1월 13일",
+    "entry_ko": "도어 씨와의 연락이 안정되었다. 그는 나를 재촉하지 않았다. 그는 '달' 카드에 대해 이야기하다가, 자라툴이 언급했던 일이 떠올랐다. 그는 생명학파가 흑야 여신이 아닌 달을 숭배한다고 말했다. 그래서 나는 4시대 전문가인 도어 씨에게 이 질문을 했다. 그는 킥킥 웃으며 직접적인 대답을 피했지만, 타로 카드에서 흑야 여신을 대표할 카드를 고른다면 '달'이 아니라 '별'을 고를 것이라고 했다! 이것은 일을 매우 흥미롭게 만든다. 나는 '달의 진정한 주인은 누구인가?'라고 물었고, 그의 대답은 더욱 음미할 가치가 있었다. 그는 웃으며 '달은 현재 주인이 없다'고 말했다. 내가 잘못 이해한 것이 아니라면, 그것은 달의 경로의 정점이 비어 있다는 뜻이다. 서열 0이 비어 있다!",
+    "entry_en": "Contact with Mr. Door stabilized. He didn’t rush me to complete a complicated and difficult ritual. While talking about ‘The Moon’ card, I thought of a matter Zaratul mentioned. He said that the Life School of Thought worships the moon, but not the Evernight Goddess. Hence, I asked the Fourth Epoch expert, Mr. Door, about this question. He chuckled and similarly didn’t give a direct answer. However, he told me that if he were to choose a card from the tarot cards to represent the Evernight Goddess, he wouldn’t choose The Moon, but—The Star! That makes things very interesting. I pressed, ‘Who is the real owner of The Moon? His reply was even more worthy of relish. He said with a laugh that The Moon currently has no owner. If I didn’t misunderstand him, then he means that the peak of The Moon’s pathway is empty. The Sequence 0 is empty!"
+  }
+}

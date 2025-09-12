@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_036",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#36)",
+  "itemName_en": "Roselle's Worn Diary Page (#36)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "4월 25일: 시체 아니면 침묵뿐이었다. 앞에는 끝이 없었다. 다크 킹호의 아이템들이 부식의 조짐을 보이기 시작했다. 지난 몇 년간 두려움을 거의 느끼지 않았지만, 여기서 미지의 것에 대한 두려움은 보이지 않는 손처럼 내 심장을 꽉 쥐고 있다. 떠나야 해! 돌아가야 해! 더 이상 여기 있을 수 없어!",
+    "entry_en": "April 25th: Either corpses or silence; there’s no end up ahead. The items on the Dark King has begun to show signs of corruption. I’ve seldom had fear over the past few years, but here, that fear of the unknown is like an invisible hand that clasps my heart tightly. I have to leave! I have to return! I can’t stay here any longer!"
+  }
+}

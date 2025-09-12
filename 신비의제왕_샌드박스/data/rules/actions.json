@@ -1,0 +1,45 @@
+    "modify_check_bonus": {
+        "type": "modify_check_bonus",
+        "description": "현재 행동 판정에 보너스/페널티를 적용합니다.",
+        "example_usage": {"type": "modify_check_bonus", "value": 2}
+    },
+    "deal_damage": {
+        "type": "deal_damage",
+        "description": "대상에게 특정 유형과 수치의 피해를 입힙니다.",
+        "example_usage": {"type": "deal_damage", "damage_type": "화염", "dice": "2d6"}
+    },
+    "heal": {
+        "type": "heal",
+        "description": "대상의 생명력을 회복시킵니다.",
+        "example_usage": {"type": "heal", "value": 30}
+    },
+    "apply_status": {
+        "type": "apply_status",
+        "description": "대상에게 '기절', '중독' 등 상태 이상을 부여합니다.",
+        "example_usage": {"type": "apply_status", "status": "중독", "duration": 3}
+    },
+    "remove_status": {
+        "type": "remove_status",
+        "description": "대상에게서 특정 상태 이상을 제거합니다.",
+        "example_usage": {"type": "remove_status", "status": "중독"}
+    },
+    "reduce_damage_flat": {
+        "type": "reduce_damage_flat",
+        "description": "받는 피해를 고정된 수치만큼 감소시킵니다.",
+        "example_usage": {"type": "reduce_damage_flat", "value": 5}
+    },
+    "modify_damage_taken_percentage": {
+        "type": "modify_damage_taken_percentage",
+        "description": "받는 피해를 비율(%)로 수정합니다. (음수: 저항, 양수: 취약)",
+        "example_usage": {"type": "modify_damage_taken_percentage", "value": -50}
+    },
+    "ignore_defense_property": {
+        "type": "ignore_defense_property",
+        "description": "상대방의 방어 계산 시 특정 요소(갑옷, 민첩 등)를 무시합니다.",
+        "example_usage": {"type": "ignore_defense_property", "value": ["민첩", "회피"]}
+    },
+    "consume_item": {
+        "type": "consume_item",
+        "description": "사용한 소모품 아이템을 제거합니다.",
+        "example_usage": {"type": "consume_item", "item_name": "진홍 약제", "amount": 1}
+    }

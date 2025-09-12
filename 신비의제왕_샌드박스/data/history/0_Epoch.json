@@ -1,0 +1,81 @@
+{
+  "epochNumber": "Pre-Epoch",
+  "epochName_ko": "프리에포크",
+  "epochName_en": "Pre-Epoch",
+  "eras": [
+    {
+      "eraName_ko": "창조 신화",
+      "eraName_en": "Creation Myths",
+      "events": [
+        {
+          "date": "태초 (The Beginning)",
+          "description_ko": "첫째 날, 태초의 조물주가 깨어나 이 세계를 창조했으나 현실, 영계, 아스트랄계, 운명은 여전히 뒤섞여 있었습니다. 둘째 날, 가장 오래된 존재는 타락의 어머니 여신을 낳았고, 욕망의 어머니 나무와 혼돈의 아들이 뒤따라 태어났습니다. 셋째 날, 가장 오래된 존재와 어머니 여신이 결합하여 운명의 여신을 낳았고, 만물의 운명이 얽히기 시작했습니다. 이들 중 가장 강력한 태초의 하느님, 현황천존, 타락한 어머니 여신을 '원초의 기둥'이라 부릅니다.",
+          "description_en": "On the first day, the Original Creator awoke and created this world, but Reality, the Spirit World, the Astral World, and Fate were still mixed together. On the second day, the Oldest One birthed the Mother Goddess of Depravity, followed by the Mother Tree of Desire and the Son of Chaos. On the third day, the Oldest One and the Mother Goddess united and gave birth to the Goddess of Fate, intertwining the fates of all things. The most powerful among them, the Primordial God Almighty, the Celestial Worthy, and the Mother Goddess of Depravity are known as the 'Pillars of Origin'.",
+          "source_refs": [10, 11, 12, 13, 14, 15, 16, 17, 18, 621, 622, 623, 624, 625, 626, 627, 629, 630, 631, 632, 633, 634, 635],
+          "related_characters": ["Original Creator", "Mother Goddess of Depravity", "Mother Tree of Desire", "Son of Chaos", "Goddess of Fate", "Primordial God Almighty", "Celestial Worthy"],
+          "related_locations": []
+        },
+        {
+          "date": "정교회 경전 (Orthodox Scripture)",
+          "description_ko": "조물주가 혼돈에서 깨어나 어둠을 부수고 첫 빛을 창조했습니다. 그는 자신을 우주에 완전히 융합하여 만물이 되었습니다. 그의 몸은 땅과 별이 되었고, 눈은 해와 달이, 피는 바다와 강이 되었습니다. 그의 신체의 각 부분은 엘프, 거인, 용 등 다양한 종족으로 변모했으며, 그의 지혜는 인류를 낳았습니다.",
+          "description_en": "The Creator awoke from Chaos and shattered the darkness, creating the first ray of light. He then fused himself completely into the universe. His body became the land and stars, his eyes the sun and moon, his blood the seas and rivers. His body parts turned into elves, giants, dragons, and other races, and his wisdom gave birth to humanity.",
+          "source_refs": [628, 653, 654, 655, 656, 657, 658, 659],
+          "related_characters": ["Original Creator"],
+          "related_locations": []
+        },
+        {
+          "date": "실버 시 신화 (City of Silver Myth)",
+          "description_ko": "실버 시의 신화에 따르면, 태초의 조물주는 모든 것을 창조하고 잠에 들었습니다. 그는 광기, 잔인함, 탐욕과 같은 부정적인 것들이 세상을 뒤덮을 때 다시 깨어나 모든 것을 회수할 것이라는 예언을 남겼습니다. 이 신화는 로셀 구스타브의 일기장에 언급된 창조주에 대한 이야기와 유사합니다.",
+          "description_en": "According to the City of Silver's myth, the Original Creator created everything and fell asleep. 'He' left a prophecy that 'He' would awaken and retrieve everything when madness, cruelty, and greed drowned the land once again. This is similar to the lore of the Creator Roselle Gustav mentioned in his diary.",
+          "source_refs": [660, 661, 662, 663, 664, 665, 666],
+          "related_characters": ["Original Creator", "Roselle Gustav"],
+          "related_locations": ["City of Silver"]
+        }
+      ]
+    },
+    {
+      "eraName_ko": "고대 문명과 잠든 신들",
+      "eraName_en": "Ancient Civilization and Slumbering Gods",
+      "events": [
+        {
+          "date": "고대 (Ancient Times)",
+          "description_ko": "태초의 조물주는 모든 상반된 개념의 집합체이기에 분열과 수렴의 경향을 가집니다. '그'는 잠든 상태에서 자연스럽게 여러 인격체로 분열했고, 그중 태초의 전지전능하신 하느님과 현황천존이 지구에서 가장 강력하고 활동적이었습니다. 이 잠든 인격체들은 각자의 권능을 사용해 세상에 영향을 미치며 진정한 분열을 준비했습니다. 이 시기 지구에는 이미 타락한 어머니 여신의 숭배자들이 존재했으며, 인류 문명은 최소 21세기 수준에 도달했습니다.",
+          "description_en": "The Original Creator is an amalgamation of all contradicting concepts, with a tendency to split and converge. While sleeping, 'He' naturally split into multiple personas, with the Primordial God Almighty and the Celestial Worthy being the most active on Earth. These slumbering personas used their authority to influence the world, preparing for the true dissociation. During this period, the Mother Goddess of Depravity already had worshippers on Earth, and Human Civilization reached at least the 21st-century level.",
+          "source_refs": [19, 20, 21, 22, 23, 24, 25, 27, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 647, 648, 649],
+          "related_characters": ["Original Creator", "Primordial God Almighty", "Celestial Worthy", "Mother Goddess of Depravity"],
+          "related_locations": ["Earth"]
+        },
+        {
+          "date": "현대 이전 (Pre-Modern Era)",
+          "description_ko": "인터넷에는 '별들이 제자리를 찾을 때, 혼돈이 지하에서 솟아오르고, 가장 위대한 옛 존재가 깨어날 것이다'라는, 훗날의 대격변을 예언하는 소문이 돌았습니다. 체르노빌의 연구소는 무언가를 발견했고, 사람들이 원유로 변하자 시설이 봉쇄되었습니다. 현황천존은 부활을 대비해 사람들의 영체를 세피라 성의 고치에 모으기 시작했습니다.",
+          "description_en": "A rumor prophesizing the eventual awakening of the Original Creator circulated on the internet: 'When the stars are right, Chaos will rise from underground, and the Great Oldest One will awaken.' The research institute in Chernobyl discovered something, and people started to turn into crude oil. The facility was sealed. The Celestial Worthy prepared for 'His' resurrection by seizing Spirit Bodies and hanging them in cocoons in Sefirah Castle.",
+          "source_refs": [26, 28, 31, 34, 646],
+          "related_characters": ["Original Creator", "Celestial Worthy"],
+          "related_locations": ["Chernobyl", "Sefirah Castle"]
+        }
+      ]
+    },
+    {
+      "eraName_ko": "지구 대격변과 재건",
+      "eraName_en": "The Earth Cataclysm and Reconstruction",
+      "events": [
+        {
+          "date": "현대 (Modern Era)",
+          "description_ko": "현대에 이르러 대격변이 닥쳐 모든 것이 파괴되었습니다. 별과 땅은 큰 변화를 겪었으며, 이 시대의 생존자들과 환생자들이 탄생했습니다. 태초의 조물주가 깨어나며 그의 몸은 여러 초월적 특성과 세피로트로 산산조각 났고, 이는 외신들의 특성 일부까지 지구로 끌어들였습니다. 22개 경로와 9개 세피로트가 모여 균형을 이루었습니다.",
+          "description_en": "The cataclysm came around the modern era and everything was destroyed. The stars and the earth all experienced great changes. The Survivors and Transmigrators came from this era. The Original Creator awakened, and 'His' body shattered into Beyonder Characteristics and Sefirot, which also attracted parts from Outer Deities. A balance was reached when 22 pathways and nine sefirot were gathered.",
+          "source_refs": [36, 37, 38, 39, 40, 41, 42, 43, 44, 650, 651],
+          "related_characters": ["Original Creator", "Outer Deities"],
+          "related_locations": ["Earth"]
+        },
+        {
+          "date": "대격변 직후 (Soon after Cataclysm)",
+          "description_ko": "많은 외신들이 특성을 되찾기 위해 지구로 왔지만, 조물주의 잔여 힘이 만든 보이지 않는 장벽에 막혔습니다. 지구는 대대적으로 재건되어 북부, 남부, 서부, 동부 대륙이 형성되었고, 호주는 심연으로 가라앉았습니다. 이전의 일곱 빛은 이 시기에 사라졌으며, 인간 문명의 대격변 이후 지구는 첫 번째 시대에 접어들었습니다.",
+          "description_en": "Many Outer Deities came to Earth but were stopped by an invisible barrier made of the Original Creator's residual power. Earth had great reconstructions, forming the Northern, Southern, Western, and Eastern Continents, while Australia fell and became the Abyss. The previous Seven Lights were wiped out during this time. After the Cataclysm of human civilization, Earth entered the First Epoch.",
+          "source_refs": [45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 672, 673, 674, 675],
+          "related_characters": ["Outer Deities", "Seven Lights"],
+          "related_locations": ["Northern Continent", "Southern Continent", "Western Continent", "Forsaken Land of the Gods", "Abyss", "Sonia Island", "Berserk Sea"]
+        }
+      ]
+    }
+  ]
+}

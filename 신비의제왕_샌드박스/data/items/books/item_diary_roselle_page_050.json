@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_050",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#50)",
+  "itemName_en": "Roselle's Worn Diary Page (#50)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1184년 12월 5일",
+    "entry_ko": "블러드문의 밤. 도어 씨와 대화했다. 이전과 마찬가지로 '그'는 항상 내가 '그'를 현실 세계로 돌려보내도록 요청했지만, 지나치게 고집하지는 않았다. 게다가 '그'는 내 질문에 무작위로 대답해주곤 했다. 헤헤, '그'가 게임을 하는 것처럼, '그'에 대한 내 호감도를 높이려고 애쓰는 것 같다. 하지만 안타깝게도, 미안하지만, 나는 이미 그 옵션을 미리 봉쇄해 두었다. 나는 이미 천사왕들의 전설을 알고 있었기에, 주로 도어 씨에게 천사왕들의 힘의 수준에 대해 물었다. 그에게 그 질문을 해도 잃을 것이 없다는 사실을 알았기 때문이다. 도어 씨는 일부 천사왕들은 유일성을 수용했고, 다른 이들은 서열 1 물약을 두 세트 마셨으며, 둘 다일 수도 있다고 말했다. '수용하다'라는 단어는 이상하게 사용되었다. 내가 '그'에게 그것에 대해 물었지만, 도어 씨는 직접 대답하지 않았다.",
+    "entry_en": "Night of the Blood Moon. I conversed with Mr. Door. Like every time prior to this, ‘He’ would always make a request to get me to help ‘Him’ return to the real world, but ‘He’ doesn’t overly insist on it. Furthermore, ‘He’ would randomly answer some of my questions. Heh heh, it’s like ‘He’ is playing a game, trying hard to raise my affection towards ‘Him.’ But unfortunately, I’m sorry, I’ve already sealed off that option ahead of time. As I already knew of the legends of the Kings of Angels, I mainly asked Mr. Door about the level of strength that the Kings of Angels have, knowing the fact that I had nothing to lose by asking ‘Him’ that question. Mr. Door said that some of the Kings of Angels accommodated the Uniqueness, while others had consumed two sets of Sequence 1 potions; it could also be both. The word ‘accommodate’ is used in an odd manner. I had asked ‘Him’ about it, but Mr. Door didn’t directly answer me."
+  }
+}

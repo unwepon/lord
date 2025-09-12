@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_029",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#29)",
+  "itemName_en": "Roselle's Worn Diary Page (#29)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "2월 11일: 오늘 솔론 가문의 비밀을 알게 되었다. 하하하! 웃겨 죽겠다! 하하하! 그들이 가진 사냥꾼 경로가 서열 4에서 성별이 바뀐다니. 남자는 바뀌지 않지만, 여자는 남자로 바뀐다! 내가 아는 솔론 가문의 고위 서열 초월자 중에 여자가 한 명도 없는 게 당연했다. 철혈의 기사는 정말 진정한 남자다! 하하하, 이 비밀이 민감하지만 않다면 다음에 플로렌을 놀려먹고 싶다. 그가 닮았다는 솔론 가문의 조상은 여자였을지도 모른다! 이 물약은 너무 함정이 많지 않나? 사반트 경로가 고위 서열에 도달했을 때 이상한 변화가 없기를 바란다. 어느 날 갑자기 승급하지 않거나 여자로 변해야 한다는 사실을 깨닫고 싶지 않다.",
+    "entry_en": "February 11th: Today, I found out about a secret of the Sauron family. Hahaha! I’m going to die from laughter! Hahaha! So it turns out that the Hunter pathway that they possess will change gender at Sequence 4. Men wouldn’t change, but women will change into men! It’s no wonder that none of the High-Sequence Beyonders of the Sauron family that I’m aware of are female. The Iron-blooded Knight is indeed a true man! Hahaha, if it wasn’t for how sensitive this secret was, then I would even feel like ridiculing Floren next time. The Sauron family ancestor that he looks like might’ve been a woman! This potion is way too much of a trap, isn’t it? I hope the Savant pathway wouldn’t have any strange changes upon reaching the high Sequences. I don’t want to one day suddenly realize that I either don’t advance, or I have to change into a woman."
+  }
+}

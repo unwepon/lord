@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_003",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#3)",
+  "itemName_en": "Roselle's Worn Diary Page (#3)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상 (서열 9 사반트 시절)",
+    "entry_ko": "나는 사반트가 되었다. 물약의 힘으로 과거에 배웠던 물리학, 화학 같은 모든 지식이 떠올랐다... 단순히 지식을 떠올린 게 아니라, 더 깊이 이해하고 응용 가능성까지 보인다. 하하, 이건 나 같은 이세계 환생자를 위해 맞춤 제작된 '직업'이다! 내 장점을 최대한 발휘할 수 있겠어! ...이상한 점이 있다. 내가 사반트로서 행동할 때, 나를 미치게 하던 속삭임이 상당히 부드러워진다. 가끔 폭발하던 성질도 조절할 수 있게 되었다. 이게 바로 신비로운 자라툴 씨가 말한 '연기'인가? 물약의 부작용을 해결할 열쇠일지도 모른다.",
+    "entry_en": "I have become a Savant. With the power of the potion, I actually recalled all the knowledge I had learned in the past, such as physics, chemistry, etc… I have not only recalled the knowledge, but I understand it more deeply, as well as its possible applications and implications. Haha, this is a ‘job’ specially tailored for a transmigrator like me from an alternate realm. I will be able to express my advantage to the greatest extent! When I address myself as a Savant, doing things that are in line with this role, the murmurings that drive me crazy become considerably softer. I have also been able to control my occasional temper outbursts. Is this the ‘acting’ that the mysterious Mr. Zaratul mentioned? This could be key in resolving the side effects posed by potions."
+  }
+}

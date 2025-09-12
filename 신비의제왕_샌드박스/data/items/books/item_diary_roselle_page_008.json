@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_008",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#8)",
+  "itemName_en": "Roselle's Worn Diary Page (#8)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. '달을 조심해라!'는 경고가 섬뜩하다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. The warning 'Be careful of the moon!' is chilling.",
+  "isReadable": true,
+  "content": {
+    "date": "1197년 12월 29일",
+    "entry_ko": "거의 새해다. 모든 영묘가 건설되었다. 이미 엎질러진 물이다. ...이 세상에 환생자가 나뿐이라고는 생각하지 않는다. 내 일기를 읽을 수 있는 다른 사람이 있다면, 초월자 경로를 신중하게 선택하길 바란다. 일단 선택하면, 당신의 동맹과 적이 거의 확정된다. ...유용한 경고를 하나 하자면, 서열 0이 이미 차지된 경로는 선택하지 말고, 이웃한 서열 0과 서열 1도 조심해라. 나는 이 부분에서 엄청나게 고통받았다. ...내 일기를 이해하는 친구여, 가서 환생의 비밀과 그 안에 숨겨진 진실을 찾아라. 내가 아직 살아있다면, 지켜보겠다. 마지막으로, 경고하겠다. 기억해야 한다: 달을 조심해라!",
+    "entry_en": "It’s almost a new year again. All the mausoleums have been built. What’s done cannot be undone. I believe I’m not the only transmigrator in this world. If there’s anyone else who can read my diary, remember to carefully select your Beyonder pathway. Once you choose this, it pretty much confirms your allies and your enemies. A useful warning is to not choose pathways with Sequence 0s that are occupied, and also be careful of neighboring Sequence 0s and Sequence 1s. I’ve suffered tremendously on this aspect. Go, my friend who understands my diary, go seek out the secret of transmigration and the truth hidden within. I’ll be watching you, if I’m still alive. Finally, let me warn you that you have to remember: Be careful of the moon!"
+  }
+}

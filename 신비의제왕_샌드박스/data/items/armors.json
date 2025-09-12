@@ -1,0 +1,215 @@
+[
+  {
+    "name": "면갑/가죽 갑옷",
+    "item_type": "방어구",
+    "description": "가볍고 유연한 갑옷. 물리 방어에 +2 보너스를, 물리 피해에 2점의 피해 경감을 제공합니다.",
+    "properties": {
+      "armor_category": "경갑",
+      "armor_bonus": 2,
+      "damage_reduction": 2
+    },
+    "mechanics": [
+      {
+        "trigger": { "type": "on_damage_taken" },
+        "conditions": [{ "type": "damage_type_is", "value": "물리" }],
+        "actions": [{ "type": "reduce_damage_flat", "value": 2 }]
+      }
+    ]
+  },
+  {
+    "name": "사슬/철 갑옷",
+    "item_type": "방어구",
+    "description": "금속 고리를 엮어 만든 중갑. 물리 방어에 +4 보너스, 물리/화염 피해에 3점의 피해 경감을 제공하며 민첩에 -2 페널티를 줍니다.",
+    "properties": {
+      "armor_category": "중갑",
+      "armor_bonus": 4,
+      "damage_reduction": 3
+    },
+    "mechanics": [
+      {
+        "trigger": { "type": "on_damage_taken" },
+        "conditions": [{ "type": "damage_type_in", "value": ["물리", "화염"] }],
+        "actions": [{ "type": "reduce_damage_flat", "value": 3 }]
+      },
+      {
+        "trigger": { "type": "on_equip" },
+        "actions": [{ "type": "apply_status", "status": "민첩 페널티 (-2)" }]
+      }
+    ]
+  },
+  {
+    "name": "비늘 갑옷",
+    "item_type": "방어구",
+    "description": "작은 비늘을 엮어 만든 중갑. 물리 방어에 +5 보너스, 물리 피해에 4점의 피해 경감을 제공하며 민첩에 -3 페널티를 줍니다.",
+    "properties": {
+      "armor_category": "중갑",
+      "armor_bonus": 5, // 사슬 갑옷과 판금 갑옷의 중간 값으로 설정
+      "damage_reduction": 4
+    },
+    "mechanics": [
+      {
+        "trigger": { "type": "on_damage_taken" },
+        "conditions": [{ "type": "damage_type_is", "value": "물리" }],
+        "actions": [{ "type": "reduce_damage_flat", "value": 4 }]
+      },
+      {
+        "trigger": { "type": "on_equip" },
+        "actions": [{ "type": "apply_status", "status": "민첩 페널티 (-3)" }] // 중갑 페널티 적용
+      }
+    ]
+  },
+  {
+    "name": "판금 갑옷",
+    "item_type": "방어구",
+    "description": "전신을 감싸는 무거운 판금갑. 물리 방어에 +8 보너스, 물리/화염 피해에 5점의 피해 경감을 제공하며 민첩에 -4 페널티를 줍니다.",
+    "properties": {
+      "armor_category": "판금갑",
+      "armor_bonus": 8,
+      "damage_reduction": 5
+    },
+    "mechanics": [
+      {
+        "trigger": { "type": "on_damage_taken" },
+        "conditions": [{ "type": "damage_type_in", "value": ["물리", "화염"] }],
+        "actions": [{ "type": "reduce_damage_flat", "value": 5 }]
+      },
+      {
+        "trigger": { "type": "on_equip" },
+        "actions": [{ "type": "apply_status", "status": "민첩 페널티 (-4)" }]
+      }
+    ]
+  },
+  {
+    "name": "방패",
+    "item_type": "방어구",
+    "description": "한 손에 드는 방패. 물리 방어력에 +2 보너스를 제공합니다.",
+    "properties": {
+      "armor_category": "방패",
+      "armor_bonus": 2,
+      "damage_reduction": 0
+    },
+    "mechanics": []
+  },
+  [
+  {
+    "name": "반신 갑옷",
+    "item_type": "방어구",
+    "description": "상반신을 보호하는 판금 갑옷. 힘이 부족하면 움직임이 둔화됩니다.",
+    "properties": {
+      "armor_category": "판금갑",
+      "armor_bonus": 6,
+      "damage_reduction": 4,
+      "requirements": [
+        {
+          "type": "attribute_min",
+          "attribute": "힘",
+          "value": 4,
+          "fail_message": "힘이 4 미만이라 반신 갑옷을 착용할 수 없습니다."
+        }
+      ]
+    },
+    "mechanics": [
+      {
+        "trigger": { "type": "on_damage_taken" },
+        "conditions": [{ "type": "damage_type_in", "value": ["물리", "화염"] }],
+        "actions": [{ "type": "reduce_damage_flat", "value": 4 }]
+      },
+      {
+        "trigger": { "type": "on_equip" },
+        "actions": [{ "type": "apply_status", "status": "민첩 페널티 (-4)" }]
+      },
+      {
+        "trigger": { "type": "on_equip" },
+        "conditions": [
+          {
+            "type": "character_attribute_less_than",
+            "attribute": "힘",
+            "value": 6
+          }
+        ],
+        "actions": [{ "type": "apply_status", "status": "이동력 절반" }]
+      }
+    ]
+  },
+  {
+    "name": "전신 갑옷",
+    "item_type": "방어구",
+    "description": "전신을 감싸는 무거운 판금갑. 상당한 힘을 요구합니다.",
+    "properties": {
+      "armor_category": "판금갑",
+      "armor_bonus": 8,
+      "damage_reduction": 5,
+      "requirements": [
+        {
+          "type": "attribute_min",
+          "attribute": "힘",
+          "value": 5,
+          "fail_message": "힘이 5 미만이라 전신 갑옷을 착용할 수 없습니다."
+        }
+      ]
+    },
+    "mechanics": [
+      {
+        "trigger": { "type": "on_damage_taken" },
+        "conditions": [{ "type": "damage_type_in", "value": ["물리", "화염"] }],
+        "actions": [{ "type": "reduce_damage_flat", "value": 5 }]
+      },
+      {
+        "trigger": { "type": "on_equip" },
+        "actions": [{ "type": "apply_status", "status": "민첩 페널티 (-4)" }]
+      },
+      {
+        "trigger": { "type": "on_equip" },
+        "conditions": [
+          {
+            "type": "character_attribute_less_than",
+            "attribute": "힘",
+            "value": 10
+          }
+        ],
+        "actions": [{ "type": "apply_status", "status": "이동력 절반" }]
+      }
+    ]
+  },
+  {
+    "name": "마법 부여 전신 갑옷",
+    "item_type": "방어구",
+    "description": "마법의 힘으로 강화되어 움직임이 비교적 자유로운 전신 갑옷입니다. 모든 유형의 피해를 경감합니다.",
+    "properties": {
+      "armor_category": "판금갑",
+      "armor_bonus": 8,
+      "damage_reduction": 5,
+      "requirements": [
+        {
+          "type": "attribute_min",
+          "attribute": "힘",
+          "value": 4,
+          "fail_message": "힘이 4 미만이라 마법 부여 전신 갑옷을 착용할 수 없습니다."
+        }
+      ]
+    },
+    "mechanics": [
+      {
+        "trigger": { "type": "on_damage_taken" },
+        "conditions": [],
+        "actions": [{ "type": "reduce_damage_flat", "value": 5 }]
+      },
+      {
+        "trigger": { "type": "on_equip" },
+        "actions": [{ "type": "apply_status", "status": "민첩 페널티 (-2)" }]
+      },
+      {
+        "trigger": { "type": "on_equip" },
+        "conditions": [
+          {
+            "type": "character_attribute_less_than",
+            "attribute": "힘",
+            "value": 8
+          }
+        ],
+        "actions": [{ "type": "apply_status", "status": "이동력 절반" }]
+      }
+    ]
+  }
+]
+]

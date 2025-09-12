@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_033",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#33)",
+  "itemName_en": "Roselle's Worn Diary Page (#33)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상 (심연 탐사)",
+    "entry_ko": "3월 15일: 나는 정말 주인공이다. 고고학적 단서와 민담만으로 아우락 군도 경계의 안개 바다에 솔로몬 제국이 남긴 유령선, 다크 킹호를 찾아냈다! 정말 멋지다! 거기에는 몇몇 고대 책들과 이름 없는 섬을 가리키는 보물 지도가 있었다. 그곳은 패배하여 북부 대륙을 떠난 솔로몬 제국의 한 위대한 귀족의 마지막 정착지다. 그가 남긴 모든 것이 거기에 있다! 이 보물은 분명 내 것이 될 것이다!",
+    "entry_en": "March 15th: I really am the protagonist. With just some archaeological clues and folklore, I’ve found a ghost ship left behind by the Solomon Empire in the Fog Sea’s boundary at the Aurak Archipelago, the Dark King! It’s really cool! There are some ancient books on it, including a treasure map pointing to some nameless island. That’s the final settlement of a great noble of the Solomon Empire who was defeated and left the Northern Continent. Everything that he left behind is there! This treasure will definitely belong to me!"
+  }
+}

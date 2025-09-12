@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_064",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#64)",
+  "itemName_en": "Roselle's Worn Diary Page (#64)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "9월 28일: 오랫동안 일기를 쓰지 않았다. 지난 보름 동안, 나는 내가 낯선 사람으로 대체되는 것을 본 것 같았다. 조금씩, 나는 차갑고 무서워진다. 내 딸 베르나데트조차도 내가 아주 작은, 아주 작은 양의 아버지다운 사랑을 보여주도록 허락할 뿐이다. 막 미치려고 할 때, 수많은 찬사를 들은 것 같았다. 그들은 내 신민들, 내 개혁으로 혜택을 본 사람들이었다. 그들은 나를 증기의 아들로 보는 신자들이다. 그들은 나를 큰 환호로 찬양한다. 그들은 내 동상을 세우고, 나를 위해 이야기를 쓰고, 나를 위해 노래와 시를 만들었다. 그들의 목소리는 나를 제자리에 '고정'시키는 배의 닻과 같다. 나는 내 안의 그 욕망과 포효에 저항할 수 있는 능력을 갖기 시작했다. 조금씩, 나는 아버지, 남편, 그리고 한 남자로서의 정상적인 감정을 다시 소유하면서 그것에서 걸어 나왔다.",
+    "entry_en": "September 28th: I haven’t written a diary entry in ages. In the past half a month, I seemed to see myself being replaced by a stranger. Bit by bit, I turn cold and terrifying. Even my daughter, Bernadette, can only allow me to show her minute amounts of fatherly love. Very, very tiny amounts. Just as I was about to go mad, I seemed to hear countless praises. They were from my subjects, people who had benefited from my reformations. They are the believers who view me as the Son of Steam. They praise me with great acclaim. They erected statues of me, write stories for me, and have created songs and poems for me. Their voices seem like a ship’s anchor that helps me ‘secure’ myself in place. I began to have the ability to resist that desire and that roar within me. Bit by bit, I walked out of it as I once again possessed the normal feelings of a father, a husband, and a man."
+  }
+}

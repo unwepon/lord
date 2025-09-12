@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_027",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#27)",
+  "itemName_en": "Roselle's Worn Diary Page (#27)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "5월 22일: 솔론 가문의 플로렌이 나를 자기 부하가 되라고 하다니! 내가 따까리처럼 보이나? 그의 태도는 정말 받아들일 수 없다. 언젠가 오늘 그의 오만함에 대한 대가를 치르게 하리라 맹세한다. 하지만 그가 언급한 몇 가지는 매우 흥미롭고 생각해 볼 가치가 있다. 플로렌은 솔론 가문의 역사가 2천 년을 넘어 장인의 신 교회의 역사보다도 길다고 말했다. 그들은 4시대의 모든 협력과 갈등, 빛과 어둠을 목격했고 오늘날까지 살아남았다. 그들은 진정으로 땅 위에 우뚝 솟은 거상이며, 사람들이 똑바로 쳐다볼 수 없는 존재다.",
+    "entry_en": "May 22nd: Floren of the Sauron family actually wants me to be his subordinate! Do I look like someone who would be a lackey? His attitude is simply unacceptable. I swear that I’ll one day make him pay the price for his arrogance today. However, some of the things he mentioned are very interesting and worth pondering over. Floren said that the history of the Sauron family exceeds two thousand years, making it longer than even the Church of the God of Craftsmanship’s history. They witnessed all the cooperation and strife, light and darkness, in the Fourth Epoch, and they have survived until this very day. They are truly a colossus that stands tall above the earth, one that people can’t look straight at."
+  }
+}

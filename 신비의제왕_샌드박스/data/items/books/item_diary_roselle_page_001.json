@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_001",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#1)",
+  "itemName_en": "Roselle's Worn Diary Page (#1)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1143년 2월 23일",
+    "entry_ko": "이 세계에 환생한 지 일주일이 넘었다. 무언가 기록하지 않으면 미쳐버릴 것 같다. 다행히 여긴 알파벳을 쓰니, 간체자로 쓰면 아무도 못 알아보겠지! 나는 이제 로셀 구스타브지만, 내 진짜 이름 황타오를 잊지 않을 것이다! 어떻게 환생했는지는 모르겠지만, 오기 며칠 전 샀던 신비한 은판 때문인 것 같다. 그건 내 치트 아이템이 아니었나! ...여긴 르네상스 이후의 유럽과 비슷하다. 총과 대포가 있지만 조잡하다. 나는 기술 장르 웹소설 팬이라 유용한 지식을 많이 안다! 내 능력을 펼칠 무대다! 그런데... 망할 기억력이 좋지 않다! 거의 다 잊어버렸다! ...일단 세부적인 것부터 시작하자. 돈이 생기면 장인, 발명가, 과학자들을 고용해서 아이디어만 던져주는 거다! ...하지만 엄마 아빠가 조금 그립다... 그리고 이 세계의 오락거리는 너무 단조롭다. 틱톡의 미녀들과 왕자영요, 배그가 날 기다리는데... 생각하니 좀 우울해진다.",
+    "entry_en": "I’ve transmigrated to this world for more than a week. I have to write something down and describe the things I have encountered, or I feel like I’ll go crazy. Hehe, if I write it in Simplified Chinese, I’m sure that no one will be able to decipher it. This world uses alphabetical words! I am now Roselle Gustav, but I’ll never forget my real name. Huang Tao! I don’t know how I transmigrated either. I carefully recalled and thought about it for a long time, and then I remembered that a few days before my transmigration, I bought a very mysterious silver plate with some strange symbols and patterns engraved on it. It was extremely interesting. However, it did not reappear after my transmigration here. It’s not my cheat item! Hmm, this is a world similar to ancient Europe. It’s after the Renaissance, and cannons and guns have appeared, but they’re rather crude and primitive. As for me, Huang Tao Roselle Gustav, as a fan of online literature, I loved reading transmigration with technology genre novels. I know quite a lot of useful things and specifically read up on the corresponding knowledge! This is the stage where I can display my abilities! But, I realized that my f**king memory isn’t good! I’ve almost forgotten everything! Alright, I’ll start with some details. When I have the money, I’ll hire a bunch of craftsmen, inventors, and scientists. I’m only responsible for giving them ideas! But I still miss Mom and Dad a little… Besides, the entertainment in this world is too monotonous. The one or two maids don’t look that good, and their entire bodies exude rustic vibes. I haven’t finished reading Lin Gao’s Five Hundred Good-for-nothings, and there are so many beauties that are awaiting me on Tik Tok. The games, Kings of Glory and PUBG, are still waiting for me. Thinking about them makes me feel a little depressed."
+  }
+}

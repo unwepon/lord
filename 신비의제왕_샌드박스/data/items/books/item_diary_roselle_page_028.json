@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_028",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#28)",
+  "itemName_en": "Roselle's Worn Diary Page (#28)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "8월 11일: 저 바보 플로렌이 또 자랑질이다. 그는 자신이 증조할아버지와 매우 닮았기 때문에 솔론 가문 세대에서 고위 서열 초월자가 될 가장 유망한 멤버라고 말했다. 무슨 필연적인 연관이라도 있나? 그를 위아래, 왼쪽 오른쪽으로 훑어봐도 재능의 기미는 찾을 수 없었다. 게다가 초월자 분야에서 재능이 중요한가? 글쎄, '연기'의 본질을 파악하는 것은 재능의 핵심 요소일 수 있지만, 그것이 필수는 아니다. 연기법을 알고, 의미를 오해할 만큼 어리석지 않고, 통제 불능을 쉽게 초래하는 일을 피하기만 하면, 물약을 완전히 소화할 기회가 있다. 즉, 시간과 노력을 조금 더 들이면 된다. 평생에 걸쳐 고위 서열 초월자가 되는 것이 불가능한 것은 아니다. 고위 서열 초월자가 되는 주된 장애물은 초월적 재료를 얻는 어려움과 해당 의식의 어려움이다. 물론, 초월자로 태어난 사람들은 준비할 시간이 더 많다는 것을 인정해야 한다. 플로렌의 증조할아버지가 고위 서열 초월자였나? 그를 닮았다는 것이 재능을 의미하나?",
+    "entry_en": "August 11th: That retard Floren is showing off again. He said that he’s the most promising member of the Sauron family generation to become a High-Sequence Beyonder because he’s very similar to his great-great-grandfather. Is there any necessary connection? I looked him up and down, left and right, but I couldn’t find any sign of talent. Moreover, in the field of Beyonders, is talent important? Well, figuring out the essence to ‘acting’ can be a core element of talent, but that’s not necessary. As long as one knows the acting method and not be stupid enough to misunderstand the meaning, or avoid doing things that easily result in a loss of control, then one has a chance to completely digest the potions. Which is to say, just a bit more time and effort needs to be spent. In one’s lifetime, it’s not impossible to become a High-Sequence Beyonder. The main obstacle to becoming a High-Sequence Beyonder is the difficulty of obtaining Beyonder ingredients and the difficulty of corresponding rituals. Of course, I have to admit that those born as Beyonders have more time to prepare. Was Floren’s great-great-grandfather a High-Sequence Beyonder? Does looking like him imply talent?"
+  }
+}

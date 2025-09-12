@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_063",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#63)",
+  "itemName_en": "Roselle's Worn Diary Page (#63)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상 (서열 2 시절)",
+    "entry_ko": "9월 11일: 천사가 된 이후로, 정체성이 해리되는 느낌을 받았다. 내 마음속, 영혼 속, 그리고 정신 깊은 곳에서 궁극적으로 나를 재촉하고, 영향을 미치며, 통제할 수 없는 냉혹함, 피에 굶주림, 잔인함, 그리고 광기를 만들어내는 목소리가 있다. 이것은 외부 세계나 같은 경로의 신으로부터의 영향에서 비롯된 것이 아니다. 나는 그것이 유전자, 세대에 걸친 인류의 집단 무의식에서 비롯된다는 것을 분명히 느낄 수 있다. 그것은 초월적 특성 자체에서 비롯된 것이며, 남은 심리적 영향에서 비롯된 것이 아니다. 그것은 나에게 사냥하고 죽이고 싶은 강한 욕망을 갖게 한다. 주변의 초월적 특성을 가진 모든 생명체를 집어삼키고 싶게 만든다. 그것에 저항하기 위해 많은 노력을 기울여야 한다. 이미 물약을 연기하고 소화했음에도 불구하고, 나아지는 것 같지 않다.",
+    "entry_en": "September 11th: Ever since I became an angel, I’ve had the feeling that I’ve had my identity disassociated. In my heart, in my soul, and in the depths of my mind, there’s ultimately a voice urging me, influencing me and creating an uncontrollable sense of coldness, bloodthirstiness, cruelty, and craziness. This doesn’t stem from the external world or an influence from a god of the same pathway. I can clearly sense that it comes from one’s genes, the collective subconsciousness of humanity from generation after generation. It stems from the Beyonder characteristic itself, and not from the remnants psychological influences. It makes me have a strong desire to hunt and kill. It makes me want to devour all the living beings around me with Beyonder characteristics. It requires me to spend a lot of effort to resist it. Even if I’ve already acted and digested the potion, it doesn’t seem to improve."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_054",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#54)",
+  "itemName_en": "Roselle's Worn Diary Page (#54)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1192년 11월 10일",
+    "entry_ko": "나는 화이트 메이플 궁전에서 대해적 사비니 솔로몬을 비밀리에 만났다. 솔로몬. 나는 그가 새로운 해로에서 내 경쟁자들을 약탈하고 페이사크, 로엔, 페네포트의 배들을 공격하기를 바란다. 그리고 나는 그가 고위 서열 초월자로 승급하는 것을 돕겠다고 약속했다. 흑황제의 초월자 경로는 마녀 경로만큼이나 이상한 이름들을 가지고 있다—부패, 혼란, 타락, 무질서… 하지만 흑황제와 맞추기 위해, 그들은 자신들의 접미사를 붙였다. 부패의 남작, 무질서의 멘토, 타락의 백작, 폐지의 왕자. 사비니가 그의 이름에 걸맞게 살도록, 나는 그에게 비밀리에 궁정 백작 칭호를 수여하기로 결정했다. 사비니에게는 나스트 솔로몬이라는 아이가 있는데, 내 직감으로는 그가 미래에 오대양을 지배할 것 같다.",
+    "entry_en": "November 10th: I received the great pirate Savigny Solomon in secret at the White Maple Palace. Solomon. I hope that he will plunder my opponents on the new sea route and strike at the ships of Feysac, Loen, and Feynapotter. And I promised to help him advance to a High-Sequence Beyonder. The Beyonder pathway of Black Emperor has names that are as strange as the Demoness pathway—Corruption, Confusion, The Fallen, Disorder… However, in order to match the Black Emperor, they added on their own suffixes, Baron of Corruption, Mentor of Disorder, Earl of The Fallen, and Prince of Abolition. In order for Savigny to live up to his name, I decided to confer him the title of Earl of the Court in secret. Savigny has a child named Nast Solomon, and my intuition tells me that he will dominate the Five Seas in the future."
+  }
+}

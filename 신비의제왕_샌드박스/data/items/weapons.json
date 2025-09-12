@@ -1,0 +1,547 @@
+[
+  {
+    "name": "주먹/발",
+    "item_type": "무기",
+    "description": "가장 기본적인 비무장 공격입니다.",
+    "properties": {
+      "category": "근접 무기",
+      "weapon_type": "격투",
+      "damage": "1d2",
+      "notes": "비무장, 피해 유형: B (타격)"
+    },
+    "mechanics": {}
+  },
+  {
+    "name": "단검",
+    "item_type": "무기",
+    "description": "작고 빠른 자상 및 절삭용 무기입니다.",
+    "properties": {
+      "category": "근접 무기",
+      "weapon_type": "단검",
+      "damage": "1d4",
+      "notes": "피해 유형: S/P (베기/찌르기)"
+    },
+    "mechanics": {}
+  },
+  {
+    "name": "소드",
+    "item_type": "무기",
+    "description": "가장 표준적인 형태의 한손 검입니다.",
+    "properties": {
+      "category": "근접 무기",
+      "weapon_type": "도검",
+      "damage": "1d8",
+      "notes": "피해 유형: S (베기)"
+    },
+    "mechanics": {}
+  },
+  {
+    "name": "레이피어",
+    "item_type": "무기",
+    "description": "찌르기에 특화된 가늘고 긴 검입니다.",
+    "properties": {
+      "category": "근접 무기",
+      "weapon_type": "도검",
+      "damage": "1d6",
+      "notes": "피해 유형: P (찌르기)"
+    },
+    "mechanics": {}
+  },
+  {
+    "name": "핸드액스",
+    "item_type": "무기",
+    "description": "한 손으로 사용하는 작은 도끼입니다.",
+    "properties": {
+      "category": "근접 무기",
+      "weapon_type": "도끼",
+      "damage": "1d6",
+      "notes": "피해 유형: S (베기)"
+    },
+    "mechanics": {}
+  },
+  {
+    "name": "몽둥이",
+    "item_type": "무기",
+    "description": "단순하지만 효과적인 타격용 둔기입니다.",
+    "properties": {
+      "category": "근접 무기",
+      "weapon_type": "둔기",
+      "damage": "1d6",
+      "notes": "피해 유형: B (타격)"
+    },
+    "mechanics": {}
+  },
+  {
+    "name": "스피어",
+    "item_type": "무기",
+    "description": "긴 자루를 가진 찌르기용 창입니다.",
+    "properties": {
+      "category": "근접 무기",
+      "weapon_type": "창",
+      "damage": "1d6",
+      "notes": "양손, 피해 유형: P (찌르기)"
+    },
+    "mechanics": {}
+  },
+  {
+    "name": "그레이트소드",
+    "item_type": "무기",
+    "description": "압도적인 파괴력을 지닌 양손 대검입니다.",
+    "properties": {
+      "category": "근접 무기",
+      "weapon_type": "중병기",
+      "damage": "1d8",
+      "notes": "양손, 피해 유형: S (베기)"
+    },
+    "mechanics": {}
+  },
+  {
+    "name": "도검",
+    "item_type": "무기",
+    "description": "가장 표준적인 형태의 한손 검입니다.",
+    "properties": {
+      "uses_gunpowder": false,
+      "category": "근접 무기",
+      "weapon_type": "도검",
+      "damage_dice": "1d6",
+      "damage_attribute": "힘",
+      "handling": "한손",
+      "range_category": "단병기"
+    }
+  },
+  {
+    "name": "거대 무기",
+    "item_type": "무기",
+    "description": "압도적인 파괴력을 지닌 양손 무기. 일반 근접 무기보다 사거리가 깁니다.",
+    "properties": {
+      "uses_gunpowder": false,
+      "category": "근접 무기",
+      "weapon_type": "거대 무기",
+      "damage_dice": "1d8",
+      "damage_attribute": "힘",
+      "handling": "양손",
+      "range_category": "장병기"
+    }
+  },
+  {
+    "name": "채찍",
+    "item_type": "무기",
+    "description": "긴 사거리를 이용해 3연속 공격이 가능한 유연한 무기입니다.",
+    "properties": {
+      "uses_gunpowder": false,
+      "category": "근접 무기",
+      "weapon_type": "특수 무기",
+      "damage_dice": "1d2",
+      "damage_attribute": "힘",
+      "handling": "한손",
+      "range_category": "장병기",
+      "notes": "힘 피해 가산치는 절반만 적용됩니다 (소수점 올림)."
+    }
+  },
+  {
+    "name": "나무 지팡이/곤봉",
+    "item_type": "무기",
+    "description": "단순한 목제 타격용 무기입니다. ",
+    "properties": {
+      "uses_gunpowder": false,
+      "category": "근접 무기",
+      "weapon_type": "둔기",
+      "damage_dice": "1d3",
+      "damage_attribute": "힘",
+      "handling": "한손",
+      "range_category": "단병기"
+    }
+  },
+  {
+    "name": "강화 지팡이/곤봉 (단단한 재질)",
+    "item_type": "무기",
+    "description": "은을 덧대거나 단단한 재질로 만들어진 타격용 무기입니다. ",
+    "properties": {
+      "uses_gunpowder": false,
+      "category": "근접 무기",
+      "weapon_type": "둔기",
+      "damage_dice": "1d4",
+      "damage_attribute": "힘",
+      "handling": "한손",
+      "range_category": "단병기"
+    }
+  },
+  {
+    "name": "임시 무기 (돌/맥주병)",
+    "item_type": "무기",
+    "description": "급할 때 집어들거나 던질 수 있는 물체입니다.",
+    "properties": {
+      "uses_gunpowder": false,
+      "category": ["근접 무기", "원거리 무기"],
+      "weapon_type": ["임시", "투척"],
+      "damage_dice": "1d3",
+      "damage_attribute": "힘",
+      "handling": "한손",
+      "range": {
+        "melee": "단병기",
+        "thrown_formula": "힘*2"
+      },
+      "notes": "투척 시 사거리는 캐릭터의 힘 속성의 2배입니다."
+    }
+  },
+  [
+  {
+    "name": "투척 단검",
+    "item_type": "무기",
+    "description": "투척용으로 제작된 단검입니다.",
+    "properties": {
+      "uses_gunpowder": false,
+      "category": "원거리 무기",
+      "weapon_type": "투척",
+      "damage": "1d4",
+      "effective_range": "10m",
+      "handling": "한손",
+      "notes": "피해 유형: P (찌르기)"
+    }
+  },
+  {
+    "name": "롱보우",
+    "item_type": "무기",
+    "description": "긴 사거리를 자랑하는 강력한 활입니다.",
+    "properties": {
+      "uses_gunpowder": false,
+      "category": "원거리 무기",
+      "weapon_type": "활",
+      "damage": "1d8",
+      "effective_range": "30m",
+      "handling": "양손",
+      "notes": "피해 유형: P (찌르기)"
+    }
+  },
+  {
+    "name": "헤비 크로스보우",
+    "item_type": "무기",
+    "description": "강력한 장력을 이용하는 무거운 쇠뇌입니다.",
+    "properties": {
+      "uses_gunpowder": false,
+      "category": "원거리 무기",
+      "weapon_type": "쇠뇌",
+      "damage": "1d10",
+      "effective_range": "40m",
+      "handling": "양손",
+      "notes": "피해 유형: P (찌르기)"
+    }
+  },
+  {
+    "name": "리볼버",
+    "item_type": "무기",
+    "description": "일반적인 6연발 리볼버입니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "원거리 무기",
+      "weapon_type": "권총",
+      "damage": "1d8",
+      "effective_range": "30m",
+      "handling": "한손",
+      "capacity": 6,
+      "notes": "피해 유형: P (찌르기)"
+    }
+  },
+  {
+    "name": "사냥용 소총",
+    "item_type": "무기",
+    "description": "정밀한 장거리 사격에 사용되는 소총입니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "원거리 무기",
+      "weapon_type": "소총",
+      "damage": "1d10",
+      "effective_range": "100m",
+      "handling": "양손",
+      "capacity": 2,
+      "notes": "피해 유형: P (찌르기)"
+    }
+  },
+  {
+    "name": "펌프액션 엽총",
+    "item_type": "무기",
+    "description": "근거리에서 강력한 위력을 발휘하는 산탄총입니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "원거리 무기",
+      "weapon_type": "엽총",
+      "damage": "1d12",
+      "effective_range": "10m",
+      "handling": "양손",
+      "capacity": 5,
+      "notes": "피해 유형: P (찌르기)"
+    }
+  },
+  [
+  {
+    "name": "단궁",
+    "item_type": "무기",
+    "description": "다루기 쉬운 작은 활입니다. 사격 판정 시 민첩을 사용합니다.",
+    "properties": {
+      "uses_gunpowder": false,
+      "category": "원거리 무기",
+      "weapon_type": "활",
+      "damage": "1d3",
+      "damage_attribute": "힘", 
+      "handling": "양손",
+      "effective_range_formula": "힘",
+      "notes": "힘 피해 가산치는 절반만 적용되며, 사거리는 캐릭터의 힘 속성 수치와 같습니다. 피해 유형: P"
+    }
+  },
+  {
+    "name": "장궁",
+    "item_type": "무기",
+    "description": "긴 사거리를 자랑하는 강력한 활입니다.",
+    "properties": {
+      "uses_gunpowder": false,
+      "category": "원거리 무기",
+      "weapon_type": "활",
+      "damage": "1d6",
+      "damage_attribute": "힘",
+      "handling": "양손",
+      "effective_range_formula": "힘*2",
+      "notes": "사거리는 캐릭터의 힘 속성의 2배입니다. 피해 유형: P"
+    }
+  },
+  {
+    "name": "석궁",
+    "item_type": "무기",
+    "description": "강력한 장력을 이용하는 무거운 쇠뇌. 재장전에 긴 시간이 필요합니다.",
+    "properties": {
+      "uses_gunpowder": false,
+      "category": "원거리 무기",
+      "weapon_type": "쇠뇌",
+      "damage": "2d6",
+      "effective_range": "40m",
+      "handling": "양손",
+      "reload_action": "1 라운드 전체 행동",
+      "notes": "피해 유형: P"
+    }
+  },
+  {
+    "name": "부싯돌 권총",
+    "item_type": "무기",
+    "description": "한 발만 장전 가능한 구식 권총입니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "원거리 무기",
+      "weapon_type": "권총",
+      "damage": "1d4",
+      "effective_range": "80m",
+      "handling": "한손",
+      "capacity": 1,
+      "reload_action": "1 라운드 전체 행동",
+      "notes": "피해 유형: P"
+    }
+  },
+  {
+    "name": "부싯돌 소총",
+    "item_type": "무기",
+    "description": "한 발만 장전 가능한 구식 소총입니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "원거리 무기",
+      "weapon_type": "소총",
+      "damage": "1d8",
+      "effective_range": "150m",
+      "handling": "양손",
+      "capacity": 1,
+      "reload_action": "1 라운드 전체 행동",
+      "notes": "피해 유형: P"
+    }
+  },
+  {
+    "name": "특제 리볼버 권총",
+    "item_type": "무기",
+    "description": "사거리와 위력이 강화된 특수 제작 리볼버입니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "원거리 무기",
+      "weapon_type": "권총",
+      "damage": "1d6+2",
+      "effective_range": "50m",
+      "handling": "한손",
+      "capacity": 6,
+      "reload_action": "1 공격 행동",
+      "notes": "3발 연사가 가능하며, 연사 시마다 명중 판정에 -2 불리가 누적됩니다. 피해 유형: P"
+    }
+  },
+  {
+    "name": "볼트액션 소총",
+    "item_type": "무기",
+    "description": "정밀한 장거리 사격에 사용되는 소총입니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "원거리 무기",
+      "weapon_type": "소총",
+      "damage": "2d6",
+      "effective_range": "160m",
+      "handling": "양손",
+      "capacity": 5,
+      "reload_action": "1 라운드 전체 행동",
+      "notes": "사격 후 다음 발사를 위해 1 자유 행동으로 볼트를 당겨야 합니다. 피해 유형: P"
+    }
+  },
+  {
+    "name": "반자동 소총",
+    "item_type": "무기",
+    "description": "볼트 조작 없이 3발 연사가 가능한 소총입니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "원거리 무기",
+      "weapon_type": "소총",
+      "damage": "2d6",
+      "effective_range": "160m",
+      "handling": "양손",
+      "capacity": 5,
+      "reload_action": "1 라운드 전체 행동",
+      "notes": "3발 연사가 가능하며, 연사 시마다 명중 판정에 -2 불리가 누적됩니다. 피해 유형: P"
+    }
+  },
+  {
+    "name": "단발 엽총",
+    "item_type": "무기",
+    "description": "한 발씩 장전하는 산탄총입니다. 근거리에서 강력한 위력을 발휘합니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "원거리 무기",
+      "weapon_type": "엽총",
+      "damage": "2d6",
+      "effective_range": "50m",
+      "handling": "양손",
+      "capacity": 1,
+      "reload_action": "1 라운드 전체 행동",
+      "notes": "근거리 특수 규칙이 적용됩니다. 피해 유형: P"
+    }
+  },
+  {
+    "name": "쌍발 엽총",
+    "item_type": "무기",
+    "description": "두 발을 장전할 수 있는 산탄총입니다. 두 발을 동시에 발사할 수 있습니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "원거리 무기",
+      "weapon_type": "엽총",
+      "damage": "2d6",
+      "effective_range": "50m",
+      "handling": "양손",
+      "capacity": 2,
+      "reload_action": "1 라운드 전체 행동",
+      "notes": "근거리 특수 규칙이 적용됩니다. 피해 유형: P"
+    }
+  },
+  {
+    "name": "파편 수류탄",
+    "item_type": "소모품",
+    "description": "폭발하며 넓은 범위에 파편 피해를 입힙니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "폭발물",
+      "weapon_type": "투척",
+      "damage": "2d6",
+      "handling": "한손",
+      "effective_range_formula": "힘*2",
+      "notes": "폭발 시 5미터 범위에 영향을 주며 갑옷을 2점 무시합니다. 피해 유형: 폭발"
+    }
+  },
+  {
+    "name": "폭파 수류탄",
+    "item_type": "소모품",
+    "description": "파편 수류탄보다 강력한 폭발을 일으킵니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "폭발물",
+      "weapon_type": "투척",
+      "damage": "3d6",
+      "handling": "한손",
+      "effective_range_formula": "힘*2",
+      "notes": "폭발 시 5미터 범위에 영향을 주며 갑옷을 3점 무시합니다. 피해 유형: 폭발"
+    }
+  },
+  {
+    "name": "다이너마이트/뇌관",
+    "item_type": "소모품",
+    "description": "설치형 폭발물입니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "폭발물",
+      "weapon_type": "설치",
+      "damage": "2d6",
+      "handling": "양손",
+      "notes": "폭발 시 5미터 범위에 영향을 주며 갑옷을 3점 무시합니다. 피해 유형: 폭발"
+    }
+  },
+  {
+    "name": "화염병",
+    "item_type": "소모품",
+    "description": "착탄 시 화염 지대를 생성하여 지속적인 피해를 줍니다.",
+    "properties": {
+      "uses_gunpowder": false,
+      "category": "폭발물",
+      "weapon_type": "투척",
+      "damage": "1d6",
+      "handling": "한손",
+      "effective_range_formula": "힘*2",
+      "notes": "5미터 범위에 영향을 주며, 2라운드 동안 지속적인 화염 피해를 입힙니다. 피해 유형: 화염"
+    }
+  },
+  {
+    "name": "증기 소총",
+    "item_type": "무기",
+    "description": "증기 기술로 강화된 강력한 중화기 소총입니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "중화기",
+      "weapon_type": "소총",
+      "damage": "3d6",
+      "effective_range": "200m",
+      "handling": "양손",
+      "capacity": 5,
+      "reload_action": "1 라운드 전체 행동",
+      "notes": "피해 유형: P"
+    }
+  },
+  {
+    "name": "저격 소총",
+    "item_type": "무기",
+    "description": "초장거리 정밀 사격을 위한 중화기입니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "중화기",
+      "weapon_type": "소총",
+      "damage": "3d6+5",
+      "effective_range": "800m",
+      "handling": "양손",
+      "capacity": 10,
+      "reload_action": "1 라운드 전체 행동",
+      "notes": "피해 유형: P"
+    }
+  },
+  {
+    "name": "포탄",
+    "item_type": "소모품",
+    "description": "대포에서 발사되는 강력한 폭발성 탄두입니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "중화기",
+      "weapon_type": "포탄",
+      "damage": "4d6",
+      "effective_range": "10,000m",
+      "notes": "착탄 지점 10미터 내 모든 목표에게 영향을 미칩니다. 피해 유형: 폭발"
+    }
+  },
+  {
+    "name": "해안포",
+    "item_type": "무기",
+    "description": "해안 방어용으로 설치된 거대 대포입니다.",
+    "properties": {
+      "uses_gunpowder": true,
+      "category": "중화기",
+      "weapon_type": "대포",
+      "damage": "5d6",
+      "effective_range": "20,000m",
+      "notes": "착탄 지점 10미터 내 모든 목표에게 영향을 미칩니다. 피해 유형: 폭발"
+    }
+  }
+]
+]

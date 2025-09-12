@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_041",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#41)",
+  "itemName_en": "Roselle's Worn Diary Page (#41)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1183년 11월 18일",
+    "entry_ko": "정말 매혹적인 일이다. 푸른 하늘 아래에서의 실험과 우연한 실수로 폭풍 속 깊은 어둠에 갇혀 길을 잃은 불쌍한 친구를 발견하게 되었다. 그는 매달 보름달이 뜨는 날에만 이 세계의 현실에 접근할 수 있지만, 그의 울음소리를 전달할 수는 없다. 이 시대의 주인공인 나를 만난 것은 행운이다. 위에 쓴 문단을 읽고 나니 갑자기 조금 우울해졌다. 내 중국어조차 번역체처럼 쓰여 있다. 손가락 한 번 튕기는 사이에 40년이 지났다. 내 과거의 기억은 꿈처럼 느껴진다.",
+    "entry_en": "Truly a fascinating matter. A blue-sky experimentation and a chance mistake made me discover the pathetic fellow lost and trapped in the deep darkness amid the storms. He can only approach the reality of this world on the day of the full moon every month; yet, he is unable to transmit his cries. He is lucky to have met me, the protagonist of this era. After reading the paragraph I wrote above, I suddenly felt a little down. Even my Chinese is written like a translation. Four decades have passed in a finger snap. My past memories feel more like a dream."
+  }
+}

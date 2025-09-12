@@ -1,0 +1,106 @@
+import time
+
+class Combatant:
+    """전투 참여자를 나타내는 기본 클래스"""
+    def __init__(self, name, initiative, is_player=True):
+        self.name = name
+        self.initiative = initiative
+        self.is_player = is_player
+        self.declared_action = None
+
+class CombatEngine:
+    """단체전 흐름을 관리하는 게임 엔진 클래스"""
+
+    def __init__(self, combatants, rules):
+        self.combatants = combatants
+        self.rules = rules # group_combat_flow.json 데이터를 받아옴
+        self.turn_order = []
+        print("--- 전투 시작 ---")
+        self._roll_initiative()
+
+    def _roll_initiative(self):
+        """선제권에 따라 행동 순서를 정렬합니다."""
+        print("선제권을 굴립니다...")
+        # initiative가 높은 순서대로 정렬
+        self.turn_order = sorted(self.combatants, key=lambda x: x.initiative, reverse=True)
+        order_str = " -> ".join([c.name for c in self.turn_order])
+        print(f"행동 순서: {order_str}\n")
+        time.sleep(1)
+
+    def run_group_combat_round(self):
+        """
+        단체전 라운드 하나를 진행합니다. JSON 규칙의 3단계를 따릅니다.
+        """
+        print("--- 새 라운드 시작 ---")
+
+        # 1단계: 상황 설명 및 적 의도 선언
+        print("## 1. 상황 설명 및 적 의도 선언 ##")
+        kp_narration_rule = self.rules['steps'][0]['description_ko']
+        print(f"키퍼(KP): {kp_narration_rule}")
+        print("키퍼(KP): '적 그림자 괴물은 손에 칠흑 같은 장검을 응축하기 시작합니다!'\n")
+        time.sleep(1)
+
+        # 2단계: 플레이어 행동 동시 선언
+        print("## 2. 플레이어 행동 동시 선언 ##")
+        player_declaration_rule = self.rules['steps'][1]['description_ko']
+        print(f"키퍼(KP): {player_declaration_rule}")
+        
+        # 실제 게임에서는 여기서 input()을 받아 행동을 결정합니다.
+        for combatant in self.turn_order:
+            if combatant.is_player:
+                # 예시: 플레이어 행동을 미리 지정
+                if "악몽" in combatant.name:
+                    combatant.declared_action = f"'{combatant.name}'(이)가 괴물을 향해 돌진하여 공격합니다."
+                elif "마술사" in combatant.name:
+                    combatant.declared_action = f"'{combatant.name}'(이)가 뒤에서 타로 카드를 던질 준비를 합니다."
+                print(f"{combatant.name}의 행동 선언 완료.")
+        print("")
+        time.sleep(1)
+
+        # 3단계: 행동 동시 해결 및 통합 서술
+        print("## 3. 행동 동시 해결 및 통합 서술 ##")
+        resolution_rule = self.rules['steps'][2]['description_ko']
+        print(f"키퍼(KP): {resolution_rule}\n")
+        time.sleep(1)
+
+        # 선제권 순서대로 결과를 이야기처럼 엮어 서술합니다.
+        for combatant in self.turn_order:
+            print(f"키퍼(KP): 선제권 {combatant.initiative}의 {combatant.name}이(가) 움직입니다...")
+            time.sleep(0.5)
+            if combatant.is_player:
+                print(f"    -> {combatant.declared_action}")
+            else: # NPC의 행동
+                # 1단계에서 선언한 의도대로 행동
+                print(f"    -> '그림자 괴물이 장검을 들고 가장 가까운 '악몽'에게 달려듭니다!'")
+
+            # 여기에 각 행동에 대한 실제 판정(주사위 굴림) 및 결과 처리가 들어갑니다.
+            # 예: "악몽"이 방어 행동으로 전환하는지 신속 행동으로 반응하는지 등을 확인
+            print("    (결과 처리...)")
+            time.sleep(1)
+        
+        print("\n--- 라운드 종료 ---\n")
+
+
+# --- 코드 실행 예시 ---
+if __name__ == "__main__":
+    # 단체전 규칙 데이터 (combat_flow_rules.json의 group_combat_flow 부분)
+    group_combat_rules = {
+        "name_ko": "특수 전투 (단체전) 흐름",
+        "trigger_condition": "전투 참여자 4명 이상",
+        "steps": [
+            {"step_id": "kp_narration", "description_ko": "KP는 현재 환경과 적의 위치, 그리고 적이 이번 라운드에 하려는 행동을 서술합니다."},
+            {"step_id": "player_action_declaration", "description_ko": "모든 플레이어는 이번 라운드에 할 행동을 선언합니다."},
+            {"step_id": "simultaneous_resolution", "description_ko": "KP는 선제권이 가장 높은 캐릭터부터 모든 행동의 결과를 하나의 이야기로 엮어 서술합니다."}
+        ]
+    }
+
+    # 전투 참여자 생성 (이름, 선제권, 플레이어 여부)
+    participants = [
+        Combatant("그림자 괴물", 18, is_player=False),
+        Combatant("악몽 (플레이어)", 15),
+        Combatant("마술사 (플레이어)", 12)
+    ]
+
+    # 게임 엔진 생성 및 라운드 실행
+    engine = CombatEngine(participants, group_combat_rules)
+    engine.run_group_combat_round()

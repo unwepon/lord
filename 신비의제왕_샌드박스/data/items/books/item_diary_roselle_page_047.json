@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_047",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#47)",
+  "itemName_en": "Roselle's Worn Diary Page (#47)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1184년 3월 11일",
+    "entry_ko": "어제 있었던 일을 떠올릴수록 더 두려워진다. 반신반인의 존재가 단 몇 마디 말로 운명이 결정되었다. 그는 반대의사를 표할 기회조차 없었다. 그리고 고대 비밀 조직의 구성은, 일곱 정교회를 상대하는 것을 제외하고는 그들이 할 수 없는 일이 없다는 것을 확신하게 한다. 한 나라를 전복시키는 것조차 불가능하지 않다. 내가 이 조직에 끌려들어간 것이 얼마나 다행인가. 그렇지 않았다면, 언젠가 저항할 수 없는 예기치 않은 암살을 당할지 누가 알겠는가. 눈을 뜬 채로 죽을 것이다!! 배후에 숨어 다른 사람을 비밀리에 심판하고, 대상의 생사를 결정하는 이런 종류의 조직은 정말 받아들일 수 없다. 비록 내가 그들의 멤버 중 한 명이라도, 나는 여전히 경악하고 마음속 깊이 두려움을 느낀다.",
+    "entry_en": "The more I recall what happened yesterday, the more afraid I am. A demigod existence had his fate decided with just a few words. He didn't even have the chance to express his disapproval. And the makeup of the ancient secret organization convinces me that, apart from dealing with the seven orthodox Churches, there is nothing that they can't do. Even the toppling of a nation isn't impossible. How lucky I am to be pulled into this organization; otherwise, who knows if I might one day suffer an unexpected assassination I cannot resist. I'll die with my eyes wide open!! This kind of organization that hides behind the scenes, secretly passing judgement on others, while determining the life and death of the target is really unacceptable. Even if I'm one of their members, I'm still appalled and feel fear deep down."
+  }
+}

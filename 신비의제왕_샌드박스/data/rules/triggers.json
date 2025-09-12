@@ -1,0 +1,35 @@
+    # 행동 판정을 시도할 때 발동 (기존 코드와 호환)
+    "on_action_check": {
+        "type": "on_action_check",
+        "description": "캐릭터가 특정 행동(공격, 기술 사용 등)의 성공 여부를 판정할 때 발동합니다."
+    },
+    
+    # 공격 또는 능력의 대상으로 지정되었을 때 발동
+    "on_being_targeted": {
+        "type": "on_being_targeted",
+        "description": "적이 자신을 공격 또는 능력의 대상으로 선택했을 때 발동합니다. (예: 방어적 능력)"
+    },
+
+    # 피해를 입는 순간 발동
+    "on_damage_taken": {
+        "type": "on_damage_taken",
+        "description": "공격이 명중하여 실제로 피해를 입는 순간 발동합니다. (예: 피해 감소 능력)"
+    },
+
+    # 전투 라운드가 시작될 때 발동
+    "on_round_start": {
+        "type": "on_round_start",
+        "description": "전투 중 자신의 턴이 시작될 때마다 발동합니다. (예: 지속적인 회복 또는 피해 효과)"
+    },
+
+    # 판정 결과가 '대실패(Fumble)'일 때 발동
+    "on_fumble": {
+        "type": "on_fumble",
+        "description": "d20 주사위 판정 결과가 자연수 1(대실패)일 때 발동합니다. (규칙서 7p)"
+    },
+
+    # 판정 결과가 '대성공(Critical Success)'일 때 발동
+    "on_critical_success": {
+        "type": "on_critical_success",
+        "description": "d20 주사위 판정 결과가 자연수 20(대성공)일 때 발동합니다. (규칙서 7p)"
+    }

@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_015",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#15)",
+  "itemName_en": "Roselle's Worn Diary Page (#15)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "7월 9일: 갑자기 흥미로운 질문이 떠올랐다. 서열 경로는 '신성의 축복' 또는 '신성의 경로'라고도 불리는데, 그렇다면 완성된 22개의 서열 경로를 기록한 석판은 왜 '신성모독 석판'이라고 불리는 걸까. 신성모독이라니, 재미있는 용어다… 도대체 누구를 모독하는 거지? 그리고 누가 신성모독 석판을 만들었을까? 그 사람은 어떻게 모든 서열 경로를 가질 수 있었을까? 그 돌에는 또 어떤 정보가 있었을까? 정말 보고 싶다…",
+    "entry_en": "July 9th: I suddenly thought of an interesting question. Since the Sequence pathways are also called the ‘Blessings of The Divinities’ or ‘Pathways of The Divinities’, then why would the stone slate that records the completed twenty-two Sequence pathways be called the ‘Blasphemy Slate’. Blasphemy, what an interesting term… Just who is the one blasphemed? And who created the Blasphemy Slate? How could that person hold all of the Sequence pathways? Just what other information was on the stone? I really want to see it…"
+  }
+}

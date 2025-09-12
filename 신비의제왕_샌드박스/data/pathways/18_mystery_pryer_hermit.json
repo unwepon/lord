@@ -1,0 +1,83 @@
+{
+  "pathName": "비밀 탐구자 (Mystery Pryer)",
+  "characteristics": "신비롭고 오컬트적인 세계에 대한 지식을 전문으로 합니다. 뛰어난 의식 마법 능력을 갖추고 있으며, 다양한 주문을 외우고 그에 맞는 재료로 두루마리를 만들 뿐만 아니라, 별을 소환하고 조종합니다. 하이 시퀀스에서는 숨겨진 존재를 쉽게 보고 들을 수 있고, 신비로운 지식에서 힘을 추출할 수 있으며, 운명의 흐름을 예견할 수 있습니다. 그들은 스스로 정보가 되며, 자신의 몸을 변형하고, 지식에 힘을 불어넣고, 다른 사람의 마음에 지식을 주입하고, 숫자의 상징을 조작하여 온갖 강력하고 무서운 효과를 불러올 수 있습니다.",
+  "compatiblePaths": [
+    "학자 (Scholar)"
+  ],
+  "interchangeableAt": "서열 4부터 교환 가능",
+  "greatOldOne": "숨겨진 현자 (Hidden Sage)",
+  "sefirah": "지식 무어 (Knowledge Moor)",
+  "symbol": "지식, 비밀",
+  "mythicalCreatureForm": "눈이 가득한 검은 덩어리",
+  "tarotCard": "은둔자 (The Hermit, IX)",
+  "associatedGroups": [
+    "증기와 기계의 신 교회",
+    "흑야 여신 교회",
+    "모스크 기사단",
+    "여명 요소"
+  ],
+  "sequences": [
+    {
+      "sequence": 9,
+      "name": "비밀 탐구자 (Mystery Pryer)",
+      "description": "마법, 무술, 점성술 등 신비 지식에 대해 포괄적이지만 초보적인 이해와 장악력을 가지고 있으며, 많은 의식 마법을 알고 있습니다. 하지만 사물 뒤에 숨겨진 어떤 존재를 쉽게 감지하며, 반드시 조심해야 하고 초월적인 힘에 대한 경외심을 가져야 합니다.",
+      "potion": {
+        "mainIngredients": [],
+        "auxiliaryIngredients": []
+      },
+      "actingMethod": "원하는 대로 하되, 해치지 마라.",
+      "enhancements": {
+        "속성 증진": "영감+2, 의지+1, 교육+1",
+        "기능 증진": "없음",
+        "재능 부여": "신비 관련 기능을 더 잘 배우기 시작할 수 있습니다. ① 당신이 2시간 동안 반복되지 않고 유효한 해당 지도를 받을 때마다, 당신의 해당 신비학/신비학 언어는 1 등급 상승합니다. 훈련됨에서 숙련됨까지 학습 2회 필요하며, 최대 빠르게 숙련됨까지 학습할 수 있습니다."
+      },
+      "beyonderSkills": [
+        "영적 시야 (Spirit Vision)",
+        "장막 엿보기 (Peeking at the Curtain)",
+        "빠른 의식 마법 (Fast Ritual Magic)",
+        "의식 정통 (Proficient in Rituals)",
+        "점술 (Divination)"
+      ]
+    },
+    {
+      "sequence": 8,
+      "name": "격투학자 (Pugilist Scholar)",
+      "description": "사물의 배후 비밀을 추구하며, 격투 역시 사물의 한 종류입니다.",
+      "potion": {
+        "mainIngredients": [],
+        "auxiliaryIngredients": []
+      },
+      "actingMethod": "격투를 통해 사물의 이치를 탐구하고, 힘과 지식의 결합을 추구한다.",
+      "enhancements": {
+        "속성 증진": "힘+1, 건강+2, 민첩+1, 영감+1",
+        "기능 증진": "없음",
+        "재능 부여": "당신의 격투 관련/회피/투척 기능은 당신의 서열 9 빠른 성장 범주에 포함되며, 최대 정통함까지 향상될 수 있다. 또한 추가로 다음과 같은 이점을 얻는다: ① 당신의 급소 타격/이연격/근접 사격 등 특수 동작 판정 +2 유리. 응급 처치/기습 제외. 단순히 이점을 얻는 특수 동작에는 영향을 미치지 않는다. 예를 들어, 축적 조준은 +2 유리에서 +4로 변하지 않으며, 오직 판정에만 영향을 미친다. ② 당신이 가짜 동작을 실행할 때, 격투 판정으로 공연/속임수 판정을 대체할 수 있다. 격투가 정통함에 도달했는지 여부와 관계없이 말이다. 또한 총기 사용 시, 만약 목표가 당신에게 5미터 미만이라면, 사격은 격투 판정으로 변경될 수 있지만, 관련 속성은 민첩이다."
+      },
+      "beyonderSkills": [
+        "격투 마법 (Pugilist Magic)"
+      ]
+    },
+    {
+      "sequence": 7,
+      "name": "주술사 (Sorcerer)",
+      "description": "다양한 유형의 법술을 장악하고, 지식을 통해 힘을 강화하며, 영성 재료를 이용하여 더욱 다양한 효과를 만들어냅니다.",
+      "potion": {
+        "mainIngredients": [],
+        "auxiliaryIngredients": []
+      },
+      "actingMethod": "지식을 탐구하고, 마법을 연마하며, 세상의 모든 현상을 신비학적 관점에서 분석하고 이해하려 노력한다.",
+      "enhancements": {
+        "속성 증진": "영감+2",
+        "기능 증진": "없음",
+        "재능 부여": "신비학/신비학 언어는 빠르게 정통함까지 향상될 수 있습니다."
+      },
+      "beyonderSkills": [
+        "고속 신언 (High-Speed Chanting)",
+        "지식 강화 (Knowledge Reinforcement)",
+        "시전자 (Spellcaster)",
+        "제재 무술 (Sanctioned Martial Arts)"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_012",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#12)",
+  "itemName_en": "Roselle's Worn Diary Page (#12)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1143년 3월 17일",
+    "entry_ko": "인티스의 여자들은 이렇게 개방적인가? 내가 작업을 건 건지, 그녀가 작업을 건 건지? 그냥 이상할 뿐이다.",
+    "entry_en": "Are the ladies of Intis so open? Did I hit on her, or did she hit on me? I just find it odd."
+  }
+}

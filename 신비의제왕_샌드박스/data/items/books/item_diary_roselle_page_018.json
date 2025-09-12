@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_018",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#18)",
+  "itemName_en": "Roselle's Worn Diary Page (#18)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상 (서열 8 시절)",
+    "entry_ko": "4월 9일: 와우린카 백작 부인의 가면무도회에서 막 돌아왔는데, 갑자기 마음이 공허해졌다. 여자, 여자, 또 다른 여자. 단조롭고 기계적인 움직임, 구별할 수 없는 향수 냄새, 그리고 얽힌 팔다리의 온기. 이 모든 것이 몇 초의 쾌락을 위한 대가였고, 그 뒤에는 끝없는 지루함, 혐오, 공허, 그리고 무감각이 따랐다. 이런 삶에 무슨 즐거움이 있나? 매일 이렇게 사는 것이 인생의 의미인가? 이렇게 살 수는 없다. 이 비참한 상태에서 벗어나야 한다. 또한, 습관적으로 아라비아 숫자를 쓰지 않도록 스스로에게 상기시켜야겠다.",
+    "entry_en": "April 9th: I just returned from Countess Wawrinka’s masquerade party when I suddenly felt an emptiness in my heart. One woman, one woman, one woman after another. The monotonous and mechanical movements, the indistinguishable smell of perfume, and the warmth from the entanglement of their limbs; all these in exchange for a few seconds of pleasure, followed by endless boredom, disgust, emptiness, and numbness. What pleasure is there in such a life? Is the meaning of life to just do this every single day? I can’t go on like this. I have to get out of this sorry state. Also, I need to remind myself that I shouldn’t habitually write Arabic numerals."
+  }
+}

@@ -1,0 +1,213 @@
+[
+  {
+    "name": "진홍 약제",
+    "item_type": "소모품",
+    "description": "살아있는 존재만 복용할 수 있으며, 생명력을 30 회복시킵니다.",
+    "properties": { "consumable_type": "약제" },
+    "mechanics": {
+      "trigger": { "type": "on_action_check" },
+      "conditions": [
+        { "type": "action_name_in", "value": ["진홍 약제 복용"] },
+        { "type": "character_property_is", "value": "living_creature" }
+      ],
+      "actions": [
+        { "type": "heal", "value": 30 },
+        { "type": "consume_item", "item_name": "진홍 약제", "amount": 1 }
+      ]
+    }
+  },
+  {
+    "name": "검은 약제",
+    "item_type": "소모품",
+    "description": "영체만 복용할 수 있고, 영체의 생명력을 20 회복시킵니다.",
+    "properties": { "consumable_type": "약제" },
+    "mechanics": {
+      "trigger": { "type": "on_action_check" },
+      "conditions": [
+        { "type": "action_name_in", "value": ["검은 약제 복용"] },
+        { "type": "character_property_is", "value": "ethereal" }
+      ],
+      "actions": [
+        { "type": "heal", "value": 20, "target_stat": "ethereal_hp" },
+        { "type": "consume_item", "item_name": "검은 약제", "amount": 1 }
+      ]
+    }
+  },
+  {
+    "name": "용기 약제",
+    "item_type": "소모품",
+    "description": "복용 시 1시간 동안 공포 효과에 면역이 됩니다.",
+    "properties": { "consumable_type": "약제" },
+    "mechanics": {
+      "trigger": { "type": "on_action_check" },
+      "conditions": [{ "type": "action_name_in", "value": ["용기 약제 복용"] }],
+      "actions": [
+        { "type": "apply_status", "status": "공포 면역", "duration_minutes": 60 },
+        { "type": "consume_item", "item_name": "용기 약제", "amount": 1 }
+      ]
+    }
+  },
+  {
+    "name": "불굴 약제",
+    "item_type": "소모품",
+    "description": "복용 시 10분 동안 의지 방어에 +5 보너스를 받습니다.",
+    "properties": { "consumable_type": "약제" },
+    "mechanics": {
+      "trigger": { "type": "on_action_check" },
+      "conditions": [{ "type": "action_name_in", "value": ["불굴 약제 복용"] }],
+      "actions": [
+        { "type": "apply_status", "status": "불굴", "duration_minutes": 10 },
+        { "type": "consume_item", "item_name": "불굴 약제", "amount": 1 }
+      ]
+    }
+  },
+  {
+    "name": "해독제",
+    "item_type": "소모품",
+    "description": "'독' 상태 효과를 제거합니다.",
+    "properties": { "consumable_type": "약제" },
+    "mechanics": {
+      "trigger": { "type": "on_action_check" },
+      "conditions": [{ "type": "action_name_in", "value": ["해독제 사용"] }],
+      "actions": [
+        { "type": "remove_status", "status": "독" },
+        { "type": "consume_item", "item_name": "해독제", "amount": 1 }
+      ]
+    }
+  },
+  {
+    "name": "치유 약제",
+    "item_type": "소모품",
+    "description": "'출혈' 상태 효과를 제거합니다.",
+    "properties": { "consumable_type": "약제" },
+    "mechanics": {
+      "trigger": { "type": "on_action_check" },
+      "conditions": [{ "type": "action_name_in", "value": ["치유 약제 사용"] }],
+      "actions": [
+        { "type": "remove_status", "status": "출혈" },
+        { "type": "consume_item", "item_name": "치유 약제", "amount": 1 }
+      ]
+    }
+  },
+   // --- 투척 무기 (새로 추가된 데이터) ---
+  {
+    "name": "화염병",
+    "item_type": "소모품",
+    "description": "던져서 폭발 시 1d3의 화염 피해를 주고 대상을 '불타는 중' 상태로 만듭니다.",
+    "properties": {
+      "consumable_type": "투척 무기"
+    },
+    "mechanics": {
+      "trigger": { "type": "on_action_check" },
+      "conditions": [
+        { "type": "action_name_in", "value": ["화염병 투척"] },
+        { "type": "roll_result_is", "value": "success" }
+      ],
+      "actions": [
+        { "type": "deal_damage", "damage_type": "화염", "dice": "1d3" },
+        { "type": "apply_status", "target": "enemy", "status": "불타는 중", "duration": 2 },
+        { "type": "consume_item", "item_name": "화염병", "amount": 1 }
+      ]
+    }
+  },
+  {
+    "name": "광기 인형",
+    "item_type": "소모품",
+    "description": "부서지면 10미터 내 모든 생물에게 1d5의 이성 피해를 줍니다.",
+    "properties": {
+      "consumable_type": "투척 무기"
+    },
+    "mechanics": {
+      "trigger": { "type": "on_action_check" },
+      "conditions": [{ "type": "action_name_in", "value": ["광기 인형 부수기"] }],
+      "actions": [
+        { "type": "deal_damage", "damage_type": "이성", "dice": "1d5", "target_scope": "area_10m" },
+        { "type": "consume_item", "item_name": "광기 인형", "amount": 1 }
+      ]
+    }
+  },
+  {
+    "name": "안개 플라스크",
+    "item_type": "소모품",
+    "description": "열면 반경 20미터에 1시간 동안 지속되는 짙은 안개를 생성합니다.",
+    "properties": {
+      "consumable_type": "투척 무기"
+    },
+    "mechanics": {
+      "trigger": { "type": "on_action_check" },
+      "conditions": [{ "type": "action_name_in", "value": ["안개 플라스크 사용"] }],
+      "actions": [
+        { "type": "modify_environment", "effect": "짙은 안개", "radius_m": 20, "duration_minutes": 60 },
+        { "type": "consume_item", "item_name": "안개 플라스크", "amount": 1 }
+      ]
+    }
+  },
+   // --- 탄약 (새로 추가된 데이터) ---
+  {
+    "name": "정화 총알",
+    "item_type": "소모품",
+    "description": "언데드, 악령 등 타락한 생물에게 2d6의 추가 신성 피해를 입힙니다.",
+    "properties": {
+      "consumable_type": "탄약"
+    },
+    "mechanics": {
+      "trigger": { "type": "on_damage_deal" },
+      "conditions": [
+        { "type": "used_ammunition_is", "value": "정화 총알" },
+        { "type": "target_property_in", "value": ["언데드", "악령", "타락"] }
+      ],
+      "actions": [
+        { "type": "deal_damage", "damage_type": "신성", "dice": "2d6" }
+      ]
+    }
+  },
+  {
+    "name": "악마 사냥 총알",
+    "item_type": "소모품",
+    "description": "악마, 마귀 등 외부 차원의 존재에게 2d6의 추가 신성 피해를 입힙니다.",
+    "properties": {
+      "consumable_type": "탄약"
+    },
+    "mechanics": {
+      "trigger": { "type": "on_damage_deal" },
+      "conditions": [
+        { "type": "used_ammunition_is", "value": "악마 사냥 총알" },
+        { "type": "target_property_in", "value": ["악마", "마귀", "외부 차원 존재"] }
+      ],
+      "actions": [
+        { "type": "deal_damage", "damage_type": "신성", "dice": "2d6" }
+      ]
+    },
+  // --- 의식 재료 (새로 추가된 데이터) ---
+  {
+    "name": "만드라고라 뿌리",
+    "item_type": "소모품",
+    "description": "강력한 영성을 지닌 식물 뿌리. 생명과 관련된 의식에 주로 사용됩니다.",
+    "properties": {
+      "consumable_type": "의식 재료",
+      "tags": ["식물성", "영성 높음", "생명"]
+    },
+    "mechanics": {}
+  },
+  {
+    "name": "운석 조각",
+    "item_type": "소모품",
+    "description": "별의 힘을 담고 있는 희귀한 광물. 점성술이나 공간 관련 의식에 사용됩니다.",
+    "properties": {
+      "consumable_type": "의식 재료",
+      "tags": ["광물성", "영성 높음", "우주"]
+    },
+    "mechanics": {}
+  },
+  {
+    "name": "가고일의 피",
+    "item_type": "소모품",
+    "description": "마법 생물의 피는 특정 존재를 속박하거나 소환하는 의식에 필요합니다.",
+    "properties": {
+      "consumable_type": "의식 재료",
+      "tags": ["동물성", "영성 보통", "속박"]
+    },
+    "mechanics": {}
+  }
+  }
+]

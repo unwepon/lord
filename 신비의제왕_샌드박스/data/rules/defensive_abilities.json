@@ -1,0 +1,63 @@
+[
+  {
+    "name": "위험 직감 (점술가 - 어릿광대)",
+    "description": "결정적인 순간에 타인의 행동을 예측하고 위험을 감지하여 방어 보너스를 얻습니다.",
+    "mechanics": {
+      "trigger": {
+        "type": "on_being_targeted"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "type": "modify_defense_bonus_temporary",
+          "value": 4
+        }
+      ],
+      "comment": "규칙서 125p의 '물리 방어는 +4 임시 가산치를 얻는다' 규칙을 구현합니다. 'modify_defense_bonus_temporary'는 이 공격 판정 한 번에만 적용되는 일시적인 방어 보너스를 의미하며, main_game_skeleton.py에 해당 action을 처리하는 로직 추가가 필요합니다."
+    }
+  },
+  {
+    "name": "사지 막기",
+    "description": "사지를 움직여 상대의 급소 공격을 막습니다. 급소 공격에 대한 방어 판정에 큰 보너스를 받습니다.",
+    "mechanics": {
+      "trigger": {
+        "type": "on_being_targeted"
+      },
+      "conditions": [
+        {
+          "type": "incoming_action_name_is",
+          "value": "급소 공격"
+        }
+      ],
+      "actions": [
+        {
+          "type": "modify_defense_bonus_temporary",
+          "value": 10
+        }
+      ],
+      "comment": "규칙서 38p의 '민첩 판정으로 상대의 판정 결과와 대항'하는 복잡한 규칙을, 현재 규칙 엔진에 맞게 '급소 공격에 대한 일시적인 방어 보너스 +10'으로 단순화하여 구현했습니다."
+    }
+  },
+  {
+    "name": "격투 흘리기 (전사 - 격투가)",
+    "description": "적이 격투 공격을 시도할 때, 같은 기능으로 대항하여 공격을 흘려보냅니다.",
+    "mechanics": {
+      "trigger": {
+        "type": "on_being_targeted"
+      },
+      "conditions": [
+        {
+          "type": "incoming_action_type_is",
+          "value": "격투"
+        }
+      ],
+      "actions": [
+        {
+          "type": "modify_defense_bonus_temporary",
+          "value": 8
+        }
+      ],
+      "comment": "규칙서 236p의 '같은 기능 판정으로 대항' 규칙을, '격투 유형 공격에 대한 일시적인 방어 보너스 +8'로 단순화하여 구현했습니다. 이를 통해 상대의 격투 판정을 이길 확률을 크게 높여 원본 규칙의 의도를 반영합니다."
+    }
+  }
+]

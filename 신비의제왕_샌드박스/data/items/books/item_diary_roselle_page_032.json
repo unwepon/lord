@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_032",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#32)",
+  "itemName_en": "Roselle's Worn Diary Page (#32)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "6월 5일: 고대 책을 한 권 얻었다. 놀랍게도 태고의 마녀의 이름이 언급되어 있었다. 존칭이 아닌 진짜 이름이! '그녀'의 이름은 치크인데, 그건 남자 이름이다. 이 고대 책은 가짜인가?",
+    "entry_en": "June 5th: I obtained an ancient book. It actually mentions the Primordial Demoness’s name, not one of an honorific name! ‘Her’ name is Cheek, but that’s a man’s name. Is this ancient book fake?"
+  }
+}

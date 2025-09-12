@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_062",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#62)",
+  "itemName_en": "Roselle's Worn Diary Page (#62)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "1월 17일: 거의 잊어버린 집에 대한 꿈을 꾸었다.",
+    "entry_en": "January 17th: I dreamed of the home I've nearly forgotten."
+  }
+}

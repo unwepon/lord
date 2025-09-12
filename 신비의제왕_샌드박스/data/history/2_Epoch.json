@@ -1,0 +1,109 @@
+{
+  "epochNumber": 2,
+  "epochName_ko": "암흑의 시대",
+  "epochName_en": "The Dark Epoch",
+  "eras": [
+    {
+      "eraName_ko": "싹트는 시대 (Sprouting Era)",
+      "eraName_en": "Sprouting Era",
+      "events": [
+        {
+          "date": "Duration: 0 - 1268",
+          "description_ko": "혼돈의 생명체들이 줄어들고, 환상적인 시대가 시작되었습니다. 다른 고대신들이 점차 등장했으며, 거인왕, 엘프왕, 뮤턴트왕, 용, 불사조, 데몬 울프 등이 지배권을 다투었습니다. 이 시기 거인, 엘프, 흡혈귀, 인간은 아직 분열되지 않은 통합된 종족으로 존재했습니다.",
+          "description_en": "The creatures of chaos dwindled, giving way to an era of fantasy where the other Ancient Gods gradually emerged. The Giant King, Elf King, Mutant King, dragons, phoenixes, demonic wolves, and others vied for dominance. At this time, giants, elves, vampires, and humans still existed as unified races, not yet divided.",
+          "source_refs": [98, 99, 100],
+          "related_characters": ["Giant King Aurmir", "Elf King Soniathrym"],
+          "related_locations": []
+        }
+      ]
+    },
+    {
+      "eraName_ko": "초기 화재 시대 (Early Era of Fire)",
+      "eraName_en": "Early Era of Fire",
+      "events": [
+        {
+          "date": "Duration: 1268 - 1730",
+          "description_ko": "거인들의 시대라고도 불립니다. 세계는 8명의 고대신(거인 왕 오르미르, 공상의 용 앵클웨드, 엘프 왕 소니아스림, 혈족 시조 릴리스, 악마 군주 파부티, 불사조 시조 그레크리, 뮤턴트 왕 크바스틴, 파멸의 데몬 울프 플레그라)이 지배했습니다. 그들은 각기 다른 진영으로 나뉘어 싸웠으며, 인간은 거인, 엘프, 혈족의 노예였습니다. 태양의 자리는 '초신성 지배자'가 차지했으나 지구의 장벽에 막혀 빛이 닿지 않아 세상은 완전한 어둠 속에 있었습니다.",
+          "description_en": "Also called the Age of Giants. The world was ruled by eight Ancient Gods: Giant King Aurmir, Dragon of Imagination Ankewelt, Elf King Soniathrym, Sanguine Ancestor Lilith, Devil Monarch Farbauti, Phoenix Ancestor Gregrace, Mutated King Kvastir, and King of Demonic Wolves Flegrea. They fought in different camps, and humans were slaves. The world was in complete darkness as the light of the Supernova Dominator, who occupied the sun's position, was blocked by Earth's Barrier.",
+          "source_refs": [101, 102, 103, 105, 106, 107, 110, 111, 112, 116, 117],
+          "related_characters": ["Giant King Aurmir", "Dragon of Imagination Ankewelt", "Elf King Soniathrym", "Lilith", "Farbauti", "Gregrace", "Kvastir", "Flegrea", "Supernova Dominator"],
+          "related_locations": []
+        },
+        {
+          "date": "Unknown Year, Dec 22",
+          "description_ko": "아마니시스가 환생했습니다. '그녀'는 원래 파멸의 데몬 울프 플레그라의 종속신 중 하나인 액운의 여신이었습니다.",
+          "description_en": "Amanises transmigrated. 'She' was the Goddess of Misfortune, one of the Subsidiary Gods of the Demonic Wolf Flegrea.",
+          "source_refs": [92, 93],
+          "related_characters": ["Amanises", "Flegrea"],
+          "related_locations": []
+        },
+        {
+          "date": "c. 1730 이전",
+          "description_ko": "오르미르가 릴리스를 배신하여 그녀를 죽게 했고, 이 과정에서 크바스틴과 플레그라도 함께 사망했습니다. 그들의 종속신들은 죽거나, 다른 신에게 귀의하거나, 사라졌습니다. (망령의 신 살린게르 -> 그레크리, 미의 여신 오르니아 -> 소니아스림 등)",
+          "description_en": "Aurmir betrayed Lilith and caused 'Her' to perish, while Lilith got Kvastir and Flegrea to die with 'Her'. 'Their' Subsidiary Gods were either killed, turned to other Gods, or vanished. (e.g. God of the Dead Salinger turned to Gregrace, Goddess of Beauty Auernia turned to Soniathrym).",
+          "source_refs": [113, 114],
+          "related_characters": ["Giant King Aurmir", "Lilith", "Kvastir", "Flegrea", "Salinger", "Auernia"],
+          "related_locations": []
+        }
+      ]
+    },
+    {
+      "eraName_ko": "전쟁 시대 (Dual Era)",
+      "eraName_en": "Dual Era",
+      "events": [
+        {
+          "date": "Duration: 1730 - 1960",
+          "description_ko": "릴리스, 크바스틴, 플레그라의 죽음 이후, 거인과 엘프는 서로를 배신자로 비난하며 230년간의 '배신자들의 전쟁'을 벌였습니다. 이 시기에는 오르미르의 거인과 앵클웨드의 용이 지배적인 종족이었기에 '전쟁 시대(양강 시대)'라 불립니다.",
+          "description_en": "After the death of Lilith, Kvastir, and Flegrea, giants and elves split, accusing each other of betrayal and waging the 230-year 'War of the Betrayers'. During this time, the Giants under Aurmir and the Dragons under Ankewelt were the dominant race, hence the name 'Dual Era'.",
+          "source_refs": [119, 120, 121],
+          "related_characters": ["Giant King Aurmir", "Dragon of Imagination Ankewelt"],
+          "related_locations": []
+        },
+        {
+          "date": "During Dual Era",
+          "description_ko": "공상의 용 앵클웨드는 '그로셀의 여행기'에 혼돈의 바다 오염을 봉인하고, 기적의 도시 리브시드를 책의 잠재의식 속에 숨겼습니다. 불사조 시조 그레크리는 서부 대륙에서 흘러나온 '영원한 어둠의 강'의 에너지를 이용해 영계에 지하 세계를 창조했습니다.",
+          "description_en": "Dragon of Imagination Ankewelt sealed the pollution of the Chaos Sea in Groselle's Travels, and hid the City of Miracle Liveseyd inside. Phoenix Ancestor Gregrace created the Underworld in the Spirit World using energy from the River of Eternal Darkness which seeped out from the Western Continent.",
+          "source_refs": [131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 145],
+          "related_characters": ["Dragon of Imagination Ankewelt", "Gregrace"],
+          "related_locations": ["Chaos Sea", "Liveseyd", "River of Eternal Darkness", "Underworld"]
+        }
+      ]
+    },
+    {
+      "eraName_ko": "평온의 시대 (Era of Tranquility)",
+      "eraName_en": "Era of Tranquility",
+      "events": [
+        {
+          "date": "Duration: 1960 - 2325",
+          "description_ko": "거인, 엘프, 용, 악마, 불사조 5개 종족 간의 교착 상태가 형성되어 365년간의 상대적인 평화가 찾아왔습니다. 이 기간 동안 노예였던 인간은 자신들의 역사를 완전히 잃어버렸습니다. 오르미르는 소니아스림을 상대하기 위해 인간 비밀 조직과의 협력을 모색했습니다.",
+          "description_en": "Giants, elves, dragons, demons, and phoenixes reached a stalemate, leading to 365 years of relative peace. The enslaved humans lost their history entirely during this period. Aurmir sought cooperation with some human secret organizations to deal with Soniathrym.",
+          "source_refs": [122, 123, 124, 125, 126],
+          "related_characters": ["Giant King Aurmir", "Elf King Soniathrym"],
+          "related_locations": []
+        }
+      ]
+    },
+    {
+      "eraName_ko": "여명의 시대 (Dawn Era)",
+      "eraName_en": "Dawn Era",
+      "events": [
+        {
+          "date": "Duration: 2325 - 2561",
+          "description_ko": "훗날 '원고 태양신'으로 알려진 아담이 등장하여 다른 고대신들과 싸워 그들의 힘을 빼앗았습니다. '그'는 2348년에 엘프 왕과 공상의 용을 죽였고, 이후 거인 왕과 불사조 시조를 심각하게 부상시켰으며 악마 군주는 심연을 봉인하고 후퇴했습니다. 이로써 인류가 지배 종족으로 부상했습니다.",
+          "description_en": "Adam, later known as the Ancient Sun God, emerged and fought against the rest of the Ancient Gods, taking 'Their' power. 'His' first recorded battle was slaying the Elf King and Dragon of Imagination in 2348. Subsequently, the Giant King and Phoenix Ancestor were severely wounded, and the Devil Monarch sealed the Abyss and retreated. Humanity became the dominant race.",
+          "source_refs": [128, 129, 130, 131, 132, 133, 134, 141],
+          "related_characters": ["Ancient Sun God (Adam)", "Elf King Soniathrym", "Dragon of Imagination Ankewelt", "Giant King Aurmir", "Gregrace", "Farbauti"],
+          "related_locations": ["Abyss"]
+        },
+        {
+          "date": "End of Dawn Era",
+          "description_ko": "원고 태양신은 체르노빌을 나온 후 얻은 최초의 신성모독 석판을 바탕으로 물약과 의식으로 구성된 경로 시스템을 만들었습니다. 헤르메스가 헤르메스어를 창조했습니다. 흑야 여신, 대지의 어머니, 전쟁의 신이 이 시대가 끝날 무렵 서열 0이 되었습니다. 오미벨라는 몰락했고, 릴리스는 흑야 여신과 원고 태양신의 도움으로 그녀를 대신하기 시작했습니다. 원고 태양신은 자신의 일부를 분리해 사스릴과 아담을 창조했습니다. 그의 부상은 제3시대의 시작을 알렸습니다.",
+          "description_en": "The Ancient Sun God created the Pathway system of potions and rituals based on the First Blasphemy Slate. Hermes created the Hermes Language. The Evernight Goddess, Earth Mother, and God of Combat became Sequence 0 at the end of this epoch. Omebella fell, and Lilith began to replace her with the help of the Evernight Goddess and Ancient Sun God. The Ancient Sun God separated parts of himself to create Sasrir and Adam. His rise established the Third Epoch.",
+          "source_refs": [101, 106, 114, 115, 135, 136, 137, 158, 162, 165, 172, 189, 190],
+          "related_characters": ["Ancient Sun God (Adam)", "Hermes", "Evernight Goddess", "Earth Mother", "God of Combat", "Omebella", "Lilith", "Sasrir"],
+          "related_locations": ["Chernobyl"]
+        }
+      ]
+    }
+  ]
+}

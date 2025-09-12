@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_020",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#20)",
+  "itemName_en": "Roselle's Worn Diary Page (#20)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상",
+    "entry_ko": "10월 29일: 비밀 결사의 지도자인 자라툴이 다시 나를 찾아왔다. 그는 구체적인 언급 없이 그냥 가볍게 대화를 나눴다. 그의 진짜 의도를 짐작할 수 없었다. 그냥 우리 사이의 소통을 강화하고 서로를 더 잘 이해하고 싶었던 것 같다. 나는 이미 교회의 두 고위 서열 초월자를 만났지만, 자라툴은 그들보다 훨씬 더 강력하고 신비롭게 느껴졌다. 그래서 별 기대 없이 그의 서열이 몇인지 물었는데, 결국 그가 대답해줬다! 그는 자신이 서열 2, 기적술사라고 했다! 서열 2? 교회의 분류에서는 그것은 신에 가까운 천사의 위치다!",
+    "entry_en": "October 29th: The leader of the Secret Order, Zaratul, visited me once again. He didn’t mention anything specific and just casually chatted with me. I wasn’t able to guess his true intentions. It seems like he just wanted to strengthen the communication between us and understand each other better? I’ve already met the two High-Sequence Beyonders from the Church, but I felt that Zaratul was much more powerful and mysterious than them, so I asked him what Sequence number he was without much hope, and in the end, he actually answered me! He told me that he was a Sequence 2, Miracle Invoker! Sequence 2? In the Church’s categorization, that’s the position of an angel, close to that of a deity!"
+  }
+}

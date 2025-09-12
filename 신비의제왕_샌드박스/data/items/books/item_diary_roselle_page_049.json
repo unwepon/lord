@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_049",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#49)",
+  "itemName_en": "Roselle's Worn Diary Page (#49)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1184년 7월 19일",
+    "entry_ko": "블러드문의 밤. 도어 씨의 대답으로 한 가지를 확인할 수 있었다. 그 고대 비밀 조직에서 내가 본 두 번째 신성모독 석판은 완전하지 않았다! 도어 씨에 따르면, 두 번째와 첫 번째 신성모독 석판의 주된 차이점은 후자가 많은 독특한 서열 이름을 가지고 있다는 것이 아니라, 전자에 많은 추가 사항이 있었다는 것이다. 그것은 원고 태양신이 '그의' 말년에 엿본 비밀이었다. 즉, 두 번째 신성모독 석판의 창조자는 원고 태양신이었다? 이 질문에 도어 씨는 거의 확신에 차서 대답했다. '그'는 원고 태양신의 몰락이 신성모독 석판의 탄생을 초래했다고 말했다. 그렇다면 그것이 원고 태양신의 핵심 유물로 간주된다는 뜻인가? 그렇다면, 첫 번째 신성모독 석판을 만든 사람은 누구인가? 정말 모든 것을 창조한 원래의 창조주? 그리고 두 번째 신성모독 석판에 나타난 추가적인 지식은 무엇이었을까?",
+    "entry_en": "Night of the Blood Moon. Mr. Door’s answer allowed me to confirm one thing. In that ancient secret organization, the second Blasphemy Slate I saw wasn’t complete! According to Mr. Door, the main difference between the second Blasphemy Slate and the first Blasphemy Slate isn’t that the latter has many unique Sequence names, but that the former had many additions. It was a secret the ancient sun god caught a glimpse of towards ‘His’ later years. In other words, the second Blasphemy Slate’s creator was the ancient sun god? Towards this question, Mr. Door answered with almost certainty. ‘He’ told me that the ancient sun god’s fall resulted in the birth of the Blasphemy Slate. Does that mean that it’s considered a key relic of the ancient sun god? Then, who was the one who created the first Blasphemy Slate? The original Creator who truly created everything? And what were the additional pieces of knowledge that appeared on the second Blasphemy Slate?"
+  }
+}

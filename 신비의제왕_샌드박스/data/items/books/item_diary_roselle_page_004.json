@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_004",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#4)",
+  "itemName_en": "Roselle's Worn Diary Page (#4)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "연도 미상 (결혼)",
+    "entry_ko": "10월 2일: 나랑 상의도 없이 아벨 가문의 마틸다와 결혼시키려 하다니! 세상에, 나는 그녀를 본 적도 없다고! 안 돼, 거절해야 해! 집을 뛰쳐나가 혼자 살며 온갖 고생을 하더라도, 이 결혼에 맞서 싸워야 한다! ... 10월 5일: 마틸다 양은 정말 예쁘다. ... 10월 6일: 그녀의 성격과 품행이 딱 내 스타일이다. 결혼이 기대되기 시작했다.",
+    "entry_en": "October 2nd: They actually wanted me to marry Matilda from the Abel family without even consulting me first! Heavens, I have not even met her! No, I must decline! Even if I were to run away from home and survive on my own and suffer the vicissitudes of life, I must fight against this marriage! ... October 5th: Miss Matilda is really pretty. ... October 6th: Her personality and her demeanor is just my type. I am starting to look forward to the marriage."
+  }
+}

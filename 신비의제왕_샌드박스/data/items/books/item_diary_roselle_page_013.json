@@ -1,0 +1,14 @@
+{
+  "itemId": "ITEM_DIARY_ROSELLE_PAGE_013",
+  "itemName_ko": "로셀의 낡은 일기 페이지 (#13)",
+  "itemName_en": "Roselle's Worn Diary Page (#13)",
+  "itemType": "ReadablePage",
+  "description_ko": "오래된 양피지에 알아보기 힘든 고대 문자로 쓰인 일기 한 장. 로셀 구스타브의 기록인 것 같다.",
+  "description_en": "A single page of a diary written in an indecipherable ancient script on old parchment. It seems to be a record from Roselle Gustav.",
+  "isReadable": true,
+  "content": {
+    "date": "1143년 3월 22일",
+    "entry_ko": "종교를 선택할 시간이다. 한쪽은 영원한 태양 교회이고, 다른 쪽은 장인의 신 교회다. 내 선택은 의심의 여지가 없다. 모든 기계의 신이여, 당신을 찬양합니다! 언젠가 나는 장인의 신 교회의 이름을 기계의 신 교회로 바꾸게 할 것이다.",
+    "entry_en": "It’s time to choose a religion. On one side is the Church of the Eternal Blazing Sun, and on the other is the Church of Craftsmanship. My choice is without a doubt. Praise you, God of All Machinery! One day, I will make the Church of Craftsmanship change its name to the Church of Machinery."
+  }
+}
